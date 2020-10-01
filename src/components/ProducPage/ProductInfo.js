@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Redirect, useParams } from 'react-router-dom';
 import { getProductsById } from '../../selectors/getProductById';
 
 const ProductInfo = ({ history }) => {
+  useEffect(() => {
+    document.title = `Jabonarte | ${title}`;
+  }, []);
+
   const { productoId } = useParams();
 
   const producto = getProductsById(productoId);

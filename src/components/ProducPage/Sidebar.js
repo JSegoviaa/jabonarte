@@ -4,8 +4,6 @@ import { NavLink } from 'react-router-dom';
 const Sidebar = () => {
   return (
     <div className="mt-5 text-center ">
-      <h3>Productos</h3>
-      <h4>Filtro</h4>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
           <NavLink to="/acondicionadores">Acondicionadores</NavLink>
