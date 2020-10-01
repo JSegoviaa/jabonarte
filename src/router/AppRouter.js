@@ -10,9 +10,11 @@ import ContactPage from '../components/ContactPage/ContactPage';
 import DistPage from '../components/DistPage/DistPage';
 import HomePage from '../components/HomePage/HomePage';
 import AcondicionadoresPage from '../components/ProducPage/Acondicionadores/AcondicionadoresPage';
+import Arcillas from '../components/ProducPage/Arcillas/Arcillas';
 import ChampusPage from '../components/ProducPage/Champus/ChampusPage';
 import JabonesPage from '../components/ProducPage/Jabones/JabonesPage';
 import ProducPage from '../components/ProducPage/ProducPage';
+import ProductInfo from '../components/ProducPage/ProductInfo';
 import Footer from '../components/ui/Footer';
 import Navbar from '../components/ui/Navbar';
 
@@ -31,6 +33,7 @@ const AppRouter = () => {
           />
           <Route exact path="/champus" component={ChampusPage} />
           <Route exact path="/jabones" component={JabonesPage} />
+          <Route exact path="/arcillas" component={Arcillas} />
           <Route exact path="/sobre-nosotros" component={AboutPage} />
           <Route exact path="/contacto" component={ContactPage} />
           <Route
@@ -38,6 +41,7 @@ const AppRouter = () => {
             path="/conviertete-en-distribuidor"
             component={DistPage}
           />
+          <Route exact path="/:productoId" component={ProductInfo} />
           <Redirect to="/" />
         </Switch>
         <Footer />

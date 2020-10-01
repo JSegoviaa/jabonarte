@@ -5,7 +5,7 @@ import Form from '../HomePage/Form';
 
 const ContactPage = () => {
   useEffect(() => {
-    document.title = 'Jabonarte | Contacto';
+    document.title = 'Jabonarte | Contáctanos';
   }, []);
   return (
     <React.Fragment>

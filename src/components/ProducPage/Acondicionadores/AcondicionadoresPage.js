@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import ProductList from '../ProductList';
 import Sidebar from '../Sidebar';
 
 const AcondicionadoresPage = () => {
@@ -9,11 +10,13 @@ const AcondicionadoresPage = () => {
     <React.Fragment>
       <div className="container">
         <div className="row">
-          <div className="col-2">
+          <div className="col-md-2">
             <Sidebar />
           </div>
-          <div className="col">
-            <h1>Acondicionador</h1>
+          <div className="col-md">
+            <h1>Acondicionadores</h1>
+            <hr />
+            <ProductList type="Acondicionador" />
           </div>
         </div>
       </div>

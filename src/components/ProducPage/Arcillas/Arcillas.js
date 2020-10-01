@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import Productos from './Productos';
-import Sidebar from './Sidebar';
+import ProductList from '../ProductList';
+import Sidebar from '../Sidebar';
 
-const ProducPage = () => {
+const Arcillas = () => {
   useEffect(() => {
-    document.title = 'Jabonarte | Nuestros productos';
+    document.title = 'Jabonarte | Arcillas';
   }, []);
   return (
     <React.Fragment>
@@ -14,7 +14,9 @@ const ProducPage = () => {
             <Sidebar />
           </div>
           <div className="col-md">
-            <Productos />
+            <h1>Arcillas</h1>
+            <hr />
+            <ProductList type="Arcillas" />
           </div>
         </div>
       </div>
@@ -22,4 +24,4 @@ const ProducPage = () => {
   );
 };
 
-export default ProducPage;
+export default Arcillas;
