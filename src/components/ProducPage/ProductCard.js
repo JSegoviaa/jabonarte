@@ -15,13 +15,13 @@ const ProductCard = ({
 }) => {
   return (
     <div className="card ms-3" style={{ maxWidth: '540px' }}>
-      <div className="row no-gutters">
-        <div className="col-md-4">
+      <div className="">
+        <div className="">
           {/* <img src={`./assets/${id}.jpg`} alt=""/> */}
           <img src={`./assets/about.jpg`} alt={title} className="card-img" />
         </div>
-        <div className="col-md-8">
-          <div className="card-body">
+        <div className="">
+          <div className="card-body text-center">
             <h5 className="card-title">{title} </h5>
             <p className="card-text">{description}</p>
             <NavLink to={`./${id}`} className="btn btn-primary">

@@ -13,7 +13,7 @@ const ProducPage = () => {
           <div className="col-md-2">
             <Sidebar />
           </div>
-          <div className="col-md">
+          <div className="col-md-10">
             <Productos />
           </div>
         </div>
