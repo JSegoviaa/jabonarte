@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import ProductList from '../ProductList';
 import Sidebar from '../Sidebar';
 
-const ChampusPage = () => {
+const BabyShower = () => {
   useEffect(() => {
-    document.title = 'Jabonarte | Champús';
+    document.title = 'Jabonarte | Baby Shower';
   }, []);
   return (
     <React.Fragment>
@@ -14,9 +14,9 @@ const ChampusPage = () => {
             <Sidebar />
           </div>
           <div className="col-md">
-            <h1>Champús sólidos</h1>
+            <h1>Baby Shower</h1>
             <hr />
-            <ProductList type="Champú" />
+            <ProductList type="Baby Shower" />
           </div>
         </div>
       </div>
@@ -24,4 +24,4 @@ const ChampusPage = () => {
   );
 };
 
-export default ChampusPage;
+export default BabyShower;

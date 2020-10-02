@@ -35,11 +35,10 @@ const ProductInfo = ({ history }) => {
       <div className="row mt-5">
         <div className="col-4">
           <img
-            src={`../../../assets/about.jpg`}
-            alt={title}
+            src={`../../../assets/${productoId}.jpg`}
             className="img-thumbnail"
+            alt={title}
           />
-          {/* <img src={`../../../assets/${productoId}.jpg`} className="img-thumbnail"  alt={title} /> */}
         </div>
         <div className="col-8">
           <h3>{title}</h3>
