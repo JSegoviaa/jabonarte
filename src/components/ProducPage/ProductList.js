@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { getProductsByType } from '../../selectors/getProductsByType';
 import ProductCard from './ProductCard';
 

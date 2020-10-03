@@ -1,4 +1,6 @@
 import React from 'react';
+import Flip from 'react-reveal/Flip';
+
 import { NavLink } from 'react-router-dom';
 
 const ProductCard = ({
@@ -14,22 +16,24 @@ const ProductCard = ({
   grams3,
 }) => {
   return (
-    <div className="card ms-3" style={{ maxWidth: '540px' }}>
-      <div className="">
+    <Flip left>
+      <div className="card ms-3" style={{ maxWidth: '540px' }}>
         <div className="">
-          <img className="card-img" src={`./assets/${id}.jpg`} alt={title} />
-        </div>
-        <div className="">
-          <div className="card-body">
-            <h5 className="card-title text-center">{title} </h5>
-            <p className="card-text">{description}</p>
-            <NavLink to={`./${id}`} className="btn btn-primary btn-block">
-              Más información
-            </NavLink>
+          <div className="">
+            <img className="card-img" src={`./assets/${id}.jpg`} alt={title} />
+          </div>
+          <div className="">
+            <div className="card-body">
+              <h5 className="card-title text-center">{title} </h5>
+              <p className="card-text">{description}</p>
+              <NavLink to={`./${id}`} className="btn btn-primary btn-block">
+                Más información
+              </NavLink>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </Flip>
   );
 };
 

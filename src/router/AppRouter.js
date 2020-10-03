@@ -19,9 +19,11 @@ import CuidadoCabello from '../components/ProducPage/CuidadoCabello';
 import CuidadoPiel from '../components/ProducPage/CuidadoPiel';
 import FiestasInfantiles from '../components/ProducPage/FiestasInfantiles/FiestasInfantiles';
 import JabonesPage from '../components/ProducPage/Jabones/JabonesPage';
+import PrimeraComunion from '../components/ProducPage/PrimeraComunion/PrimeraComunion';
 import ProducPage from '../components/ProducPage/ProducPage';
 import ProductInfo from '../components/ProducPage/ProductInfo';
 import Recuerdos from '../components/ProducPage/Recuerdos';
+import XVAnos from '../components/ProducPage/XVAnos/XVAnos';
 import Footer from '../components/ui/Footer';
 import Navbar from '../components/ui/Navbar';
 
@@ -52,8 +54,8 @@ const AppRouter = () => {
             path="/fiestas-infantiles"
             component={FiestasInfantiles}
           />
-          <Route exact path="/primera-comunion" component={Recuerdos} />
-          <Route exact path="/xv-años" component={Recuerdos} />
+          <Route exact path="/primera-comunion" component={PrimeraComunion} />
+          <Route exact path="/xv-años" component={XVAnos} />
           <Route exact path="/sobre-nosotros" component={AboutPage} />
           <Route exact path="/contacto" component={ContactPage} />
           <Route

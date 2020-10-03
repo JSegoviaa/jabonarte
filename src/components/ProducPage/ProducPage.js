@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import Fade from 'react-reveal/Fade';
+
 import Productos from './Productos';
 import Sidebar from './Sidebar';
 
@@ -10,12 +12,16 @@ const ProducPage = () => {
     <React.Fragment>
       <div className="container">
         <div className="row">
-          <div className="col-md-2">
-            <Sidebar />
-          </div>
-          <div className="col-md-10">
-            <Productos />
-          </div>
+          <Fade left>
+            <div className="col-md-2">
+              <Sidebar />
+            </div>
+          </Fade>
+          <Fade right>
+            <div className="col-md-10">
+              <Productos />
+            </div>
+          </Fade>
         </div>
       </div>
     </React.Fragment>
