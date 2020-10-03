@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import ProductList from '../ProductList';
-import Sidebar from '../Sidebar';
+import RecuerdosBar from '../RecuerdosBar';
 
 const BabyShower = () => {
   useEffect(() => {
@@ -11,7 +11,7 @@ const BabyShower = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-2">
-            <Sidebar />
+            <RecuerdosBar />
           </div>
           <div className="col-md">
             <h1>Baby Shower</h1>

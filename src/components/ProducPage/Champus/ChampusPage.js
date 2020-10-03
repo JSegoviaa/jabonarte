@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
+import CuidadoCabelloBar from '../CuidadoCabelloBar';
 import ProductList from '../ProductList';
-import Sidebar from '../Sidebar';
 
 const ChampusPage = () => {
   useEffect(() => {
@@ -11,7 +11,7 @@ const ChampusPage = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-2">
-            <Sidebar />
+            <CuidadoCabelloBar />
           </div>
           <div className="col-md">
             <h1>Champús sólidos</h1>

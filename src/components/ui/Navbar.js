@@ -5,7 +5,10 @@ import logo from '../../assets/logo.png';
 
 const Navbar = () => {
   return (
-    <nav id="menu" className="container navbar navbar-expand-lg ">
+    <nav
+      id="menu"
+      className="container navbar navbar-expand-lg font-weight-bold"
+    >
       <Fade left>
         <NavLink to="./" className="navbar-brand">
           <img

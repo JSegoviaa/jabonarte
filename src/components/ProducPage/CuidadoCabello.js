@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import CuidadoCabelloBar from './CuidadoCabelloBar';
 import Productos from './Productos';
 
 const CuidadoCabello = () => {
@@ -11,16 +11,7 @@ const CuidadoCabello = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-2">
-            <div className="mt-5 text-center ">
-              <ul className="list-group list-group-flush">
-                <li className="list-group-item">
-                  <NavLink to="/acondicionadores">Acondicionadores</NavLink>
-                </li>
-                <li className="list-group-item">
-                  <NavLink to="/champus">Champús sólidos</NavLink>
-                </li>
-              </ul>
-            </div>
+            <CuidadoCabelloBar />
           </div>
           <div className="col-md-10">
             <Productos />

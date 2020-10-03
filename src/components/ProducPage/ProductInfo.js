@@ -21,7 +21,6 @@ const ProductInfo = ({ history }) => {
     history.goBack();
   };
   const {
-    type,
     title,
     description,
     price1,
