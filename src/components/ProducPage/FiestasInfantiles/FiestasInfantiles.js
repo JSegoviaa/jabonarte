@@ -14,7 +14,7 @@ const FiestasInfantiles = () => {
             <RecuerdosBar />
           </div>
           <div className="col-md">
-            <h1>FiestasInfantiles</h1>
+            <h1>Fiestas Infantiles</h1>
             <hr />
             <ProductList type="Fiestas Infantiles" />
           </div>

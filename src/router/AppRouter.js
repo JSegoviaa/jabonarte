@@ -23,6 +23,7 @@ import PrimeraComunion from '../components/ProducPage/PrimeraComunion/PrimeraCom
 import ProducPage from '../components/ProducPage/ProducPage';
 import ProductInfo from '../components/ProducPage/ProductInfo';
 import Recuerdos from '../components/ProducPage/Recuerdos';
+import RecuerdosNavidenos from '../components/ProducPage/RecuerdosNavidenos/RecuerdosNavidenos';
 import XVAnos from '../components/ProducPage/XVAnos/XVAnos';
 import Footer from '../components/ui/Footer';
 import Navbar from '../components/ui/Navbar';
@@ -56,6 +57,11 @@ const AppRouter = () => {
           />
           <Route exact path="/primera-comunion" component={PrimeraComunion} />
           <Route exact path="/xv-años" component={XVAnos} />
+          <Route
+            exact
+            path="/recuerdos-navidenos"
+            component={RecuerdosNavidenos}
+          />
           <Route exact path="/sobre-nosotros" component={AboutPage} />
           <Route exact path="/contacto" component={ContactPage} />
           <Route

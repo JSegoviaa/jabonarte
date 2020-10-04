@@ -6,7 +6,7 @@ const Productos = ({ value }) => {
       <h3 className="text-center mt-5">Seleccione un producto para mostrar</h3>
       <img
         className="card-img mt-3"
-        src={`../../../assets/${value}.jpg`}
+        src={`../../../assets/about.jpg`}
         alt="jabonarte"
       />
     </React.Fragment>

@@ -21,6 +21,9 @@ const RecuerdosBar = () => {
           <NavLink to="/primera-comunion">Primera comunicón</NavLink>
         </li>
         <li className="list-group-item">
+          <NavLink to="/recuerdos-navidenos">Recuerdos Navideños </NavLink>
+        </li>
+        <li className="list-group-item">
           <NavLink to="/xv-años">XV años</NavLink>
         </li>
         <li className="list-group-item">

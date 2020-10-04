@@ -12,6 +12,7 @@ export const getProductsByType = (type) => {
     'Fiestas Infantiles',
     'Primera Comunión',
     'XV años',
+    'Recuerdos Navideños',
   ];
 
   if (!validProduct.includes(type)) {
