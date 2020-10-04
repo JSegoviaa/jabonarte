@@ -36,31 +36,36 @@ const ProductInfo = ({ history }) => {
   return (
     <div className="container">
       <div className="row mt-5">
-        <Rotate top left>
-          <div className="col-md-4">
+        <div className="col-md">
+          <Rotate top left>
             <img
               src={`../../../assets/${productoId}.jpg`}
               className="img-thumbnail"
               alt={title}
             />
-            {id2 && (
+          </Rotate>
+          {id2 && (
+            <Rotate top right>
               <img
                 src={`../../../assets/${id2}.jpg`}
                 className="img-thumbnail"
                 alt={title}
               />
-            )}
-            {id3 && (
+            </Rotate>
+          )}
+          {id3 && (
+            <Rotate top left>
               <img
                 src={`../../../assets/${id3}.jpg`}
                 className="img-thumbnail"
                 alt={title}
               />
-            )}
-          </div>
-        </Rotate>
+            </Rotate>
+          )}
+        </div>
+
         <Rotate top right>
-          <div className="col-md-8">
+          <div className="col-md">
             <h3 className="sansita">{title}</h3>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">{description}</li>
