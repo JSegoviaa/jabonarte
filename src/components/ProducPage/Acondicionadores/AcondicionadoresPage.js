@@ -13,8 +13,8 @@ const AcondicionadoresPage = () => {
           <div className="col-md-2">
             <CuidadoCabelloBar />
           </div>
-          <div className="col-md">
-            <h1>Acondicionadores</h1>
+          <div className="col-md ">
+            <h1 className="sansita">Acondicionadores</h1>
             <hr />
             <ProductList type="Acondicionador" />
           </div>

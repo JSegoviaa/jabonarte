@@ -13,8 +13,8 @@ const BabyShower = () => {
           <div className="col-md-2">
             <RecuerdosBar />
           </div>
-          <div className="col-md">
-            <h1>Baby Shower</h1>
+          <div className="col-md ">
+            <h1 className="sansita">Baby Shower</h1>
             <hr />
             <ProductList type="Baby Shower" />
           </div>

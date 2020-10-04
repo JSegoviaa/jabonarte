@@ -13,8 +13,8 @@ const Arcillas = () => {
           <div className="col-md-2">
             <CuidadoPielBar />
           </div>
-          <div className="col-md">
-            <h1>Arcillas</h1>
+          <div className="col-md ">
+            <h1 className="sansita">Arcillas</h1>
             <hr />
             <ProductList type="Arcillas" />
           </div>

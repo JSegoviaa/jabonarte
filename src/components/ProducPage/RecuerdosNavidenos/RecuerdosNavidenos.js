@@ -13,8 +13,8 @@ const RecuerdosNavidenos = () => {
           <div className="col-md-2">
             <RecuerdosBar />
           </div>
-          <div className="col-md">
-            <h1>XV Años</h1>
+          <div className="col-md ">
+            <h1 className="sansita">XV Años</h1>
             <hr />
             <ProductList type="Recuerdos Navideños" />
           </div>

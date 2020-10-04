@@ -13,8 +13,8 @@ const Bautizo = () => {
           <div className="col-md-2">
             <RecuerdosBar />
           </div>
-          <div className="col-md">
-            <h1>Bautizo</h1>
+          <div className="col-md ">
+            <h1 className="sansita">Bautizo</h1>
             <hr />
             <ProductList type="Bautizo" />
           </div>

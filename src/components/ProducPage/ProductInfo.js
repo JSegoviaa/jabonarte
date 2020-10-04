@@ -51,6 +51,7 @@ const ProductInfo = ({ history }) => {
               <li className="list-group-item">
                 {grams1} - {price1}
               </li>
+              {/* {grams2  && } */}
               <li className="list-group-item">
                 {grams2} - {price2}
               </li>

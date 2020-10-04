@@ -13,8 +13,8 @@ const ChampusPage = () => {
           <div className="col-md-2">
             <CuidadoCabelloBar />
           </div>
-          <div className="col-md">
-            <h1>Champús sólidos</h1>
+          <div className="col-md ">
+            <h1 className="sansita">Champús sólidos</h1>
             <hr />
             <ProductList type="Champú" />
           </div>
