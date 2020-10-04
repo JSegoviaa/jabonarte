@@ -14,7 +14,7 @@ const CuidadoCabello = () => {
             <CuidadoCabelloBar />
           </div>
           <div className="col-md-10">
-            <Productos />
+            <Productos value="cuidados-capilares" />
           </div>
         </div>
       </div>

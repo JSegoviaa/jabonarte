@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import CuidadoPielBar from '../CuidadoPielBar';
 import ProductList from '../ProductList';
+import CuidadoPielBar from '../CuidadoPielBar';
 
 const Exofiliantes = () => {
   useEffect(() => {
-    document.title = 'Jabonarte | Bálsamo Labial';
+    document.title = 'Jabonarte | Exfoliante';
   }, []);
   return (
     <React.Fragment>
@@ -14,9 +14,9 @@ const Exofiliantes = () => {
             <CuidadoPielBar />
           </div>
           <div className="col-md ">
-            <h1 className="sansita">Exofiliantes</h1>
+            <h1 className="sansita">Exfoliantes</h1>
             <hr />
-            <ProductList type="Exofiliantes" />
+            <ProductList type="Exfoliantes" />
           </div>
         </div>
       </div>

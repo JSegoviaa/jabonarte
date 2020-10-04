@@ -14,7 +14,7 @@ export const getProductsByType = (type) => {
     'XV años',
     'Recuerdos Navideños',
     'Días de las madres',
-    'Exofiliantes',
+    'Exfoliantes',
     'Bálsamo Labial',
   ];
 

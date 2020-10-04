@@ -12,7 +12,7 @@ const CuidadoPielBar = () => {
           <NavLink to="/balsamo-labial">Bálsamo labial</NavLink>
         </li>
         <li className="list-group-item">
-          <NavLink to="/exofiliante">Exofiliante</NavLink>
+          <NavLink to="/exfoliante">Exfoliante</NavLink>
         </li>
         <li className="list-group-item">
           <NavLink to="/jabones">Jabones</NavLink>

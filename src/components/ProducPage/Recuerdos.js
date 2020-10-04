@@ -15,7 +15,7 @@ const Recuerdos = () => {
             <RecuerdosBar />
           </div>
           <div className="col-md-10">
-            <Productos />
+            <Productos value="recuerdos" />
           </div>
         </div>
       </div>
