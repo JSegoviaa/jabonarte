@@ -16,6 +16,11 @@ const Footer = () => {
                     Productos
                   </NavLink>
                 </li>
+                <li className="footer-item">
+                  <NavLink to="/cursos" className="footer-link">
+                    Cursos
+                  </NavLink>
+                </li>
                 <li className="footer-item nav-border-l nav-border-r">
                   <NavLink to="/sobre-nosotros" className="footer-link">
                     ¿Quiénes somos?
@@ -40,11 +45,14 @@ const Footer = () => {
         </div>
         <Fade bottom>
           <div className="row icons justify-content-center color1 f-sizeXBig">
-            <a href="facebook.com/jabonarteMerida/">
+            <a href="https://facebook.com/jabonarteMerida/">
               <i className="fab fa-facebook fa-2x ml-2"></i>
             </a>
-            <a href="instagram.com/jabon_artee/">
+            <a href="https://instagram.com/jabon_artee/">
               <i className="fab fa-instagram fa-2x ml-2"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=529994103941&text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20producto">
+              <i className="fab fa-whatsapp fa-2x ml-2"></i>
             </a>
           </div>
           <div className="row color1 justify-content-center pt-3 mb-5">

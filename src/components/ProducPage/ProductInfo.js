@@ -31,6 +31,14 @@ const ProductInfo = ({ history }) => {
     grams2,
     price3,
     grams3,
+    price4,
+    grams4,
+    price5,
+    grams5,
+    price6,
+    grams6,
+    price7,
+    grams7,
   } = producto;
 
   return (
@@ -73,14 +81,34 @@ const ProductInfo = ({ history }) => {
               <li className="list-group-item">
                 {grams1} - {price1}
               </li>
-              {grams2 && (
+              {price2 && (
                 <li className="list-group-item">
                   {grams2} - {price2}
                 </li>
               )}
-              {grams3 && (
+              {price3 && (
                 <li className="list-group-item">
                   {grams3} - {price3}
+                </li>
+              )}
+              {price4 && (
+                <li className="list-group-item">
+                  {grams4} - {price4}
+                </li>
+              )}
+              {price5 && (
+                <li className="list-group-item">
+                  {grams5} - {price5}
+                </li>
+              )}
+              {price6 && (
+                <li className="list-group-item">
+                  {grams6} - {price6}
+                </li>
+              )}
+              {price7 && (
+                <li className="list-group-item">
+                  {grams7} - {price7}
                 </li>
               )}
             </ul>

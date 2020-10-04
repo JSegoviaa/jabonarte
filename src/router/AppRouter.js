@@ -14,6 +14,7 @@ import Arcillas from '../components/ProducPage/Arcillas/Arcillas';
 import BabyShower from '../components/ProducPage/BabyShower/BabyShower';
 import Bautizo from '../components/ProducPage/Bautizo/Bautizo';
 import Boda from '../components/ProducPage/Boda/Boda';
+import CursosPage from '../components/CursosPage/CursosPage';
 import DiasMadres from '../components/ProducPage/DiasMadres/DiasMadres';
 import ChampusPage from '../components/ProducPage/Champus/ChampusPage';
 import CuidadoCabello from '../components/ProducPage/CuidadoCabello';
@@ -28,6 +29,8 @@ import RecuerdosNavidenos from '../components/ProducPage/RecuerdosNavidenos/Recu
 import XVAnos from '../components/ProducPage/XVAnos/XVAnos';
 import Footer from '../components/ui/Footer';
 import Navbar from '../components/ui/Navbar';
+import Exofiliantes from '../components/ProducPage/Exofiliantes/Exofiliantes';
+import BalsamoLabial from '../components/ProducPage/BalsamoLabial/BalsamoLabial';
 
 const AppRouter = () => {
   return (
@@ -51,6 +54,9 @@ const AppRouter = () => {
           <Route exact path="/bautizo" component={Bautizo} />
           <Route exact path="/baby-shower" component={BabyShower} />
           <Route exact path="/boda" component={Boda} />
+          <Route exact path="/exofiliante" component={Exofiliantes} />
+          <Route exact path="/balsamo-labial" component={BalsamoLabial} />
+          <Route exact path="/cursos" component={CursosPage} />
           <Route exact path="/dias-de-las-madres" component={DiasMadres} />
           <Route
             exact

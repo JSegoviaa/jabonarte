@@ -5,33 +5,38 @@ const Form = ({ contacto }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
+
   return (
     <Fade bottom>
       <div className="container mb-5 mt-5">
         <h1 className="text-center sansita ">{contacto}</h1>
+
         <form>
           <div className="form-group">
-            <label>Nombre</label>
+            <label>Nombre*</label>
             <input
               className="form-control"
               placeholder="Escriba su nombre por favor"
               type="text"
+              required
             />
           </div>
           <div className="form-group">
-            <label>Correo electrónico</label>
+            <label>Correo electrónico*</label>
             <input
               className="form-control"
               placeholder="Escriba su correo electrónico por favor"
               type="email"
+              required
             />
           </div>
           <div className="form-group">
-            <label>Mensaje</label>
+            <label>Mensaje*</label>
             <textarea
               className="form-control"
               placeholder="Escriba su mensaje por favor"
               type="text"
+              required
             />
           </div>
           <div className="form-group">

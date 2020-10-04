@@ -8,7 +8,7 @@ const Productos = ({ value }) => {
       </h3>
       <img
         className="card-img mt-3"
-        src={`../../../assets/about.jpg`}
+        src={`../../../assets/${value}.jpg`}
         alt="jabonarte"
       />
     </React.Fragment>

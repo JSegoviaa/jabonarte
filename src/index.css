@@ -29,3 +29,17 @@
 .about-img {
   background: url('./assets/about.jpg') center center/cover;
 }
+
+/*botones*/
+.btn-info {
+  background-color: #48b8d0 !important;
+  border: #48b8d0 !important;
+}
+.btn-primary {
+  background-color: #48b8d0 !important;
+  border: #48b8d0 !important;
+}
+.fab {
+  color: #48b8d0 !important;
+  border: #48b8d0 !important;
+}

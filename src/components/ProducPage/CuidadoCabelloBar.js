@@ -6,10 +6,10 @@ const CuidadoCabelloBar = () => {
     <div className="mt-5 text-center ">
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
-          <NavLink to="/acondicionadores">Acondicionadores</NavLink>
+          <NavLink to="/acondicionadores">Acondicionador sólido</NavLink>
         </li>
         <li className="list-group-item">
-          <NavLink to="/champus">Champús sólidos</NavLink>
+          <NavLink to="/champus">Shampoo sólidos</NavLink>
         </li>
         <li className="list-group-item">
           <NavLink to="/productos">Todas las categorías</NavLink>

@@ -9,6 +9,12 @@ const CuidadoPielBar = () => {
           <NavLink to="/arcillas">Arcillas</NavLink>
         </li>
         <li className="list-group-item">
+          <NavLink to="/balsamo-labial">Bálsamo labial</NavLink>
+        </li>
+        <li className="list-group-item">
+          <NavLink to="/exofiliante">Exofiliante</NavLink>
+        </li>
+        <li className="list-group-item">
           <NavLink to="/jabones">Jabones</NavLink>
         </li>
         <li className="list-group-item">

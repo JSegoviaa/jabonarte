@@ -15,20 +15,23 @@ const RecuerdosBar = () => {
         <li className="list-group-item">
           <NavLink to="/boda">Boda</NavLink>
         </li>
+
         <li className="list-group-item">
           <NavLink to="/fiestas-infantiles">Fiestas infantiles</NavLink>
         </li>
+
         <li className="list-group-item">
           <NavLink to="/primera-comunion">Primera comunión</NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/dias-de-las-madres">Días de las madres</NavLink>
-        </li>
-        <li className="list-group-item">
-          <NavLink to="/recuerdos-navidenos">Recuerdos Navideños </NavLink>
-        </li>
+
         <li className="list-group-item">
           <NavLink to="/xv-años">XV años</NavLink>
+        </li>
+        <li className="list-group-item">
+          <NavLink to="/dias-de-las-madres">Día de las madres</NavLink>
+        </li>
+        <li className="list-group-item">
+          <NavLink to="/recuerdos-navidenos">Detalles Navideños </NavLink>
         </li>
         <li className="list-group-item">
           <NavLink to="/productos">Todas las categorías</NavLink>

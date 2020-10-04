@@ -42,6 +42,11 @@ const Navbar = () => {
                 Productos
               </NavLink>
             </li>
+            <li className="nav-item nav-border-r">
+              <NavLink to="./cursos" className="nav-link">
+                Cursos
+              </NavLink>
+            </li>
             <li className="nav-item nav-border-l nav-border-r">
               <NavLink to="./sobre-nosotros" className="nav-link">
                 ¿Quiénes somos?
@@ -52,6 +57,7 @@ const Navbar = () => {
                 Contacto
               </NavLink>
             </li>
+
             <li className="nav-dist">
               <NavLink
                 to="./conviertete-en-distribuidor"
