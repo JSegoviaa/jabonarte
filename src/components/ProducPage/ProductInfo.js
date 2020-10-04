@@ -5,6 +5,8 @@ import { Redirect, useParams } from 'react-router-dom';
 import { getProductsById } from '../../selectors/getProductById';
 
 const ProductInfo = ({ history }) => {
+  const baseUrl = window.location.origin;
+
   useEffect(() => {
     document.title = `Jabonarte | ${title}`;
   });
@@ -114,8 +116,8 @@ const ProductInfo = ({ history }) => {
                 )}
               </ul>
               <div
-                class="fb-comments"
-                data-href={`http://localhost:3000/${productoId}`}
+                className="fb-comments"
+                data-href={`${baseUrl}/${productoId}`}
                 data-numposts="5"
                 data-width=""
               ></div>

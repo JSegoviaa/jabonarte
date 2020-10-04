@@ -4,7 +4,7 @@ import CursosBar from './CursosBar';
 
 const CursosPage = () => {
   useEffect(() => {
-    document.title = 'Jabonarte | Cuidado del cabello';
+    document.title = 'Jabonarte | Cursos';
   }, []);
   return (
     <React.Fragment>
