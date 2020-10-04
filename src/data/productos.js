@@ -1,6 +1,8 @@
 export const productos = [
   {
     id: 'champu-menta-romero',
+    id2: 'champu-menta-romero-2',
+    id3: '',
     type: 'Champú',
     title: 'Menta-Romero',
     description:
@@ -12,9 +14,10 @@ export const productos = [
     price3: '$145 MXN',
     grams3: '90g',
   },
-
   {
     id: 'champu-lavanda',
+    id2: '',
+    id3: '',
     type: 'Champú',
     title: 'Lavanda',
     description:
@@ -28,6 +31,8 @@ export const productos = [
   },
   {
     id: 'champu-coco-karite',
+    id2: '',
+    id3: '',
     type: 'Champú',
     title: 'Coco-Karite',
     description:
@@ -41,9 +46,10 @@ export const productos = [
   },
   {
     id: 'champu-coco-limon',
+    id2: '',
+    id3: '',
     type: 'Champú',
     title: 'Coco-Limón',
-    //no hay foto
     description:
       'Elaborado con tensoactivos biodegradables, extractos y aceites 100% naturales que aseguran una eficiente limpieza, emoliencia y deshenredo para tu cabello. Ingredientes naturales, libre de sulfatos,parabenos y empaques plásticos. Ayuda a eliminar la grasa excesiva del cabello.',
     price1: '$80 MXN',
@@ -55,6 +61,8 @@ export const productos = [
   },
   {
     id: 'champu-naranja-bergamota',
+    id2: '',
+    id3: '',
     type: 'Champú',
     title: 'Naranja-Bergamota',
     description:
@@ -68,7 +76,8 @@ export const productos = [
   },
   {
     id: 'champu-cacao-vainilla',
-    //no hay foto
+    id2: '',
+    id3: '',
     type: 'Champú',
     title: 'Cacao-Vainilla',
     description:
@@ -82,6 +91,8 @@ export const productos = [
   },
   {
     id: 'acondicionador-menta-romero',
+    id2: '',
+    id3: '',
     type: 'Acondicionador',
     title: 'Menta-Romero',
     description:
@@ -95,6 +106,8 @@ export const productos = [
   },
   {
     id: 'acondicionador-lavanda',
+    id2: '',
+    id3: '',
     type: 'Acondicionador',
     title: 'Lavanda',
     description:
@@ -108,6 +121,8 @@ export const productos = [
   },
   {
     id: 'acondicionador-coco-karite',
+    id2: '',
+    id3: '',
     type: 'Acondicionador',
     title: 'Coco-Karite',
     description:
@@ -121,7 +136,8 @@ export const productos = [
   },
   {
     id: 'acondicionador-coco-limon',
-    //no hay foto
+    id2: '',
+    id3: '',
     type: 'Acondicionador',
     title: 'Coco-Limón',
     description:
@@ -135,6 +151,8 @@ export const productos = [
   },
   {
     id: 'acondicionador-naranja-bergamota',
+    id2: '',
+    id3: '',
     type: 'Acondicionador',
     title: 'Naranja-Bergamota',
     description:
@@ -148,6 +166,8 @@ export const productos = [
   },
   {
     id: 'jabon-avena-miel',
+    id2: '',
+    id3: '',
     type: 'Jabón',
     title: 'Avena/Miel',
     description:
@@ -161,6 +181,8 @@ export const productos = [
   },
   {
     id: 'jabon-arcilla-rosa-mosqueta',
+    id2: '',
+    id3: '',
     type: 'Jabón',
     title: 'Arcilla Rosa/Rosa Mosqueta',
     description:
@@ -174,7 +196,8 @@ export const productos = [
   },
   {
     id: 'jabon-bicarbonato',
-    //no hay foto
+    id2: '',
+    id3: '',
     type: 'Jabón',
     title: 'Bicarbonato',
     description:
@@ -188,6 +211,8 @@ export const productos = [
   },
   {
     id: 'jabon-café',
+    id2: '',
+    id3: '',
     type: 'Jabón',
     title: 'Café',
     description:
@@ -201,6 +226,8 @@ export const productos = [
   },
   {
     id: 'jabon-carbon-activado',
+    id2: '',
+    id3: '',
     type: 'Jabón',
     title: 'Carbón activado',
     description:
@@ -214,8 +241,9 @@ export const productos = [
   },
   {
     id: 'jabon-coco',
+    id2: '',
+    id3: '',
     type: 'Jabón',
-    //no hay foto
     title: 'Coco',
     description:
       'Antibacterial y antifúngico. Limpia las impurezas y la grasa. Anti acné natural. Promueve la cicatrización. Ideal para hidratar la piel. ',
@@ -228,7 +256,8 @@ export const productos = [
   },
   {
     id: 'jabon-lavanda',
-    //no hay foto
+    id2: '',
+    id3: '',
     type: 'Jabón',
     title: 'Lavanda',
     description:
@@ -242,6 +271,8 @@ export const productos = [
   },
   {
     id: 'jabon-rosa-mosqueta-miel',
+    id2: '',
+    id3: '',
     type: 'Jabón',
     title: 'Rosa Mosqueta/Miel',
     description:
@@ -255,6 +286,8 @@ export const productos = [
   },
   {
     id: 'jabon-rosa-colageno',
+    id2: '',
+    id3: '',
     type: 'Jabón',
     title: 'Rosas y Colágeno',
     description:
@@ -268,8 +301,8 @@ export const productos = [
   },
   {
     id: 'jabon-curcuma-naranja',
-    //no hay foto
-
+    id2: '',
+    id3: '',
     type: 'Jabón',
     title: 'Cúrcuma-Naranja',
     description:
@@ -283,8 +316,9 @@ export const productos = [
   },
   {
     id: 'arcilla-rosa',
+    id2: '',
+    id3: '',
     type: 'Arcillas',
-    //no hay foto
     title: 'Rosa',
     description:
       'Restauradora. Ayuda a eliminar manchas. Favorece la cicatrización. Humectante. Ideal para piel sensible.',
@@ -297,6 +331,8 @@ export const productos = [
   },
   {
     id: 'arcilla-roja',
+    id2: '',
+    id3: '',
     type: 'Arcillas',
     title: 'Roja',
     description:
@@ -310,9 +346,10 @@ export const productos = [
   },
   {
     id: 'arcilla-verde',
+    id2: '',
+    id3: '',
     type: 'Arcillas',
     title: 'Verde',
-    //no hay foto
     description:
       'Limpia a profundidad. Absorbe y regula el exceso de sebo. Elimina toxinas e impurezas. Aporta elasticidad a la piel. Trata poros abiertos. Desinflama. Ayuda a eliminar puntos negros. Aporta minerales a la piel',
     price1: '$45 MXN',
@@ -325,6 +362,8 @@ export const productos = [
 
   {
     id: 'bautizo-nombre-del-bebe',
+    id2: '',
+    id3: '',
     type: 'Bautizo',
     title: 'Nombre del bebé',
     description:
@@ -338,6 +377,8 @@ export const productos = [
   },
   {
     id: 'bautizo-redondo-con-cruz',
+    id2: '',
+    id3: '',
     type: 'Bautizo',
     title: 'Redondo con cruz',
     description:
@@ -351,6 +392,8 @@ export const productos = [
   },
   {
     id: 'bautizo-concha',
+    id2: '',
+    id3: '',
     type: 'Bautizo',
     title: 'Concha',
     description:
@@ -364,6 +407,8 @@ export const productos = [
   },
   {
     id: 'bautizo-redondo-personaliado',
+    id2: '',
+    id3: '',
     type: 'Bautizo',
     title: 'Redondo personalizado',
     description:
@@ -377,6 +422,8 @@ export const productos = [
   },
   {
     id: 'bautizo-cruz-doble-capa',
+    id2: '',
+    id3: '',
     type: 'Bautizo',
     title: 'Cruz doble capa',
     description:
@@ -390,6 +437,8 @@ export const productos = [
   },
   {
     id: 'bautizo-mosaico',
+    id2: '',
+    id3: '',
     type: 'Bautizo',
     title: 'Cruz Mosaico',
     description:
@@ -403,6 +452,8 @@ export const productos = [
   },
   {
     id: 'bautizo-cruz',
+    id2: '',
+    id3: '',
     type: 'Bautizo',
     title: 'Cruz',
     description:
@@ -416,6 +467,8 @@ export const productos = [
   },
   {
     id: 'bautizo-angelito-doble-capa',
+    id2: '',
+    id3: '',
     type: 'Bautizo',
     title: 'Angelito doble capa',
     description:
@@ -429,6 +482,8 @@ export const productos = [
   },
   {
     id: 'bautizo-cruz-avena',
+    id2: '',
+    id3: '',
     type: 'Bautizo',
     title: 'Cruz Avena',
     description:
@@ -442,6 +497,8 @@ export const productos = [
   },
   {
     id: 'bautizo-angelito',
+    id2: '',
+    id3: '',
     type: 'Bautizo',
     title: 'Angelito',
     description:
@@ -455,6 +512,8 @@ export const productos = [
   },
   {
     id: 'bautizo-angelita',
+    id2: '',
+    id3: '',
     type: 'Bautizo',
     title: 'Angelita',
     description:
@@ -468,6 +527,8 @@ export const productos = [
   },
   {
     id: 'baby-shower-nombre-del-bebe',
+    id2: 'baby-shower-nombre-del-bebe-2',
+    id3: '',
     type: 'Baby Shower',
     title: 'Nombre del bebé',
     description:
@@ -481,6 +542,8 @@ export const productos = [
   },
   {
     id: 'baby-shower-varios-bebe',
+    id2: '',
+    id3: '',
     type: 'Baby Shower',
     title: 'Varios bebé',
     description:
@@ -494,6 +557,8 @@ export const productos = [
   },
   {
     id: 'baby-shower-pie-bebe',
+    id2: '',
+    id3: '',
     type: 'Baby Shower',
     title: 'Pie bebé',
     description:
@@ -507,6 +572,8 @@ export const productos = [
   },
   {
     id: 'baby-shower-piesito',
+    id2: 'baby-shower-piesito-2',
+    id3: '',
     type: 'Baby Shower',
     title: 'Piesito',
     description:
@@ -520,6 +587,8 @@ export const productos = [
   },
   {
     id: 'baby-shower-animalitos',
+    id2: '',
+    id3: '',
     type: 'Baby Shower',
     title: 'Animalitos',
     description:
@@ -533,6 +602,8 @@ export const productos = [
   },
   {
     id: 'baby-shower-buhos',
+    id2: '',
+    id3: '',
     type: 'Baby Shower',
     title: 'Búhos',
     description:
@@ -546,6 +617,8 @@ export const productos = [
   },
   {
     id: 'baby-shower-biberon-corazones',
+    id2: '',
+    id3: '',
     type: 'Baby Shower',
     title: 'Biberon corazones',
     description:
@@ -559,6 +632,8 @@ export const productos = [
   },
   {
     id: 'baby-shower-biberon',
+    id2: 'baby-shower-biberon-2',
+    id3: '',
     type: 'Baby Shower',
     title: 'Biberón',
     description:
@@ -572,6 +647,8 @@ export const productos = [
   },
   {
     id: 'baby-shower-baby-marinero',
+    id2: '',
+    id3: '',
     type: 'Baby Shower',
     title: 'Baby marinero',
     description:
@@ -585,6 +662,8 @@ export const productos = [
   },
   {
     id: 'baby-shower-redondo-personalizado',
+    id2: '',
+    id3: '',
     type: 'Baby Shower',
     title: 'Redondo personalizado',
     description:
@@ -598,6 +677,8 @@ export const productos = [
   },
   {
     id: 'baby-shower-pack-3-varios-bebe',
+    id2: '',
+    id3: '',
     type: 'Baby Shower',
     title: 'Pack3 varios bebé',
     description:
@@ -611,6 +692,8 @@ export const productos = [
   },
   {
     id: 'baby-shower-pack-gel-jabon',
+    id2: '',
+    id3: '',
     type: 'Baby Shower',
     title: 'Pack gel y jabón',
     description:
@@ -625,6 +708,8 @@ export const productos = [
 
   {
     id: 'boda-gel-antibacterial-piramidal',
+    id2: '',
+    id3: '',
     type: 'Boda',
     title: 'Gel antibacterial piramidal',
     description:
@@ -638,6 +723,8 @@ export const productos = [
   },
   {
     id: 'boda-corazon-personalizado',
+    id2: 'boda-corazon-personalizado-2',
+    id3: '',
     type: 'Boda',
     title: 'Corazón personalizado',
     description:
@@ -651,6 +738,8 @@ export const productos = [
   },
   {
     id: 'boda-corazon-glitter',
+    id2: '',
+    id3: '',
     type: 'Boda',
     title: 'Corazón glitter',
     description:
@@ -664,11 +753,13 @@ export const productos = [
   },
   {
     id: 'boda-doble-corazon-encapsulado',
+    id2: 'boda-doble-corazon-encapsulado-2',
+    id3: '',
     type: 'Boda',
     title: 'Doble corazón encapsulado',
     description:
       'Los colores y aromas son a elegir. Se entrega en tul con listón y tarjetita personalizada.',
-    description: '',
+
     price1: '$17 MXN',
     grams1: '50g',
     price2: '',
@@ -678,6 +769,8 @@ export const productos = [
   },
   {
     id: 'boda-doble-corazon-avena',
+    id2: '',
+    id3: '',
     type: 'Boda',
     title: 'Doble corazón avena',
     description:
@@ -691,6 +784,8 @@ export const productos = [
   },
   {
     id: 'boda-ractangular-avena',
+    id2: '',
+    id3: '',
     type: 'Boda',
     title: 'Rectangular avena',
     description:
@@ -704,6 +799,8 @@ export const productos = [
   },
   {
     id: 'boda-pack-gel-jabon',
+    id2: '',
+    id3: '',
     type: 'Boda',
     title: 'Pack gel y jabón',
     description:
@@ -717,6 +814,8 @@ export const productos = [
   },
   {
     id: 'boda-corazon',
+    id2: '',
+    id3: '',
     type: 'Boda',
     title: 'Corazón',
     description:
@@ -731,6 +830,8 @@ export const productos = [
 
   {
     id: 'boda-crema-corporal',
+    id2: '',
+    id3: '',
     type: 'Boda',
     title: 'Crema corporal',
     description: 'Crema corporal personalizada de acuerdo al evento.',
@@ -743,6 +844,8 @@ export const productos = [
   },
   {
     id: 'boda-marinos',
+    id2: '',
+    id3: '',
     type: 'Boda',
     title: 'Marinos',
     description: 'Jabones marinos, colores y aromas a elegir.',
@@ -755,6 +858,8 @@ export const productos = [
   },
   {
     id: 'boda-flor',
+    id2: '',
+    id3: '',
     type: 'Boda',
     title: 'Flor',
     description:
@@ -768,6 +873,8 @@ export const productos = [
   },
   {
     id: 'fiestas-infantiles-minidinos',
+    id2: '',
+    id3: '',
     type: 'Fiestas Infantiles',
     title: 'MiniDinos',
     description:
@@ -782,6 +889,8 @@ export const productos = [
 
   {
     id: 'fiestas-infantiles-coronitas',
+    id2: '',
+    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Coronitas',
     description:
@@ -795,6 +904,8 @@ export const productos = [
   },
   {
     id: 'fiestas-infantiles-olaf',
+    id2: '',
+    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Olaf',
     description: '  ',
@@ -807,6 +918,8 @@ export const productos = [
   },
   {
     id: 'fiestas-infantiles-huellitas',
+    id2: '',
+    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Huellitas',
     description:
@@ -820,6 +933,8 @@ export const productos = [
   },
   {
     id: 'fiestas-infantiles-mickey-mouse',
+    id2: '',
+    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Mickey Mousse',
     description:
@@ -833,6 +948,8 @@ export const productos = [
   },
   {
     id: 'fiestas-infantiles-paletitas',
+    id2: '',
+    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Paletitas',
     description:
@@ -846,6 +963,8 @@ export const productos = [
   },
   {
     id: 'fiestas-infantiles-frida',
+    id2: '',
+    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Frida',
     description:
@@ -859,6 +978,8 @@ export const productos = [
   },
   {
     id: 'fiestas-infantiles-unicornios',
+    id2: '',
+    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Unicornios',
     description:
@@ -872,6 +993,8 @@ export const productos = [
   },
   {
     id: 'fiestas-infantiles-flor-personalizada',
+    id2: '',
+    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Flor personalizada',
     description:
@@ -886,6 +1009,8 @@ export const productos = [
 
   {
     id: 'primera-comunion-cruz-comunion',
+    id2: '',
+    id3: '',
     type: 'Primera Comunión',
     title: 'Cruz Comunión',
     description:
@@ -899,6 +1024,8 @@ export const productos = [
   },
   {
     id: 'xv-años-tulipanes',
+    id2: '',
+    id3: '',
     type: 'XV años',
     title: 'Tulipanes',
     description:
@@ -912,6 +1039,8 @@ export const productos = [
   },
   {
     id: 'xv-años-torre-eifeel',
+    id2: '',
+    id3: '',
     type: 'XV años',
     title: 'Torre Eiffel',
     description:
@@ -925,6 +1054,8 @@ export const productos = [
   },
   {
     id: 'recuerdo-navideno-toalla-jabon',
+    id2: 'recuerdo-navideno-toalla-jabon-2',
+    id3: '',
     type: 'Recuerdos Navideños',
     title: 'Toalla con jabón',
     description: 'Toalla bordada con jabón navideño.',
@@ -937,6 +1068,8 @@ export const productos = [
   },
   {
     id: 'recuerdo-navideno-navidenos',
+    id2: '',
+    id3: '',
     type: 'Recuerdos Navideños',
     title: 'Navideños',
     description: 'Jabón navideño, modelo a elegir.',
@@ -949,6 +1082,8 @@ export const productos = [
   },
   {
     id: 'recuerdo-navideno-nacimiento',
+    id2: '',
+    id3: '',
     type: 'Recuerdos Navideños',
     title: 'Nacimiento',
     description: '5 jabones.',
@@ -961,10 +1096,26 @@ export const productos = [
   },
   {
     id: 'recuerdo-navideno-caja-navidena',
+    id2: '',
+    id3: '',
     type: 'Recuerdos Navideños',
     title: 'Caja navideña',
     description: '11 jabones',
     price1: '$250 MXN',
+    grams1: '',
+    price2: '',
+    grams2: '',
+    price3: '',
+    grams3: '',
+  },
+  {
+    id: 'dias-de-las-madres-',
+    id2: '',
+    id3: '',
+    type: 'Días de las madres',
+    title: 'Caja navideña',
+    description: '',
+    price1: '250',
     grams1: '',
     price2: '',
     grams2: '',

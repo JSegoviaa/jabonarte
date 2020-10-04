@@ -14,6 +14,7 @@ import Arcillas from '../components/ProducPage/Arcillas/Arcillas';
 import BabyShower from '../components/ProducPage/BabyShower/BabyShower';
 import Bautizo from '../components/ProducPage/Bautizo/Bautizo';
 import Boda from '../components/ProducPage/Boda/Boda';
+import DiasMadres from '../components/ProducPage/DiasMadres/DiasMadres';
 import ChampusPage from '../components/ProducPage/Champus/ChampusPage';
 import CuidadoCabello from '../components/ProducPage/CuidadoCabello';
 import CuidadoPiel from '../components/ProducPage/CuidadoPiel';
@@ -50,6 +51,7 @@ const AppRouter = () => {
           <Route exact path="/bautizo" component={Bautizo} />
           <Route exact path="/baby-shower" component={BabyShower} />
           <Route exact path="/boda" component={Boda} />
+          <Route exact path="/dias-de-las-madres" component={DiasMadres} />
           <Route
             exact
             path="/fiestas-infantiles"

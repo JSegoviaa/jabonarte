@@ -13,6 +13,7 @@ export const getProductsByType = (type) => {
     'Primera Comunión',
     'XV años',
     'Recuerdos Navideños',
+    'Días de las madres',
   ];
 
   if (!validProduct.includes(type)) {

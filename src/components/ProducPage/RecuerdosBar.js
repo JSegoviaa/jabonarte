@@ -6,11 +6,12 @@ const RecuerdosBar = () => {
     <div className="mt-5 text-center ">
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
-          <NavLink to="/bautizo">Bautizo</NavLink>
-        </li>
-        <li className="list-group-item">
           <NavLink to="/baby-shower">Baby shower</NavLink>
         </li>
+        <li className="list-group-item">
+          <NavLink to="/bautizo">Bautizo</NavLink>
+        </li>
+
         <li className="list-group-item">
           <NavLink to="/boda">Boda</NavLink>
         </li>
@@ -18,7 +19,10 @@ const RecuerdosBar = () => {
           <NavLink to="/fiestas-infantiles">Fiestas infantiles</NavLink>
         </li>
         <li className="list-group-item">
-          <NavLink to="/primera-comunion">Primera comunicón</NavLink>
+          <NavLink to="/primera-comunion">Primera comunión</NavLink>
+        </li>
+        <li className="list-group-item">
+          <NavLink to="/dias-de-las-madres">Días de las madres</NavLink>
         </li>
         <li className="list-group-item">
           <NavLink to="/recuerdos-navidenos">Recuerdos Navideños </NavLink>
