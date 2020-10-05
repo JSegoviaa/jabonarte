@@ -8,12 +8,13 @@ import masVendidos3 from '../../assets/mas-vendidos-3.jpg';
 
 const MasVendidos = () => {
   return (
-    <div className="container text-center mt-5 ">
+    <div className="container text-center mt-5">
       <div className="row">
         <Fade top>
           <h1 className="w-100 f-sizeXXBig sansita">Los más vendidos</h1>
         </Fade>
       </div>
+
       <div className="row mt-4">
         <div className="col-md-4 mt-4">
           <MasVendidosCard
