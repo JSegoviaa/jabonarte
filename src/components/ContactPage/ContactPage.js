@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
-
 import Form from '../HomePage/Form';
+import contactoImg from '../../assets/contacto-productos.jpg';
 
 const ContactPage = () => {
   useEffect(() => {
@@ -18,13 +18,23 @@ const ContactPage = () => {
                 <p>¡Contáctanos!</p>
               </h1>
             </Fade>
+
             <Fade left>
               <div className="col-8 text-center m-auto f-sizeMedium color4 pt-3"></div>
             </Fade>
           </div>
-          <div className="row justify-content-center pt-4 pb-4">
+          <div className="row justify-content-center ">
             <div className="col-8 m-auto"></div>
           </div>
+        </div>
+      </div>
+      <div className="img-contacto">
+        <div>
+          <img
+            className="contacto-img img-thumbnail"
+            src={contactoImg}
+            alt="Jabonarte"
+          />
         </div>
       </div>
       <Form />

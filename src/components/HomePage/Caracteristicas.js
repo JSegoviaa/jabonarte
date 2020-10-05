@@ -1,5 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom';
 
 const Caracteristicas = () => {
   return (
@@ -20,9 +21,11 @@ const Caracteristicas = () => {
               </div>
               <div className="col-8 mar-auto">
                 <Fade left>
-                  <h3 className="font-weight-bold font-subtitle letter-spacing1">
-                    Souvenirs
-                  </h3>
+                  <Link to="/recuerdos-para-eventos">
+                    <h3 className="caracteristicas-font font-weight-bold font-subtitle letter-spacing1">
+                      Souvenirs
+                    </h3>
+                  </Link>
                 </Fade>
               </div>
             </div>
@@ -34,9 +37,11 @@ const Caracteristicas = () => {
               </div>
               <div className="col-8 mar-auto">
                 <Fade top>
-                  <h3 className="font-weight-bold font-subtitle letter-spacing1">
-                    Cuidado facial
-                  </h3>
+                  <Link to="/cuidados-de-la-piel">
+                    <h3 className="caracteristicas-font font-weight-bold font-subtitle letter-spacing1">
+                      Cuidado facial
+                    </h3>
+                  </Link>
                 </Fade>
               </div>
             </div>
@@ -48,9 +53,11 @@ const Caracteristicas = () => {
               </div>
               <div className="col-8 mar-auto">
                 <Fade right>
-                  <h3 className="font-weight-bold font-subtitle letter-spacing1">
-                    Cuidado capilar
-                  </h3>
+                  <Link to="/cuidado-del-cabello">
+                    <h3 className="caracteristicas-font font-weight-bold font-subtitle letter-spacing1">
+                      Cuidado capilar
+                    </h3>
+                  </Link>
                 </Fade>
               </div>
             </div>

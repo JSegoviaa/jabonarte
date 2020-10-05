@@ -14,7 +14,7 @@ const FiestasInfantiles = () => {
             <RecuerdosBar />
           </div>
           <div className="col-md ">
-            <h1 className="sansita">Días de las madres</h1>
+            <h1 className="sansita">Día de las madres</h1>
             <hr />
             <ProductList type="Días de las madres" />
           </div>

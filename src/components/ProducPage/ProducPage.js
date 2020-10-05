@@ -19,7 +19,7 @@ const ProducPage = () => {
           </Fade>
           <Fade right>
             <div className="col-md-10">
-              <Productos value="productos" />
+              <Productos value="productos" value2="producto2" />
             </div>
           </Fade>
         </div>

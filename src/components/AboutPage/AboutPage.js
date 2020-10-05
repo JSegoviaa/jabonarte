@@ -35,6 +35,12 @@ const AboutPage = () => {
                 ambiente, lo que nos ha motivado día a día a inovar en productos
                 para el cuidado de la piel y el cabello, tales cómo shampoos y
                 acondicionadores sólidos, exfoliantes, etc
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
               </p>
             </div>
           </Fade>

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import LightSpeed from 'react-reveal/LightSpeed';
 import Cursos from './Cursos';
 import CursosBar from './CursosBar';
 
@@ -11,10 +12,14 @@ const CursosPage = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-2">
-            <CursosBar />
+            <LightSpeed left>
+              <CursosBar />
+            </LightSpeed>
           </div>
           <div className="col-md-10">
-            <Cursos value="cursos" />
+            <LightSpeed right>
+              <Cursos value="cursos" />
+            </LightSpeed>
           </div>
         </div>
       </div>

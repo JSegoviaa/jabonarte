@@ -8,9 +8,9 @@ const CursosBar = () => {
         <li className="list-group-item">
           <NavLink to="/jabones-artesanales">Jabones Artesanales</NavLink>
         </li>
-        <li className="list-group-item">
+        {/* <li className="list-group-item">
           <NavLink to="/insumos">Insumos</NavLink>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

@@ -27,7 +27,7 @@
 
 /*about*/
 .about-img {
-  background: url('./assets/about.jpg') center center/cover;
+  background: url('./assets/logo.png') center center/cover;
 }
 
 /*botones*/
@@ -44,4 +44,16 @@
   border: #48b8d0 !important;
 }
 
-/*sidebar productos*/
+/*características*/
+.caracteristicas-font {
+  color: black;
+}
+
+/*contacto*/
+.img-contacto {
+  display: flex;
+  justify-content: center;
+}
+.contacto-img {
+  width: 450px;
+}

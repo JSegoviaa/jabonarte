@@ -32,7 +32,7 @@ import Navbar from '../components/ui/Navbar';
 import BalsamoLabial from '../components/ProducPage/BalsamoLabial/BalsamoLabial';
 import Exofiliantes from '../components/ProducPage/Exofiliantes/Exofiliantes';
 import JabonArtesanal from '../components/CursosPage/JabonArtesanal/JabonArtesanal';
-import Insumos from '../components/CursosPage/Insumos/Insumos';
+// import Insumos from '../components/CursosPage/Insumos/Insumos';
 
 const AppRouter = () => {
   return (
@@ -60,7 +60,7 @@ const AppRouter = () => {
           <Route exact path="/exfoliante" component={Exofiliantes} />
           <Route exact path="/cursos" component={CursosPage} />
           <Route exact path="/jabones-artesanales" component={JabonArtesanal} />
-          <Route exact path="/insumos" component={Insumos} />
+          {/* <Route exact path="/insumos" component={Insumos} /> */}
           <Route exact path="/dias-de-las-madres" component={DiasMadres} />
           <Route
             exact
