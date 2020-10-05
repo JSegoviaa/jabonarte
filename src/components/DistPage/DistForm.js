@@ -11,7 +11,7 @@ const DistForm = () => {
     $ciudad: '',
     $tienda: '',
     replyTo: '@', // this will set replyTo of email to email address entered in the form
-    accessKey: '4fce6935-927d-4ffc-af62-b1ef977e97f2', // get your access key from https://www.staticforms.xyz
+    accessKey: '0cbf4328-8b1b-4a90-98a8-11bf020b41c1', // get your access key from https://www.staticforms.xyz
   });
 
   const [response, setResponse] = useState({
@@ -46,7 +46,6 @@ const DistForm = () => {
         });
       }
     } catch (e) {
-      console.log('An error occurred', e);
       Swal.fire({
         icon: 'error',
         title: 'Oops...',
@@ -140,11 +139,7 @@ const DistForm = () => {
       </div>
 
       <div className="form-group">
-        <button
-          onClick={handleSubmit}
-          className="btn btn-primary btn-block"
-          type="submit"
-        >
+        <button className="btn btn-primary btn-block" type="submit">
           Enviar mensaje
         </button>
       </div>

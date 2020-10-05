@@ -5,8 +5,6 @@ import { Redirect, useParams } from 'react-router-dom';
 import { getProductsById } from '../../selectors/getProductById';
 
 const ProductInfo = ({ history }) => {
-  const baseUrl = window.location.origin;
-
   useEffect(() => {
     document.title = `Jabonarte | ${title}`;
   });
@@ -115,12 +113,7 @@ const ProductInfo = ({ history }) => {
                   </li>
                 )}
               </ul>
-              <div
-                className="fb-comments"
-                data-href={`${baseUrl}/${productoId}`}
-                data-numposts="5"
-                data-width=""
-              ></div>
+
               <button onClick={handleReturn} className="btn btn-primary">
                 Regresar a la página anterior
               </button>
