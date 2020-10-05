@@ -16,6 +16,14 @@ export const getProductsByType = (type) => {
     'Días de las madres',
     'Exfoliantes',
     'Bálsamo Labial',
+    'Base de Glicerina',
+    'Pigmentos no migrante',
+    'Colorante Hidrosolube',
+    'Fragancias',
+    'Glitter',
+    'Micas perladas',
+    'Molde polietileno',
+    'Aceite esencial',
   ];
 
   if (!validProduct.includes(type)) {

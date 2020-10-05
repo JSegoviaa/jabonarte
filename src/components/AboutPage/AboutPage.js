@@ -31,10 +31,10 @@ const AboutPage = () => {
                 alumnas aprendan a elaborar sus propios jabones en casa, así
                 mismo tenemos a la venta insumos para la elaboración de los
                 jabones. <br /> <br />
-                Uno de nuestros principios ha Sido siempre el cuidado del medio
+                Uno de nuestros principios ha sido siempre el cuidado del medio
                 ambiente, lo que nos ha motivado día a día a inovar en productos
                 para el cuidado de la piel y el cabello, tales cómo shampoos y
-                acondicionadores sólidos, exfoliantes, etc
+                acondicionadores sólidos, exfoliantes, etc.
                 <br />
                 <br />
                 <br />

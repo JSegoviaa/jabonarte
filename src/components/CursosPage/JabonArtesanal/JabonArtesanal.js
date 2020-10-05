@@ -23,7 +23,7 @@ const JabonArtesanal = () => {
       </Jump>
 
       <div className="row">
-        <div className="text-justify mt-4 col-md-5">
+        <div className="text-justify mt-4 col-md-6">
           <Fade left>
             <h3>Temario</h3>
             <ul>
@@ -74,7 +74,7 @@ const JabonArtesanal = () => {
           </Fade>
         </div>
 
-        <div className="col-md-7 mt-4">
+        <div className="col-md-6 mt-4">
           <Fade right>
             <img src={curso} alt="curso" className="img-thumbnail" />
           </Fade>
@@ -85,8 +85,8 @@ const JabonArtesanal = () => {
       </div>
 
       <div className="row">
-        <div className="text-justify mt-4 col-md-5"></div>
-        <div className="col-md-7">
+        <div className="text-justify mt-4 col-md-6"></div>
+        <div className="col-md-6">
           <Fade right>
             <img src={curso3} alt="curso" className="img-thumbnail" />
           </Fade>

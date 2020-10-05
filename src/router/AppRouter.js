@@ -32,7 +32,15 @@ import Navbar from '../components/ui/Navbar';
 import BalsamoLabial from '../components/ProducPage/BalsamoLabial/BalsamoLabial';
 import Exofiliantes from '../components/ProducPage/Exofiliantes/Exofiliantes';
 import JabonArtesanal from '../components/CursosPage/JabonArtesanal/JabonArtesanal';
-// import Insumos from '../components/CursosPage/Insumos/Insumos';
+import Insumos from '../components/ProducPage/Insumos/Insumos';
+import AceiteEsencial from '../components/ProducPage/Insumos/AceiteEsencial/AceiteEsencial';
+import BaseGlicerina from '../components/ProducPage/Insumos/BaseGlicerina/BaseGlicerina';
+import ColorantesHidro from '../components/ProducPage/Insumos/ColorantesHidrosolubes/ColorantesHidro';
+import Fragancias from '../components/ProducPage/Insumos/Fragancias/Fragancias';
+import Glitter from '../components/ProducPage/Insumos/Glitter/Glitter';
+import MicasPerladas from '../components/ProducPage/Insumos/MicasPerladas/MicasPerladas';
+import MoldePoli from '../components/ProducPage/Insumos/MoldePolitileno/MoldePoli';
+import PigmentoMigrante from '../components/ProducPage/Insumos/PigmentosMigrantes/PigmentoMigrante';
 
 const AppRouter = () => {
   return (
@@ -60,7 +68,23 @@ const AppRouter = () => {
           <Route exact path="/exfoliante" component={Exofiliantes} />
           <Route exact path="/cursos" component={CursosPage} />
           <Route exact path="/jabones-artesanales" component={JabonArtesanal} />
-          {/* <Route exact path="/insumos" component={Insumos} /> */}
+          <Route exact path="/insumos" component={Insumos} />
+          <Route exact path="/aceite-esencial" component={AceiteEsencial} />
+          <Route exact path="/base-glicerina" component={BaseGlicerina} />
+          <Route exact path="/fragancias" component={Fragancias} />
+          <Route
+            exact
+            path="/pigmentos-migrantes"
+            component={PigmentoMigrante}
+          />
+          <Route exact path="/glitter" component={Glitter} />
+          <Route exact path="/micas-perladas" component={MicasPerladas} />
+          <Route exact path="/molde-polietileno" component={MoldePoli} />
+          <Route
+            exact
+            path="/colorante-hidrosoluble"
+            component={ColorantesHidro}
+          />
           <Route exact path="/dias-de-las-madres" component={DiasMadres} />
           <Route
             exact

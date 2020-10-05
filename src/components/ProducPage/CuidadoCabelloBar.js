@@ -9,7 +9,7 @@ const CuidadoCabelloBar = () => {
           <NavLink to="/acondicionadores">Acondicionador sólido</NavLink>
         </li>
         <li className="list-group-item">
-          <NavLink to="/champus">Shampoo sólidos</NavLink>
+          <NavLink to="/champus">Shampoo sólido</NavLink>
         </li>
         <li className="list-group-item">
           <NavLink to="/productos">Todas las categorías</NavLink>

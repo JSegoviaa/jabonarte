@@ -12,6 +12,9 @@ const Sidebar = () => {
           <NavLink to="/cuidado-del-cabello">Cuidado del cabello</NavLink>
         </li>
         <li className="list-group-item">
+          <NavLink to="/insumos">Insumos</NavLink>
+        </li>
+        <li className="list-group-item">
           <NavLink to="/recuerdos-para-eventos">Recuerdos para eventos</NavLink>
         </li>
       </ul>
