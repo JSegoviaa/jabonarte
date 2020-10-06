@@ -9,7 +9,7 @@ const Form = ({ contacto }) => {
     honeypot: '', // if any value received in this field, form submission will be ignored.
     message: '',
     replyTo: '@', // this will set replyTo of email to email address entered in the form
-    accessKey: '0cbf4328-8b1b-4a90-98a8-11bf020b41c1', // get your access key from https://www.staticforms.xyz
+    accessKey: '4fce6935-927d-4ffc-af62-b1ef977e97f2', // get your access key from https://www.staticforms.xyz
   });
 
   const [response, setResponse] = useState({

@@ -26,14 +26,14 @@ const MasVendidos = () => {
         <div className="col-md-4 mt-4">
           <MasVendidosCard
             img={masVendidos2}
-            title="Pie bebé"
+            title="Recuerdos para el baby shower 'Pie de bebé' "
             to="/baby-shower-pie-bebe"
           />
         </div>
         <div className="col-md-4 mt-4">
           <MasVendidosCard
             img={masVendidos3}
-            title="Acondicionador Menta-Romero"
+            title="Shampoo y Acondicionador sólido Menta-Romero"
             to="/acondicionador-menta-romero"
           />
         </div>
