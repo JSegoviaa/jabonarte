@@ -1,8 +1,7 @@
 export const productos = [
   {
     id: 'acondicionador-coco-karite',
-    id2: '',
-    id3: '',
+
     type: 'Acondicionador',
     title: 'Coco-Karite',
     description:
@@ -16,8 +15,7 @@ export const productos = [
   },
   {
     id: 'acondicionador-coco-limon',
-    id2: '',
-    id3: '',
+
     type: 'Acondicionador',
     title: 'Coco-Limón',
     description:
@@ -31,8 +29,7 @@ export const productos = [
   },
   {
     id: 'acondicionador-lavanda',
-    id2: '',
-    id3: '',
+
     type: 'Acondicionador',
     title: 'Lavanda',
     description:
@@ -46,8 +43,7 @@ export const productos = [
   },
   {
     id: 'acondicionador-menta-romero',
-    id2: '',
-    id3: '',
+
     type: 'Acondicionador',
     title: 'Menta-Romero',
     description:
@@ -62,7 +58,7 @@ export const productos = [
   {
     id: 'acondicionador-naranja-bergamota',
     id2: 'acondicionador-naranja-bergamota-2',
-    id3: '',
+
     type: 'Acondicionador',
     title: 'Naranja-Bergamota',
     description:
@@ -76,8 +72,7 @@ export const productos = [
   },
   {
     id: 'arcilla-roja',
-    id2: '',
-    id3: '',
+
     type: 'Arcillas',
     title: 'Roja',
     description:
@@ -91,8 +86,7 @@ export const productos = [
   },
   {
     id: 'arcilla-rosa',
-    id2: '',
-    id3: '',
+
     type: 'Arcillas',
     title: 'Rosa',
     description:
@@ -106,8 +100,7 @@ export const productos = [
   },
   {
     id: 'arcilla-verde',
-    id2: '',
-    id3: '',
+
     type: 'Arcillas',
     title: 'Verde',
     description:
@@ -122,7 +115,7 @@ export const productos = [
   {
     id: 'baby-shower-nombre-del-bebe',
     id2: 'baby-shower-nombre-del-bebe-2',
-    id3: '',
+
     type: 'Baby Shower',
     title: 'Nombre del bebé',
     description:
@@ -146,48 +139,34 @@ export const productos = [
   },
   {
     id: 'baby-shower-elefantito',
-    id2: '',
-    id3: '',
+
     type: 'Baby Shower',
     title: 'Elefantito',
     description:
       'Colores y aromas a elegir. Pueden ser la orejita de un color y el cuerpo de otro color. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 6cm x 5.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$16 MXN',
     grams1: '40g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'baby-shower-varios-bebe',
-    id2: '',
-    id3: '',
+
     type: 'Baby Shower',
     title: 'Varios bebé',
     description:
       'Son 4 modelos direntes: Biberon, chupón, caballito, carreola. El precio es por cada uno. Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 4.5cm x 3cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$8 MXN',
     grams1: '15g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'baby-shower-pie-bebe',
     id2: 'baby-shower-pie-bebe-2',
-    id3: '',
+
     type: 'Baby Shower',
     title: 'Pie bebé',
     description:
       'Los colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada.Medidas: 7cm x 4cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$14',
     grams1: '45g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'baby-shower-piesito',
@@ -199,55 +178,36 @@ export const productos = [
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 6.5cm x 4.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$12 MXN',
     grams1: '35g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'baby-shower-animalitos',
-    id2: '',
-    id3: '',
+
     type: 'Baby Shower',
     title: 'Animalitos',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$14 MXN',
     grams1: '30g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'baby-shower-buhos',
-    id2: '',
-    id3: '',
+
     type: 'Baby Shower',
     title: 'Búhos',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 5.5cm x 4.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$15 MXN',
     grams1: '40g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'baby-shower-biberon-corazones',
-    id2: '',
-    id3: '',
+
     type: 'Baby Shower',
     title: 'Biberón corazones',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 10cm x 4cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$18 MXN',
     grams1: '60g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'baby-shower-biberon',
@@ -259,266 +219,178 @@ export const productos = [
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 6cm x 4cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$14 MXN',
     grams1: '45g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'baby-shower-baby-marinero',
-    id2: '',
-    id3: '',
+
     type: 'Baby Shower',
     title: 'Baby marinero',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 5cm de diámetro. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$17 MXN',
     grams1: '55g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'baby-shower-redondo-personalizado',
-    id2: '',
-    id3: '',
+
     type: 'Baby Shower',
     title: 'Redondo personalizado',
     description:
       'Se puede personalizar con una imagen y el nombre del bebé. Colores y aromas a elegir. Se entregan en bolsa de celofán con listón. Medidas: 5cm de diámetro. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$15 MXN',
     grams1: '45g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'baby-shower-pack-3-varios-bebe',
-    id2: '',
-    id3: '',
+
     type: 'Baby Shower',
     title: 'Pack3 varios bebé',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada.',
     price1: '$24',
     grams1: '3 jabones',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'baby-shower-pack-gel-jabon',
-    id2: '',
-    id3: '',
+
     type: 'Baby Shower',
     title: 'Pack gel y jabón',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Gel de 30ml y jabón de 15 gramos. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '',
     grams1: '',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
 
   {
     id: 'bautizo-nombre-del-bebe',
-    id2: '',
-    id3: '',
+
     type: 'Bautizo',
     title: 'Nombre del bebé',
     description:
       'Recuerdos en jabón con el nombre de tu bebé. El precio depende del número de letras. Cada letra mide 2cm por lado. Se entregan en celofán con listón y tarjetita personalizada. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$10 MXN',
     grams1: '3 letras',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'bautizo-redondo-con-cruz',
-    id2: '',
-    id3: '',
+
     type: 'Bautizo',
     title: 'Redondo con cruz',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 5.5cm de diámetro. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$15 MXN',
     grams1: '45g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'bautizo-concha',
-    id2: '',
-    id3: '',
+
     type: 'Bautizo',
     title: 'Concha',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 6cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$15 MXN',
     grams1: '50g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'bautizo-redondo-personaliado',
-    id2: '',
-    id3: '',
+
     type: 'Bautizo',
     title: 'Redondo personalizado',
     description:
       'El jabón se personaliza con el nombre del bebé. Colores y aromas a elegir. Se entregan en bolsa de celofán con listón. Medidas: 5.5cm de diámetro. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$16 MXN',
     grams1: '50g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'bautizo-cruz-doble-capa',
-    id2: '',
-    id3: '',
+
     type: 'Bautizo',
     title: 'Cruz doble capa',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 8cm x 6.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$16 MXN',
     grams1: '60g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'bautizo-mosaico',
-    id2: '',
-    id3: '',
+
     type: 'Bautizo',
     title: 'Cruz Mosaico',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 8cm x 6.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$16 MXN',
     grams1: '60g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'bautizo-cruz',
-    id2: '',
-    id3: '',
+
     type: 'Bautizo',
     title: 'Cruz',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas:8cm x 6.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$16 MXN',
     grams1: '60g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'bautizo-angelito-doble-capa',
-    id2: '',
-    id3: '',
+
     type: 'Bautizo',
     title: 'Angelito doble capa',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 8cm x 6.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$16 MXN',
     grams1: '60g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'bautizo-cruz-avena',
-    id2: '',
-    id3: '',
+
     type: 'Bautizo',
     title: 'Cruz Avena',
     description:
       'Jabón de avena miel. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 8cm x 6.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$18 MXN',
     grams1: '50g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'bautizo-angelito',
-    id2: '',
-    id3: '',
+
     type: 'Bautizo',
     title: 'Angelito',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 10cm x 7cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$24 MXN',
     grams1: '80g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'bautizo-angelita',
-    id2: '',
-    id3: '',
+
     type: 'Bautizo',
     title: 'Angelita',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 10cm x 7cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$24 MXN',
     grams1: '80g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'boda-gel-antibacterial-piramidal',
-    id2: '',
-    id3: '',
+
     type: 'Boda',
     title: 'Gel antibacterial piramidal',
     description:
       'Se personaliza de acuerdo al evento. Color del gel antibacterial a elegir.',
     price1: '$15 MXN',
     grams1: '30ml',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'boda-girasoles',
     id2: 'boda-girasoles-2',
-    id3: '',
+
     type: 'Boda',
     title: 'Girasoles',
     description:
       'Colores y aromas a elegir. Medidas: 6cm de diámetro. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$16 MXN',
     grams1: '50g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'boda-corazon-personalizado',
@@ -530,30 +402,21 @@ export const productos = [
       'Se personaliza con los nombres de los novios. Los colores y aromas son a elegir. Se entregan en bolsita de celofán con listón. Medidas: 5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$15 MXN',
     grams1: '50g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'boda-corazon-glitter',
-    id2: '',
-    id3: '',
+
     type: 'Boda',
     title: 'Corazón glitter',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$15 MXN',
     grams1: '50g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'boda-doble-corazon-encapsulado',
     id2: 'boda-doble-corazon-encapsulado-2',
-    id3: '',
+
     type: 'Boda',
     title: 'Doble corazón encapsulado',
     description:
@@ -561,90 +424,59 @@ export const productos = [
 
     price1: '$17 MXN',
     grams1: '50g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'boda-doble-corazon-avena',
-    id2: '',
-    id3: '',
+
     type: 'Boda',
     title: 'Doble corazón avena',
     description:
       'Jabón de avena en forma de corazón. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 6cm x 4cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$18 MXN',
     grams1: '50g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'boda-ractangular-avena',
-    id2: '',
-    id3: '',
+
     type: 'Boda',
     title: 'Rectangular avena',
     description:
       'Jabón de avena y miel. Se entrega envuelto en yute y encaje de color a elegir. Medidas: 8cm x 6cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$50 MXN',
     grams1: '100g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'boda-pack-gel-jabon',
-    id2: '',
-    id3: '',
+
     type: 'Boda',
     title: 'Pack gel y jabón',
     description:
       'Gel antibacterial y jabón de corazón de 50 gramos. Se entregan en bolsita de celofán con listón y tarjetita personalizada. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$28 MXN',
-    grams1: '',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'boda-corazon',
-    id2: '',
-    id3: '',
+
     type: 'Boda',
     title: 'Corazón',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 8cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$22 MXN',
     grams1: '75g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
 
   {
     id: 'boda-crema-corporal',
-    id2: '',
-    id3: '',
+
     type: 'Boda',
     title: 'Crema corporal',
     description: 'Crema corporal personalizada de acuerdo al evento.',
     price1: '$15 MXN',
     grams1: '30ml',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'boda-marinos',
-    id2: '',
-    id3: '',
+
     type: 'Boda',
     title: 'Marinos',
     description:
@@ -665,17 +497,13 @@ export const productos = [
   {
     id: 'boda-corazon-marmoleado',
     id2: 'boda-corazon-marmoleado-2',
-    id3: '',
+
     type: 'Boda',
     title: 'Corazón Marmoleado',
     description:
       'Se pueden elegir dos colores para mezclar. Se entregan en bolsita de celofán con listón y tarjetita personalizada. Medidas: 6.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$24 MXN',
     grams1: '80g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'boda-flor',
@@ -1080,8 +908,6 @@ export const productos = [
     grams1: '50g',
     price2: '$48 MXN',
     grams2: '120g',
-    price3: '$55 MXN',
-    grams3: '140g',
   },
   {
     id: 'jabon-arcilla-rosa-mosqueta',
@@ -1095,8 +921,6 @@ export const productos = [
     grams1: '50g',
     price2: '$54 MXN',
     grams2: '120g',
-    price3: '$60 MXN',
-    grams3: '140g',
   },
   {
     id: 'jabon-bicarbonato',
@@ -1110,12 +934,10 @@ export const productos = [
     grams1: '50g',
     price2: '$48 MXN',
     grams2: '120g',
-    price3: '$55 MXN',
-    grams3: '140g',
   },
   {
-    id: 'jabon-café',
-    id2: '',
+    id: 'jabon-cafe',
+    id2: 'jabon-cafe-2',
     id3: '',
     type: 'Jabón',
     title: 'Café',
@@ -1125,8 +947,6 @@ export const productos = [
     grams1: '50g',
     price2: '$48 MXN',
     grams2: '120g',
-    price3: '$55 MXN',
-    grams3: '140g',
   },
   {
     id: 'jabon-carbon-activado',
@@ -1140,8 +960,6 @@ export const productos = [
     grams1: '50g',
     price2: '$48 MXN',
     grams2: '120g',
-    price3: '$55 MXN',
-    grams3: '140g',
   },
   {
     id: 'jabon-coco',
@@ -1155,8 +973,6 @@ export const productos = [
     grams1: '50g',
     price2: '$48 MXN',
     grams2: '120g',
-    price3: '$55 MXN',
-    grams3: '140g',
   },
   {
     id: 'jabon-lavanda',
@@ -1170,8 +986,6 @@ export const productos = [
     grams1: '50g',
     price2: '$48 MXN',
     grams2: '120g',
-    price3: '$55 MXN',
-    grams3: '140g',
   },
   {
     id: 'jabon-rosa-mosqueta-miel',
@@ -1185,8 +999,6 @@ export const productos = [
     grams1: '50g',
     price2: '$54 MXN',
     grams2: '120g',
-    price3: '$60 MXN',
-    grams3: '140g',
   },
   {
     id: 'jabon-rosa-colageno',
@@ -1200,8 +1012,6 @@ export const productos = [
     grams1: '50g',
     price2: '$48 MXN',
     grams2: '120g',
-    price3: '$55 MXN',
-    grams3: '140g',
   },
   {
     id: 'jabon-curcuma-naranja',
@@ -1213,10 +1023,6 @@ export const productos = [
       'Antiinflamatorio. Eficaz contra el acné. Unifica el tono de la piel. Ideal para piel delicada.',
     price1: '$20 MXN',
     grams1: '50g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
 
   {
@@ -1417,8 +1223,7 @@ export const productos = [
   },
   {
     id: 'balsamo-labial-chocolate',
-    id2: '',
-    id3: '',
+
     type: 'Bálsamo Labial',
     title: 'Chocolate',
     description:
@@ -1433,7 +1238,7 @@ export const productos = [
   {
     id: 'exfoliante-carbon-activado',
     id2: 'exfoliante-carbon-activado-2',
-    id3: '',
+
     type: 'Exfoliantes',
     title: 'Exfoliante de carbón activado ',
     description:
@@ -1447,8 +1252,7 @@ export const productos = [
   },
   {
     id: 'base-glicerina-opaca',
-    id2: '',
-    id3: '',
+
     type: 'Base de Glicerina',
     title: 'Opaca',
     description: '',
@@ -1461,8 +1265,7 @@ export const productos = [
   },
   {
     id: 'base-glicerina-transparente',
-    id2: '',
-    id3: '',
+
     type: 'Base de Glicerina',
     title: 'Transparente',
     description: '',
@@ -1475,12 +1278,11 @@ export const productos = [
   },
   {
     id: 'base-glicerina-mayor-dureza',
-    id2: '',
-    id3: '',
+
     type: 'Base de Glicerina',
     title: 'Mayor dureza',
     description: '',
-    price1: '$80 MXN',
+    price1: '$85 MXN',
     grams1: '',
     price2: '',
     grams2: '',
@@ -1488,11 +1290,10 @@ export const productos = [
     grams3: '',
   },
   {
-    id: 'pigmentos-no-migrante-rosa',
-    id2: '',
-    id3: '',
+    id: 'pigmentos-no-migrante-magenta',
+
     type: 'Pigmentos no migrante',
-    title: 'Rosa',
+    title: 'Magenta',
     description: '',
     price1: '$35 MXN',
     grams1: '20ml',
@@ -1503,8 +1304,7 @@ export const productos = [
   },
   {
     id: 'pigmentos-no-migrante-rojo',
-    id2: '',
-    id3: '',
+
     type: 'Pigmentos no migrante',
     title: 'Rojo',
     description: '',
@@ -1516,11 +1316,10 @@ export const productos = [
     grams3: '',
   },
   {
-    id: 'pigmentos-no-migrante-violeta',
-    id2: '',
-    id3: '',
+    id: 'pigmentos-no-migrante-morado',
+
     type: 'Pigmentos no migrante',
-    title: 'Violeta',
+    title: 'Morado',
     description: '',
     price1: '$35 MXN',
     grams1: '20ml',
@@ -1530,11 +1329,10 @@ export const productos = [
     grams3: '',
   },
   {
-    id: 'pigmentos-no-migrante-verde-limon',
-    id2: '',
-    id3: '',
+    id: 'pigmentos-no-migrante-verde-caqui',
+
     type: 'Pigmentos no migrante',
-    title: 'Verde limón',
+    title: 'Verde Caqui',
     description: '',
     price1: '$35 MXN',
     grams1: '20ml',
@@ -1545,8 +1343,7 @@ export const productos = [
   },
   {
     id: 'pigmentos-no-migrante-azul',
-    id2: '',
-    id3: '',
+
     type: 'Pigmentos no migrante',
     title: 'Azul',
     description: '',
@@ -1559,8 +1356,7 @@ export const productos = [
   },
   {
     id: 'pigmentos-no-migrante-amarillo',
-    id2: '',
-    id3: '',
+
     type: 'Pigmentos no migrante',
     title: 'Amarillo',
     description: '',
@@ -1573,8 +1369,7 @@ export const productos = [
   },
   {
     id: 'pigmentos-no-migrante-naranja',
-    id2: '',
-    id3: '',
+
     type: 'Pigmentos no migrante',
     title: 'Naranja',
     description: '',
@@ -1587,8 +1382,7 @@ export const productos = [
   },
   {
     id: 'pigmentos-no-migrante-salmon',
-    id2: '',
-    id3: '',
+
     type: 'Pigmentos no migrante',
     title: 'Salmón',
     description: '',
@@ -1601,8 +1395,7 @@ export const productos = [
   },
   {
     id: 'pigmentos-no-migrante-cafe-chocolate',
-    id2: '',
-    id3: '',
+
     type: 'Pigmentos no migrante',
     title: 'Café chocolate',
     description: '',
@@ -1615,8 +1408,7 @@ export const productos = [
   },
   {
     id: 'pigmentos-no-migrante-negro',
-    id2: '',
-    id3: '',
+
     type: 'Pigmentos no migrante',
     title: 'Negro',
     description: '',
@@ -1628,11 +1420,10 @@ export const productos = [
     grams3: '',
   },
   {
-    id: 'pigmentos-no-migrante-verde-pino',
-    id2: '',
-    id3: '',
+    id: 'pigmentos-no-migrante-verde-esmeralda',
+
     type: 'Pigmentos no migrante',
-    title: 'Verde Pino',
+    title: 'Verde Esmeralda',
     description: '',
     price1: '$35 MXN',
     grams1: '20ml',
@@ -1643,8 +1434,7 @@ export const productos = [
   },
   {
     id: 'colorante-hidrosoluble-negro',
-    id2: '',
-    id3: '',
+
     type: 'Colorante Hidrosolube',
     title: 'Negro',
     description: '',
@@ -1657,8 +1447,7 @@ export const productos = [
   },
   {
     id: 'colorante-hidrosoluble-amarillo',
-    id2: '',
-    id3: '',
+
     type: 'Colorante Hidrosolube',
     title: 'Amarillo',
     description: '',
@@ -1671,8 +1460,7 @@ export const productos = [
   },
   {
     id: 'colorante-hidrosoluble-rojo',
-    id2: '',
-    id3: '',
+
     type: 'Colorante Hidrosolube',
     title: 'Rojo',
     description: '',
@@ -1685,8 +1473,7 @@ export const productos = [
   },
   {
     id: 'colorante-hidrosoluble-morado',
-    id2: '',
-    id3: '',
+
     type: 'Colorante Hidrosolube',
     title: 'Morado',
     description: '',
@@ -1699,8 +1486,7 @@ export const productos = [
   },
   {
     id: 'colorante-hidrosoluble-fiusha',
-    id2: '',
-    id3: '',
+
     type: 'Colorante Hidrosolube',
     title: 'Fiusha',
     description: '',
@@ -1713,8 +1499,7 @@ export const productos = [
   },
   {
     id: 'colorante-hidrosoluble-verde-pino',
-    id2: '',
-    id3: '',
+
     type: 'Colorante Hidrosolube',
     title: 'Verde pino',
     description: '',
@@ -1727,8 +1512,7 @@ export const productos = [
   },
   {
     id: 'colorante-hidrosoluble-verde-limon',
-    id2: '',
-    id3: '',
+
     type: 'Colorante Hidrosolube',
     title: 'Verde limón',
     description: '',
@@ -1741,8 +1525,7 @@ export const productos = [
   },
   {
     id: 'colorante-hidrosoluble-azul-turquesa',
-    id2: '',
-    id3: '',
+
     type: 'Colorante Hidrosolube',
     title: 'Azul turquesa',
     description: '',
@@ -1755,8 +1538,7 @@ export const productos = [
   },
   {
     id: 'aceite-esencial-menta',
-    id2: '',
-    id3: '',
+
     type: 'Aceite esencial',
     title: 'Menta',
     description: '',
@@ -1769,8 +1551,7 @@ export const productos = [
   },
   {
     id: 'aceite-esencial-lavanda',
-    id2: '',
-    id3: '',
+
     type: 'Aceite esencial',
     title: 'Lavanda',
     description: '',
@@ -1783,8 +1564,7 @@ export const productos = [
   },
   {
     id: 'aceite-esencial-arbol-de-te',
-    id2: '',
-    id3: '',
+
     type: 'Aceite esencial',
     title: 'Árbol de te',
     description: '',
@@ -1797,8 +1577,7 @@ export const productos = [
   },
   {
     id: 'aceite-esencial-romero',
-    id2: '',
-    id3: '',
+
     type: 'Aceite esencial',
     title: 'Romero',
     description: '',
@@ -1811,8 +1590,7 @@ export const productos = [
   },
   {
     id: 'fragancias-floral',
-    id2: '',
-    id3: '',
+
     type: 'Fragancias',
     title: 'Floral',
     description: '',
@@ -2175,8 +1953,8 @@ export const productos = [
   },
   {
     id: 'molde-polietileno-moldes',
-    id2: '',
-    id3: '',
+    id2: 'molde-polietileno-moldes-2',
+    id3: 'molde-polietileno-moldes-3',
     type: 'Molde polietileno',
     title: 'Moldes polietileno',
     description: '',

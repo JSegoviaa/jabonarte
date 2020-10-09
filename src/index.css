@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 /*navbar*/
 .nav-link {
   margin: 20px;

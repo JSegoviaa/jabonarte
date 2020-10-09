@@ -45,36 +45,32 @@ const ProductInfo = ({ history }) => {
     <React.Fragment>
       <div className="container">
         <div className="row mt-5">
-          <div className="col-md">
-            <Rotate top left>
+          <div className="col-md-7">
+            <div>
               <img
                 src={`../../../assets/${productoId}.jpg`}
                 className="img-thumbnail"
                 alt={title}
               />
-            </Rotate>
-            {id2 && (
-              <Rotate top right>
+              {id2 && (
                 <img
                   src={`../../../assets/${id2}.jpg`}
                   className="img-thumbnail"
                   alt={title}
                 />
-              </Rotate>
-            )}
-            {id3 && (
-              <Rotate top left>
+              )}
+              {id3 && (
                 <img
                   src={`../../../assets/${id3}.jpg`}
                   className="img-thumbnail"
                   alt={title}
                 />
-              </Rotate>
-            )}
+              )}
+            </div>
           </div>
 
           <Rotate top right>
-            <div className="col-md">
+            <div className="col-md-5">
               <h3 className="sansita">{title}</h3>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">{description}</li>

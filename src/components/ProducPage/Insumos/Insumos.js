@@ -16,7 +16,7 @@ const Insumos = () => {
           <div className="col-md ">
             <h1 className="sansita">Insumos</h1>
             <hr />
-            <Productos value="Insumos" />
+            <Productos value="insumos" />
           </div>
         </div>
       </div>

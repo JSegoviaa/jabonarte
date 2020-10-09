@@ -45,7 +45,7 @@ import PigmentoMigrante from '../components/ProducPage/Insumos/PigmentosMigrante
 const AppRouter = () => {
   return (
     <Router>
-      <div>
+      <div className="overflow">
         <Navbar />
         <Switch>
           <Route exact path="/" component={HomePage} />
