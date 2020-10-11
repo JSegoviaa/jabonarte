@@ -4,21 +4,31 @@ import { NavLink } from 'react-router-dom';
 const CuidadoPielBar = () => {
   return (
     <div className="mt-5 text-center ">
-      <ul className="list-group list-group-flush sansita">
-        <li className="list-group-item">
-          <NavLink to="/arcillas">Arcillas</NavLink>
+      <ul className="list-group list-group-flush sansita rounded-lg">
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/arcillas">
+            Arcillas
+          </NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/balsamo-labial">Bálsamo labial</NavLink>
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/balsamo-labial">
+            Bálsamo labial
+          </NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/exfoliante">Exfoliante</NavLink>
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/exfoliante">
+            Exfoliante
+          </NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/jabones">Jabones</NavLink>
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/jabones">
+            Jabones
+          </NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/productos">Todas las categorías</NavLink>
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/productos">
+            Todas las categorías
+          </NavLink>
         </li>
       </ul>
     </div>

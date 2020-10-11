@@ -4,38 +4,56 @@ import { NavLink } from 'react-router-dom';
 const InsumosBar = () => {
   return (
     <div className="mt-5 text-center ">
-      <ul className="list-group list-group-flush sansita">
-        <li className="list-group-item">
-          <NavLink to="/aceite-esencial">Aceite esencial</NavLink>
+      <ul className="list-group list-group-flush sansita rounded-lg">
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/aceite-esencial">
+            Aceite esencial
+          </NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/base-glicerina">Base de glicerina</NavLink>
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/base-glicerina">
+            Base de glicerina
+          </NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/carbon-activado">Carbón activado</NavLink>
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/carbon-activado">
+            Carbón activado
+          </NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/colorante-hidrosoluble">
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/colorante-hidrosoluble">
             Colorantes hidrosolubles
           </NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/fragancias">Fragancias</NavLink>
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/fragancias">
+            Fragancias
+          </NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/glitter">Glitter</NavLink>
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/glitter">
+            Glitter
+          </NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/micas-perladas">Micas perladas</NavLink>
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/micas-perladas">
+            Micas perladas
+          </NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/molde-polietileno">Molde polietileno</NavLink>
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/molde-polietileno">
+            Molde polietileno
+          </NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/pigmentos-migrantes">Pigmentos no migrantes</NavLink>
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/pigmentos-migrantes">
+            Pigmentos no migrantes
+          </NavLink>
         </li>
-        <li className="list-group-item">
-          <NavLink to="/productos">Todas las categorías</NavLink>
+        <li className="list-group-item list-group-item-secondary">
+          <NavLink className="text-white" to="/productos">
+            Todas las categorías
+          </NavLink>
         </li>
       </ul>
     </div>

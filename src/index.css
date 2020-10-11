@@ -40,16 +40,19 @@ html {
 
 /*botones*/
 .btn-info {
-  background-color: #48b8d0 !important;
-  border: #48b8d0 !important;
+  background-color: #256381 !important;
+  border: #256381 !important;
 }
 .btn-primary {
-  background-color: #48b8d0 !important;
-  border: #48b8d0 !important;
+  background-color: #256381 !important;
+  border: #256381 !important;
 }
 .fab {
-  color: #48b8d0 !important;
-  border: #48b8d0 !important;
+  color: #256381 !important;
+  border: #256381 !important;
+}
+.fa-copyright {
+  color: #256381 !important;
 }
 
 /*características*/
