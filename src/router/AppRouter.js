@@ -38,6 +38,7 @@ import BaseGlicerina from '../components/ProducPage/Insumos/BaseGlicerina/BaseGl
 import ColorantesHidro from '../components/ProducPage/Insumos/ColorantesHidrosolubes/ColorantesHidro';
 import Fragancias from '../components/ProducPage/Insumos/Fragancias/Fragancias';
 import Glitter from '../components/ProducPage/Insumos/Glitter/Glitter';
+import CarbonActivado from '../components/ProducPage/Insumos/CarbonActivado/CarbonActivado';
 import MicasPerladas from '../components/ProducPage/Insumos/MicasPerladas/MicasPerladas';
 import MoldePoli from '../components/ProducPage/Insumos/MoldePolitileno/MoldePoli';
 import PigmentoMigrante from '../components/ProducPage/Insumos/PigmentosMigrantes/PigmentoMigrante';
@@ -71,6 +72,7 @@ const AppRouter = () => {
           <Route exact path="/insumos" component={Insumos} />
           <Route exact path="/aceite-esencial" component={AceiteEsencial} />
           <Route exact path="/base-glicerina" component={BaseGlicerina} />
+          <Route exact path="/carbon-activado" component={CarbonActivado} />
           <Route exact path="/fragancias" component={Fragancias} />
           <Route
             exact

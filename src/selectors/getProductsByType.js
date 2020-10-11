@@ -24,6 +24,7 @@ export const getProductsByType = (type) => {
     'Micas perladas',
     'Molde polietileno',
     'Aceite esencial',
+    'Carbón activado',
   ];
 
   if (!validProduct.includes(type)) {

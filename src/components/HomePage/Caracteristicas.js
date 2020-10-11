@@ -23,7 +23,7 @@ const Caracteristicas = () => {
                 <Fade left>
                   <Link to="/recuerdos-para-eventos">
                     <h3 className="caracteristicas-font font-weight-bold font-subtitle letter-spacing1">
-                      Souvenirs
+                      Recuerdos
                     </h3>
                   </Link>
                 </Fade>

@@ -16,7 +16,7 @@ html {
 }
 .home-banner {
   height: 700px;
-  background: url('./assets/banner.jpg') no-repeat center/cover;
+  background: url('./assets/fondo.jpg') no-repeat center/cover;
 }
 /*minibanner*/
 .mini-banner {

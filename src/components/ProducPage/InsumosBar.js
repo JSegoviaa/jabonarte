@@ -12,6 +12,9 @@ const InsumosBar = () => {
           <NavLink to="/base-glicerina">Base de glicerina</NavLink>
         </li>
         <li className="list-group-item">
+          <NavLink to="/carbon-activado">Carbón activado</NavLink>
+        </li>
+        <li className="list-group-item">
           <NavLink to="/colorante-hidrosoluble">
             Colorantes hidrosolubles
           </NavLink>
