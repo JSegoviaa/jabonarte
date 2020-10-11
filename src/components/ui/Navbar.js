@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.jpg';
 
 const Navbar = () => {
   return (

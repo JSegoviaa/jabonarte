@@ -35,7 +35,7 @@ html {
 
 /*about*/
 .about-img {
-  background: url('./assets/logo.png') center center/cover;
+  background: url('./assets/logo.jpg') center center/cover;
 }
 
 /*botones*/
@@ -64,4 +64,14 @@ html {
 }
 .contacto-img {
   width: 450px;
+}
+
+/*sidebvar*/
+.list-group-item-secondary {
+  background: #256381 !important;
+}
+
+/*productos*/
+.iconos {
+  width: 300px;
 }

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const RecuerdosBar = () => {
   return (
     <div className="mt-5 text-center ">
-      <ul className="list-group list-group-flush">
+      <ul className="list-group list-group-flush sansita">
         <li className="list-group-item">
           <NavLink to="/baby-shower">Baby shower</NavLink>
         </li>
