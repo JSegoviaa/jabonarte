@@ -7,7 +7,7 @@ import MiniBanner from './MiniBanner';
 
 const HomePage = () => {
   useEffect(() => {
-    document.title = 'Jabonarte | Inicio';
+    document.title = 'Jabonarte | Cosmética Natural';
   }, []);
   return (
     <React.Fragment>

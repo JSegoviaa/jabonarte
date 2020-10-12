@@ -4,7 +4,7 @@ import ProductList from '../ProductList';
 
 const ChampusPage = () => {
   useEffect(() => {
-    document.title = 'Jabonarte | Champús';
+    document.title = 'Jabonarte | Shampoo sólido';
   }, []);
   return (
     <React.Fragment>

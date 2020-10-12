@@ -49,7 +49,7 @@ const RecuerdosBar = () => {
             Detalles Navideños
           </NavLink>
         </li>
-        <li className="list-group-item">
+        <li className="list-group-item list-group-item-secondary">
           <NavLink className="text-white" to="/productos">
             Todas las categorías
           </NavLink>

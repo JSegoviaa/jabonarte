@@ -4,7 +4,7 @@ import ProductList from '../ProductList';
 
 const AcondicionadoresPage = () => {
   useEffect(() => {
-    document.title = 'Jabonarte | Acondicionadores';
+    document.title = 'Jabonarte | Acondicionador sólido';
   }, []);
   return (
     <React.Fragment>

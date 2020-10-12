@@ -4,7 +4,7 @@ import RecuerdosBar from '../RecuerdosBar';
 
 const FiestasInfantiles = () => {
   useEffect(() => {
-    document.title = 'Jabonarte | Días de las madres';
+    document.title = 'Jabonarte | Día de las madres';
   }, []);
   return (
     <React.Fragment>
