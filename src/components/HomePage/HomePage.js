@@ -12,6 +12,7 @@ const HomePage = () => {
   return (
     <React.Fragment>
       <Banner />
+      a
       <Caracteristicas />
       <MasVendidos />
       <Form contacto="Contáctanos" />
