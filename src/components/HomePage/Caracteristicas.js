@@ -1,6 +1,9 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
+import icono1 from '../../assets/icono-1.jpg';
+import icono2 from '../../assets/icono-2.jpg';
+import icono3 from '../../assets/icono-3.jpg';
 
 const Caracteristicas = () => {
   return (
@@ -17,7 +20,7 @@ const Caracteristicas = () => {
           <div className="col-lg-4 col-12 pt-5">
             <div className="row color4">
               <div className="col-4 text-center">
-                <i className="far fa-check-circle fa-5x"></i>
+                <img className="icono" src={icono3} alt="recuerdos" />
               </div>
               <div className="col-8 mar-auto">
                 <Fade left>
@@ -33,7 +36,7 @@ const Caracteristicas = () => {
           <div className="col-lg-4 col-12 pt-5">
             <div className="row color4">
               <div className="col-4 text-center">
-                <i className="far fa-check-circle fa-5x"></i>
+                <img src={icono1} alt="cuidado facial" className="icono" />
               </div>
               <div className="col-8 mar-auto">
                 <Fade top>
@@ -49,7 +52,7 @@ const Caracteristicas = () => {
           <div className="col-lg-4 col-12 pt-5">
             <div className="row color4">
               <div className="col-4 text-center">
-                <i className="far fa-check-circle fa-5x"></i>
+                <img className="icono" src={icono2} alt="cuidado capilar" />
               </div>
               <div className="col-8 mar-auto">
                 <Fade right>
