@@ -3,11 +3,6 @@ import iconos from '../../assets/iconos.png';
 const Productos = ({ value, value2 }) => {
   return (
     <React.Fragment>
-      {
-        <div className="d-flex justify-content-center">
-          <img className="iconos" src={iconos} alt="iconos" />
-        </div>
-      }
       <img
         className="card-img mt-3"
         src={`../../../assets/${value}.jpg`}
