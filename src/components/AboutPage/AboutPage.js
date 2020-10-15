@@ -21,7 +21,7 @@ const AboutPage = () => {
           </Fade>
           <Fade right>
             <div className="col-lg-6 col-12 about-desc color1">
-              <p>
+              <p className="text-justify">
                 Jabonarte es una empresa dedicada a la producción y
                 comercialización de jabones para el cuidado de la piel y eventos
                 sociales. Empezamos hace 5 años con la venta de jabones como

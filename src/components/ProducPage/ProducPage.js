@@ -17,11 +17,10 @@ const ProducPage = () => {
               <Sidebar />
             </div>
           </Fade>
-          <Fade right>
-            <div className="col-md-10">
-              <Productos value="productos" value2="producto2" />
-            </div>
-          </Fade>
+
+          <div className="col-md-10">
+            <Productos value="productos" value2="producto2" />
+          </div>
         </div>
       </div>
     </React.Fragment>

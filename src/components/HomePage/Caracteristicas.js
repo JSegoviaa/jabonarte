@@ -20,7 +20,9 @@ const Caracteristicas = () => {
           <div className="col-lg-4 col-12 pt-5">
             <div className="row color4">
               <div className="col-4 text-center">
-                <img className="icono" src={icono3} alt="recuerdos" />
+                <Fade left>
+                  <img className="icono" src={icono3} alt="recuerdos" />
+                </Fade>
               </div>
               <div className="col-8 mar-auto">
                 <Fade left>
@@ -36,7 +38,9 @@ const Caracteristicas = () => {
           <div className="col-lg-4 col-12 pt-5">
             <div className="row color4">
               <div className="col-4 text-center">
-                <img src={icono1} alt="cuidado facial" className="icono" />
+                <Fade left>
+                  <img src={icono1} alt="cuidado facial" className="icono" />
+                </Fade>
               </div>
               <div className="col-8 mar-auto">
                 <Fade top>
@@ -52,7 +56,9 @@ const Caracteristicas = () => {
           <div className="col-lg-4 col-12 pt-5">
             <div className="row color4">
               <div className="col-4 text-center">
-                <img className="icono" src={icono2} alt="cuidado capilar" />
+                <Fade left>
+                  <img className="icono" src={icono2} alt="cuidado capilar" />
+                </Fade>
               </div>
               <div className="col-8 mar-auto">
                 <Fade right>

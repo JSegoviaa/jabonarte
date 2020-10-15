@@ -61,6 +61,8 @@ const Footer = () => {
           <div className="row color1 justify-content-center pt-3 mb-5">
             <i className="fas fa-copyright line-height-unset fa-2x"></i>
             Copyright 2020 Jabonarte
+            <br />
+            Mérida, Yucatán, México.
           </div>
         </Fade>
       </div>

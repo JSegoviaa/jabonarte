@@ -95,14 +95,16 @@ const JabonArtesanal = () => {
           </Fade>
         </div>
       </div>
-      <div className="mt-4">
-        <h4>
-          Las alumnas se llevarán 7 jabones terminados con las diferentes
-          técnicas
-          <br />
-          <Link to="/contacto">*Agenda tu fecha con $200 de anticipo</Link>
-        </h4>
-      </div>
+      <Fade right>
+        <div className="mt-4">
+          <h4>
+            Las alumnas se llevarán 7 jabones terminados con las diferentes
+            técnicas
+            <br />
+            <Link to="/contacto">*Agenda tu fecha con $200 de anticipo</Link>
+          </h4>
+        </div>
+      </Fade>
     </div>
   );
 };

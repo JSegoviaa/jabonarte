@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Fade from 'react-reveal/Fade';
 import Swal from 'sweetalert2';
 
 const Form = ({ contacto }) => {
@@ -54,88 +55,92 @@ const Form = ({ contacto }) => {
   };
   return (
     <React.Fragment>
-      <h1 className="container text-center sansita mt-5">{contacto} </h1>
-      <form
-        className="container mb-5"
-        action="https://api.staticforms.xyz/submit"
-        method="post"
-        onSubmit={handleSubmit}
-      >
-        <div
-          className={
-            response.type === 'success'
-              ? 'tile box notification is-primary'
-              : 'is-hidden'
-          }
+      <Fade left>
+        <h1 className="container text-center sansita mt-5">{contacto} </h1>
+      </Fade>
+      <Fade right>
+        <form
+          className="container mb-5"
+          action="https://api.staticforms.xyz/submit"
+          method="post"
+          onSubmit={handleSubmit}
         >
-          <p>{response.message}</p>
-        </div>
-        <div
-          className={
-            response.type === 'error'
-              ? 'tile box notification is-danger'
-              : 'is-hidden'
-          }
-        >
-          <p>{response.message}</p>
-        </div>
-        <div
-          className={response.message !== '' ? 'is-hidden' : 'columns'}
-        ></div>
-        <div className="form-group">
-          <label>Nombre*</label>
-          <input
-            className="form-control"
-            placeholder="Escriba su nombre por favor"
-            type="text"
-            name="name"
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label>Correo electrónico*</label>
-          <input
-            className="form-control"
-            placeholder="Escriba su correo electrónico por favor"
-            type="email"
-            name="email"
-            onChange={handleChange}
-            required
-          />
-        </div>
-
-        <div className="form-group">
-          <label>Mensaje*</label>
-          <textarea
-            className="form-control"
-            placeholder="Escriba su mensaje"
-            type="textarea"
-            name="message"
-            onChange={handleChange}
-            required
-          />
-        </div>
-
-        <div className="field" style={{ display: 'none' }}>
-          <label className="label">Title</label>
-          <div className="control">
-            <input
-              type="text"
-              name="honeypot"
-              style={{ display: 'none' }}
-              onChange={handleChange}
-            />
-            <input type="hidden" name="subject" onChange={handleChange} />
+          <div
+            className={
+              response.type === 'success'
+                ? 'tile box notification is-primary'
+                : 'is-hidden'
+            }
+          >
+            <p>{response.message}</p>
           </div>
-        </div>
+          <div
+            className={
+              response.type === 'error'
+                ? 'tile box notification is-danger'
+                : 'is-hidden'
+            }
+          >
+            <p>{response.message}</p>
+          </div>
+          <div
+            className={response.message !== '' ? 'is-hidden' : 'columns'}
+          ></div>
+          <div className="form-group">
+            <label>Nombre*</label>
+            <input
+              className="form-control"
+              placeholder="Escriba su nombre por favor"
+              type="text"
+              name="name"
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label>Correo electrónico*</label>
+            <input
+              className="form-control"
+              placeholder="Escriba su correo electrónico por favor"
+              type="email"
+              name="email"
+              onChange={handleChange}
+              required
+            />
+          </div>
 
-        <div className="form-group">
-          <button className="btn btn-primary btn-block" type="submit">
-            Enviar mensaje
-          </button>
-        </div>
-      </form>
+          <div className="form-group">
+            <label>Mensaje*</label>
+            <textarea
+              className="form-control"
+              placeholder="Escriba su mensaje"
+              type="textarea"
+              name="message"
+              onChange={handleChange}
+              required
+            />
+          </div>
+
+          <div className="field" style={{ display: 'none' }}>
+            <label className="label">Title</label>
+            <div className="control">
+              <input
+                type="text"
+                name="honeypot"
+                style={{ display: 'none' }}
+                onChange={handleChange}
+              />
+              <input type="hidden" name="subject" onChange={handleChange} />
+            </div>
+          </div>
+
+          <div className="form-group">
+            <button className="btn btn-primary btn-block" type="submit">
+              Enviar mensaje
+            </button>
+          </div>
+        </form>
+      </Fade>
     </React.Fragment>
   );
 };
