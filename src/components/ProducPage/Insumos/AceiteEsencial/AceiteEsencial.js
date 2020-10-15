@@ -1,17 +1,24 @@
 import React, { useEffect } from 'react';
-import InsumosBar from '../../InsumosBar';
 import ProductList from '../../ProductList';
 
-const Arcillas = () => {
+const Arcillas = ({ history }) => {
   useEffect(() => {
     document.title = 'Jabonarte | Aceite Esencial';
   }, []);
+  const handleReturn = () => {
+    history.goBack();
+  };
   return (
     <React.Fragment>
       <div className="container">
         <div className="row">
           <div className="col-md-2">
-            <InsumosBar />
+            <button
+              onClick={handleReturn}
+              className="btn btn-primary btn-block mt-4"
+            >
+              Regresar a la página anterior
+            </button>
           </div>
           <div className="col-md ">
             <h1 className="sansita">Aceite Esencial</h1>
