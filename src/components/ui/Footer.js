@@ -12,22 +12,25 @@ const Footer = () => {
             <ul className="footer-nav">
               <Fade top>
                 <li className="footer-item">
-                  <NavLink to="/productos" className="footer-link">
+                  <NavLink to="/productos" className="footer-link nav-link2">
                     Productos
                   </NavLink>
                 </li>
                 <li className="footer-item">
-                  <NavLink to="/cursos" className="footer-link">
+                  <NavLink to="/cursos" className="footer-link nav-link2">
                     Cursos
                   </NavLink>
                 </li>
                 <li className="footer-item nav-border-l nav-border-r">
-                  <NavLink to="/sobre-nosotros" className="footer-link">
+                  <NavLink
+                    to="/sobre-nosotros"
+                    className="footer-link nav-link2"
+                  >
                     ¿Quiénes somos?
                   </NavLink>
                 </li>
                 <li className="footer-item">
-                  <NavLink to="contacto" className="footer-link">
+                  <NavLink to="contacto" className="footer-link nav-link2">
                     Contacto
                   </NavLink>
                 </li>

@@ -38,22 +38,22 @@ const Navbar = () => {
         <ul className="navbar-nav font-body">
           <Fade right>
             <li className="nav-item nav-border-l">
-              <NavLink to="./productos" className="nav-link">
+              <NavLink to="./productos" className="nav-link nav-link2">
                 Productos
               </NavLink>
             </li>
             <li className="nav-item nav-border-r">
-              <NavLink to="./cursos" className="nav-link">
+              <NavLink to="./cursos" className="nav-link nav-link2">
                 Cursos
               </NavLink>
             </li>
             <li className="nav-item nav-border-l nav-border-r">
-              <NavLink to="./sobre-nosotros" className="nav-link">
+              <NavLink to="./sobre-nosotros" className="nav-link nav-link2">
                 ¿Quiénes somos?
               </NavLink>
             </li>
             <li className="nav-item nav-border-r">
-              <NavLink to="./contacto" className="nav-link">
+              <NavLink to="./contacto" className="nav-link nav-link2">
                 Contacto
               </NavLink>
             </li>
