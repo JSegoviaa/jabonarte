@@ -9,6 +9,7 @@ html {
 /*navbar*/
 .nav-link {
   margin: 20px;
+  color: #256381;
 }
 /*banner*/
 .sansita {
@@ -26,6 +27,12 @@ html {
 /*footer*/
 .footer-item {
   list-style: none;
+}
+.footer-link {
+  color: #256381;
+}
+.footer-link:hover {
+  color: #256381;
 }
 
 .flex-footer {
