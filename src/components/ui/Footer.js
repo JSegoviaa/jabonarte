@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container ">
         <div className="row justify-content-center">
           <div className="col-10 text-center">
-            <ul className="footer-nav">
+            <ul className="footer-nav list-group">
               <Fade top>
                 <li className="footer-item">
                   <NavLink to="/productos" className="footer-link nav-link2">
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
         </div>
         <Fade bottom>
-          <div className="row icons justify-content-center color1 f-sizeXBig">
+          <div className="row icons justify-content-center color1 f-sizeXBig mt-4">
             <a href="https://facebook.com/jabonarteMerida/">
               <i className="fab fa-facebook fa-2x ml-2"></i>
             </a>
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
           <div className="row color1 justify-content-center pt-3 mb-5">
             <i className="fas fa-copyright line-height-unset fa-2x"></i>
-            Copyright 2020 Jabonarte
+            Copyright {new Date().getFullYear()} Jabonarte
             <br />
             Mérida, Yucatán, México.
           </div>
