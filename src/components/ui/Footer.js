@@ -2,6 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 import { NavLink } from 'react-router-dom';
+import AvisoPrivacidad from './AvisoPrivacidad';
 
 const Footer = () => {
   return (
@@ -62,6 +63,9 @@ const Footer = () => {
             Mérida, Yucatán, México.
           </div>
         </Fade>
+        <div className="row justify-content-center mb-4">
+          <AvisoPrivacidad />
+        </div>
       </div>
     </footer>
   );
