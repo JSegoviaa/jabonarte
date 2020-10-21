@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import Swal from 'sweetalert2';
 
 const Form = ({ contacto }) => {
+  const history = useHistory();
+
   const [contact, setContact] = useState({
     name: '',
     email: '',
@@ -52,6 +55,7 @@ const Form = ({ contacto }) => {
         text: 'Ha ocurrido un error, intente de nuevo por favor',
       });
     }
+    history.push('/');
   };
   return (
     <React.Fragment>

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
 const DistForm = () => {
+  const history = useHistory();
   const [contact, setContact] = useState({
     name: '',
     email: '',
@@ -11,7 +13,8 @@ const DistForm = () => {
     $ciudad: '',
     $tienda: '',
     replyTo: '@', // this will set replyTo of email to email address entered in the form
-    accessKey: '4fce6935-927d-4ffc-af62-b1ef977e97f2', // get your access key from https://www.staticforms.xyz
+    accessKey: '4fce6935-927d-4ffc-af62-b1ef977e97f2',
+    // get your access key from https://www.staticforms.xyz
   });
 
   const [response, setResponse] = useState({
@@ -52,6 +55,8 @@ const DistForm = () => {
         text: 'Ha ocurrido un error, intente de nuevo por favor',
       });
     }
+
+    history.push('/');
   };
   return (
     <form
