@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 
-import Productos from './Productos';
-import Sidebar from './Sidebar';
+import Productos from '../components/Products/Productos';
+import Sidebar from '../components/Products/Sidebar';
 
-const ProducPage = () => {
+const ProductPage = () => {
   useEffect(() => {
     document.title = 'Jabonarte | Nuestros productos';
   }, []);
@@ -27,4 +27,4 @@ const ProducPage = () => {
   );
 };
 
-export default ProducPage;
+export default ProductPage;

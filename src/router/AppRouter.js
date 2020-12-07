@@ -5,43 +5,58 @@ import {
   Route,
   Redirect,
 } from 'react-router-dom';
-import AboutPage from '../components/AboutPage/AboutPage';
-import ContactPage from '../components/ContactPage/ContactPage';
-import DistPage from '../components/DistPage/DistPage';
-import HomePage from '../components/HomePage/HomePage';
-import AcondicionadoresPage from '../components/ProducPage/Acondicionadores/AcondicionadoresPage';
-import Arcillas from '../components/ProducPage/Arcillas/Arcillas';
-import BabyShower from '../components/ProducPage/BabyShower/BabyShower';
-import Bautizo from '../components/ProducPage/Bautizo/Bautizo';
-import Boda from '../components/ProducPage/Boda/Boda';
-import CursosPage from '../components/CursosPage/CursosPage';
-import DiasMadres from '../components/ProducPage/DiasMadres/DiasMadres';
-import ChampusPage from '../components/ProducPage/Champus/ChampusPage';
-import CuidadoCabello from '../components/ProducPage/CuidadoCabello';
-import CuidadoPiel from '../components/ProducPage/CuidadoPiel';
-import FiestasInfantiles from '../components/ProducPage/FiestasInfantiles/FiestasInfantiles';
-import JabonesPage from '../components/ProducPage/Jabones/JabonesPage';
-import PrimeraComunion from '../components/ProducPage/PrimeraComunion/PrimeraComunion';
-import ProducPage from '../components/ProducPage/ProducPage';
-import ProductInfo from '../components/ProducPage/ProductInfo';
-import Recuerdos from '../components/ProducPage/Recuerdos';
-import RecuerdosNavidenos from '../components/ProducPage/RecuerdosNavidenos/RecuerdosNavidenos';
-import XVAnos from '../components/ProducPage/XVAnos/XVAnos';
+
+//Pages
+import AboutPage from '../pages/AboutPage';
+import ContactPage from '../pages/ContactPage';
+import CursosPage from '../pages/CursosPage';
+import DistPage from '../pages/DistPage';
+import HomePage from '../pages/HomePage';
+import ProductPage from '../pages/ProductPage';
+
+//Productos cuidado del cabello
+import CuidadoCabello from '../components/Products/CuidadoCabello';
+import AcondicionadoresPage from '../components/Products/CuidadoCabello/AcondicionadoresPage';
+import ChampusPage from '../components/Products/CuidadoCabello/ChampusPage';
+
+//Productos cuidado de la piel
+import CuidadoPiel from '../components/Products/CuidadoPiel';
+import Arcillas from '../components/Products/CuidadosPiel/Arcillas';
+import BalsamoLabial from '../components/Products/CuidadosPiel/BalsamoLabial';
+import Exfoliantes from '../components/Products/CuidadosPiel/Exfoliantes';
+import JabonesPage from '../components/Products/CuidadosPiel/JabonesPage';
+
+//Productos insumos
+import Insumos from '../components/Products/Insumos/Insumos';
+import AceiteEsencial from '../components/Products/Insumos/AceiteEsencial/AceiteEsencial';
+import BaseGlicerina from '../components/Products/Insumos/BaseGlicerina/BaseGlicerina';
+import ColorantesHidro from '../components/Products/Insumos/ColorantesHidrosolubes/ColorantesHidro';
+import Fragancias from '../components/Products/Insumos/Fragancias/Fragancias';
+import Glitter from '../components/Products/Insumos/Glitter/Glitter';
+import CarbonActivado from '../components/Products/Insumos/CarbonActivado/CarbonActivado';
+import MicasPerladas from '../components/Products/Insumos/MicasPerladas/MicasPerladas';
+import MoldePoli from '../components/Products/Insumos/MoldePolitileno/MoldePoli';
+import PigmentoMigrante from '../components/Products/Insumos/PigmentosMigrantes/PigmentoMigrante';
+
+//Productos recuerdos
+import Recuerdos from '../components/Products/Recuerdos';
+import BabyShower from '../components/Products/Recuerdos/BabyShower';
+import Bautizo from '../components/Products/Recuerdos/Bautizo';
+import Boda from '../components/Products/Recuerdos/Boda';
+import DiasMadres from '../components/Products/Recuerdos/DiasMadres';
+import FiestasInfantiles from '../components/Products/Recuerdos/FiestasInfantiles';
+import PrimeraComunion from '../components/Products/Recuerdos/PrimeraComunion';
+import RecuerdosNavidenos from '../components/Products/Recuerdos/RecuerdosNavidenos';
+import XVAnos from '../components/Products/Recuerdos/XVAnos';
+
+//Cursos
+import JabonArtesanal from '../components/Cursos/JabonArtesanal/JabonArtesanal';
+
+//UI
 import Footer from '../components/ui/Footer';
 import Navbar from '../components/ui/Navbar';
-import BalsamoLabial from '../components/ProducPage/BalsamoLabial/BalsamoLabial';
-import Exofiliantes from '../components/ProducPage/Exofiliantes/Exofiliantes';
-import JabonArtesanal from '../components/CursosPage/JabonArtesanal/JabonArtesanal';
-import Insumos from '../components/ProducPage/Insumos/Insumos';
-import AceiteEsencial from '../components/ProducPage/Insumos/AceiteEsencial/AceiteEsencial';
-import BaseGlicerina from '../components/ProducPage/Insumos/BaseGlicerina/BaseGlicerina';
-import ColorantesHidro from '../components/ProducPage/Insumos/ColorantesHidrosolubes/ColorantesHidro';
-import Fragancias from '../components/ProducPage/Insumos/Fragancias/Fragancias';
-import Glitter from '../components/ProducPage/Insumos/Glitter/Glitter';
-import CarbonActivado from '../components/ProducPage/Insumos/CarbonActivado/CarbonActivado';
-import MicasPerladas from '../components/ProducPage/Insumos/MicasPerladas/MicasPerladas';
-import MoldePoli from '../components/ProducPage/Insumos/MoldePolitileno/MoldePoli';
-import PigmentoMigrante from '../components/ProducPage/Insumos/PigmentosMigrantes/PigmentoMigrante';
+
+import ProductInfo from '../components/Products/ProductInfo';
 
 const AppRouter = () => {
   return (
@@ -50,7 +65,7 @@ const AppRouter = () => {
         <Navbar />
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route exact path="/productos" component={ProducPage} />
+          <Route exact path="/productos" component={ProductPage} />
           <Route
             exact
             path="/acondicionadores"
@@ -66,7 +81,7 @@ const AppRouter = () => {
           <Route exact path="/baby-shower" component={BabyShower} />
           <Route exact path="/boda" component={Boda} />
           <Route exact path="/balsamo-labial" component={BalsamoLabial} />
-          <Route exact path="/exfoliante" component={Exofiliantes} />
+          <Route exact path="/exfoliante" component={Exfoliantes} />
           <Route exact path="/cursos" component={CursosPage} />
           <Route exact path="/jabones-artesanales" component={JabonArtesanal} />
           <Route exact path="/insumos" component={Insumos} />

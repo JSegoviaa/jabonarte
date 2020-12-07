@@ -1,14 +1,17 @@
 import React, { useEffect } from 'react';
-import Banner from './Banner';
-import Caracteristicas from './Caracteristicas';
-import Form from './Form';
-import MasVendidos from './MasVendidos';
-import MiniBanner from './MiniBanner';
+
+//Componente del Homepage
+import Banner from '../components/Home/Banner';
+import Caracteristicas from '../components/Home/Caracteristicas';
+import Form from '../components/Forms/Form';
+import MasVendidos from '../components/Home/MasVendidos';
+import MiniBanner from '../components/Home/MiniBanner';
 
 const HomePage = () => {
   useEffect(() => {
     document.title = 'Jabonarte | Cosmética Natural';
   }, []);
+
   return (
     <React.Fragment>
       <Banner />

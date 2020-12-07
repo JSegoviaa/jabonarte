@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
-import Form from '../HomePage/Form';
-import contactoImg from '../../assets/contacto-productos.jpg';
+import Form from '../components/Forms/Form';
+import contactoImg from '../assets/contacto-productos.jpg';
 
 const ContactPage = () => {
   useEffect(() => {

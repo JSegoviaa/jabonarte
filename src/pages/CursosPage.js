@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
+
+//Componente del cursosPage
 import LightSpeed from 'react-reveal/LightSpeed';
-import Cursos from './Cursos';
-import CursosBar from './CursosBar';
+import Cursos from '../components/Cursos/Cursos';
+import CursosBar from '../components/Cursos/CursosBar';
 
 const CursosPage = () => {
   useEffect(() => {

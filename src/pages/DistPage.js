@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
-import DistForm from './DistForm';
+import DistForm from '../components/Forms/DistForm';
 
 const DistPage = () => {
   useEffect(() => {
