@@ -9,18 +9,9 @@ const Recuerdos = () => {
   }, []);
   return (
     <React.Fragment>
+      <RecuerdosBar />
       <div className="container">
-        <div className="row">
-          <div className="col-md-2">
-            <RecuerdosBar />
-          </div>
-          <div className="col-md-10">
-            <Productos value="recuerdos" />
-
-
-
-          </div>
-        </div>
+        <Productos value="recuerdos" />
       </div>
     </React.Fragment>
   );

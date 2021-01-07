@@ -1,61 +1,80 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const RecuerdosBar = () => {
   return (
-    <div className="mt-5 text-center ">
-      <ul className="list-group list-group-flush sansita rounded-lg">
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/baby-shower">
+    <Nav
+      className="justify-content-center shadow-sm bg-jabon row text-center"
+      activeKey="/home"
+    >
+      <div className="col-md-1">
+        <Nav.Item className="p-1">
+          <NavLink to="/baby-shower" className="text-white">
             Baby shower
           </NavLink>
-        </li>
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/bautizo">
+        </Nav.Item>
+      </div>
+
+      <div className="col-md-1">
+        <Nav.Item className="p-1">
+          <NavLink to="/bautizo" className=" text-white">
             Bautizo
           </NavLink>
-        </li>
-
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/boda">
+        </Nav.Item>
+      </div>
+      <div className="col-md-1">
+        <Nav.Item className="p-1">
+          <NavLink to="/boda" className=" text-white">
             Boda
           </NavLink>
-        </li>
+        </Nav.Item>
+      </div>
 
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/fiestas-infantiles">
+      <div className="col-md-1">
+        <Nav.Item className="p-1">
+          <NavLink to="/fiestas-infantiles" className=" text-white">
             Fiestas infantiles
           </NavLink>
-        </li>
-
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/primera-comunion">
+        </Nav.Item>
+      </div>
+      <div className="col-md-2">
+        <Nav.Item className="p-1">
+          <NavLink to="/primera-comunion" className=" text-white">
             Primera comunión
           </NavLink>
-        </li>
-
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/xv-años">
-            XV años
+        </Nav.Item>
+      </div>
+      <div className="col-md-1">
+        <Nav.Item className="p-1">
+          <NavLink to="/xv-años" className=" text-white">
+            XV Años
           </NavLink>
-        </li>
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/dias-de-las-madres">
+        </Nav.Item>
+      </div>
+      <div className="col-md-2">
+        <Nav.Item className="p-1">
+          <NavLink to="/dia-de-las-madres" className=" text-white">
             Día de las madres
           </NavLink>
-        </li>
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/recuerdos-navidenos">
-            Detalles Navideños
+        </Nav.Item>
+      </div>
+      <div className="col-md-2">
+        <Nav.Item className="p-1">
+          <NavLink to="/recuerdos-navidenos" className=" text-white">
+            Detalles navideños
           </NavLink>
-        </li>
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/productos">
-            Todas las categorías
+        </Nav.Item>
+      </div>
+
+      <div className="col-md-1">
+        <Nav.Item className="p-1">
+          <NavLink to="/productos" className=" text-white">
+            Regresar
           </NavLink>
-        </li>
-      </ul>
-    </div>
+        </Nav.Item>
+      </div>
+    </Nav>
   );
 };
 

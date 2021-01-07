@@ -10,7 +10,7 @@ const AboutPage = () => {
       <div className="container">
         <div className="row">
           <Fade top>
-            <h1 className="w-100 f-sizeXXBig sansita text-center">
+            <h1 className="w-100 f-sizeXXBig sansita text-center mt-3">
               ¿Quienes somos?
             </h1>
           </Fade>

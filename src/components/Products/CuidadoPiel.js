@@ -8,15 +8,9 @@ const CuidadoPiel = () => {
   }, []);
   return (
     <React.Fragment>
+      <CuidadoPielBar />
       <div className="container">
-        <div className="row">
-          <div className="col-md-2">
-            <CuidadoPielBar />
-          </div>
-          <div className="col-md-10">
-            <Productos value="cuidado-piel" />
-          </div>
-        </div>
+        <Productos value="cuidado-piel" />
       </div>
     </React.Fragment>
   );

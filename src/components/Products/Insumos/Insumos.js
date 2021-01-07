@@ -8,17 +8,10 @@ const Insumos = () => {
   }, []);
   return (
     <React.Fragment>
+      <InsumosBar />
+
       <div className="container">
-        <div className="row">
-          <div className="col-md-2">
-            <InsumosBar />
-          </div>
-          <div className="col-md ">
-            <h1 className="sansita">Insumos</h1>
-            <hr />
-            <Productos value="insumos" />
-          </div>
-        </div>
+        <Productos value="insumos" />
       </div>
     </React.Fragment>
   );

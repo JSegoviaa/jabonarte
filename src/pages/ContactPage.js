@@ -13,7 +13,7 @@ const ContactPage = () => {
         <div className="container text-center">
           <div className="row">
             <Fade top>
-              <h1 className="w-100 f-sizeXXBig sansita">
+              <h1 className="w-100 f-sizeXXBig sansita mt-3">
                 ¿Pedido personalizado?
                 <p>¡Contáctanos!</p>
               </h1>
@@ -31,7 +31,7 @@ const ContactPage = () => {
       <div className="img-contacto">
         <div>
           <img
-            className="contacto-img img-thumbnail"
+            className="contacto-img img-thumbnail shadow-sm"
             src={contactoImg}
             alt="Jabonarte"
           />

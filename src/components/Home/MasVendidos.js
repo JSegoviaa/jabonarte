@@ -16,7 +16,7 @@ const MasVendidos = () => {
 
       <div className="row mt-4">
         <Fade left>
-          <div className="col-md-4 mt-4">
+          <div className="col-md-4 mt-4 ">
             <MasVendidosCard
               img={masVendidos}
               title="Exfoliante Carbón activado"

@@ -1,33 +1,43 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
-    <div className="mt-5 text-center">
-      <ul className="list-group list-group-flush sansita rounded-lg">
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/cuidados-de-la-piel">
+    <Nav
+      className="justify-content-center shadow-sm bg-jabon row text-center"
+      activeKey="/home"
+    >
+      <div className="col-md-3">
+        <Nav.Item className="p-1">
+          <NavLink to="/cuidados-de-la-piel" className="text-white">
             Cuidado de la piel
           </NavLink>
-        </li>
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/cuidado-del-cabello">
+        </Nav.Item>
+      </div>
+
+      <div className="col-md-3">
+        <Nav.Item className="p-1">
+          <NavLink to="/cuidado-del-cabello" className=" text-white">
             Cuidado del cabello
           </NavLink>
-        </li>
-
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/recuerdos-para-eventos">
-            Recuerdos para eventos
+        </Nav.Item>
+      </div>
+      <div className="col-md-3">
+        <Nav.Item className="p-1">
+          <NavLink to="/recuerdos-para-eventos" className=" text-white">
+            Recuerdos
           </NavLink>
-        </li>
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/insumos">
+        </Nav.Item>
+      </div>
+      <div className="col-md-3">
+        <Nav.Item className="p-1">
+          <NavLink to="/insumos" className=" text-white">
             Insumos
           </NavLink>
-        </li>
-      </ul>
-    </div>
+        </Nav.Item>
+      </div>
+    </Nav>
   );
 };
 

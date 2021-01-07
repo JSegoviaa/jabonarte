@@ -1,37 +1,50 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const CuidadoPielBar = () => {
   return (
-    <div className="mt-5 text-center ">
-      <ul className="list-group list-group-flush sansita rounded-lg">
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/arcillas">
+    <Nav
+      className="justify-content-center shadow-sm bg-jabon row text-center"
+      activeKey="/home"
+    >
+      <div className="col-md-2">
+        <Nav.Item className="p-1">
+          <NavLink to="/arcillas" className="text-white">
             Arcillas
           </NavLink>
-        </li>
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/balsamo-labial">
+        </Nav.Item>
+      </div>
+
+      <div className="col-md-2">
+        <Nav.Item className="p-1">
+          <NavLink to="/balsamo-labial" className=" text-white">
             Bálsamo labial
           </NavLink>
-        </li>
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/exfoliante">
+        </Nav.Item>
+      </div>
+      <div className="col-md-2">
+        <Nav.Item className="p-1">
+          <NavLink to="/exfoliante" className=" text-white">
             Exfoliante
           </NavLink>
-        </li>
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/jabones">
+        </Nav.Item>
+      </div>
+      <div className="col-md-2">
+        <Nav.Item className="p-1">
+          <NavLink to="/jabones" className=" text-white">
             Jabones
           </NavLink>
-        </li>
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/productos">
-            Todas las categorías
+        </Nav.Item>
+      </div>
+      <div className="col-md-2">
+        <Nav.Item className="p-1">
+          <NavLink to="/productos" className=" text-white">
+            Regresar
           </NavLink>
-        </li>
-      </ul>
-    </div>
+        </Nav.Item>
+      </div>
+    </Nav>
   );
 };
 

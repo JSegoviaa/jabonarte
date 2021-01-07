@@ -16,6 +16,9 @@ html {
 .nav-link2:hover {
   color: #256381;
 }
+.bg-jabon {
+  background-color: #256381;
+}
 /*banner*/
 .sansita {
   font-family: 'Sansita Swashed', cursive;

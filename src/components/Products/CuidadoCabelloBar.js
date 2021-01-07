@@ -1,27 +1,36 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const CuidadoCabelloBar = () => {
   return (
-    <div className="mt-5 text-center ">
-      <ul className="list-group list-group-flush sansita rounded-lg">
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/acondicionadores">
-            Acondicionador sólido
+    <Nav
+      className="justify-content-center shadow-sm bg-jabon row text-center"
+      activeKey="/home"
+    >
+      <div className="col-md-2">
+        <Nav.Item className="p-1">
+          <NavLink to="/acondicionadores" className="text-white">
+            Acondicionadores
           </NavLink>
-        </li>
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/champus">
+        </Nav.Item>
+      </div>
+
+      <div className="col-md-2">
+        <Nav.Item className="p-1">
+          <NavLink to="/champus" className=" text-white">
             Shampoo sólido
           </NavLink>
-        </li>
-        <li className="list-group-item list-group-item-secondary">
-          <NavLink className="text-white" to="/productos">
-            Todas las categorías
+        </Nav.Item>
+      </div>
+      <div className="col-md-2">
+        <Nav.Item className="p-1">
+          <NavLink to="/productos" className=" text-white">
+            Regresar
           </NavLink>
-        </li>
-      </ul>
-    </div>
+        </Nav.Item>
+      </div>
+    </Nav>
   );
 };
 

@@ -10,18 +10,11 @@ const ProductPage = () => {
   }, []);
   return (
     <React.Fragment>
+      <Fade left>
+        <Sidebar />
+      </Fade>
       <div className="container">
-        <div className="row">
-          <Fade left>
-            <div className="col-md-2">
-              <Sidebar />
-            </div>
-          </Fade>
-
-          <div className="col-md-10">
-            <Productos value="productos" value2="producto2" />
-          </div>
-        </div>
+        <Productos value="productos" value2="producto2" />
       </div>
     </React.Fragment>
   );
