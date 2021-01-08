@@ -973,9 +973,9 @@ export const productos = [
     title: 'Rosas y Colágeno',
     description:
       'Antiarrugas. Antioxidante. Hidratante. Limpia los poros. Reafirmante.',
-    price1: '$20 MXN',
+    price1: '$25 MXN',
     grams1: '50g',
-    price2: '$48 MXN',
+    price2: '$54 MXN',
     grams2: '120g',
   },
   {

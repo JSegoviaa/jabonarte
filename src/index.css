@@ -69,6 +69,10 @@ html {
   color: black;
 }
 
+/*testimonials*/
+.fb-comment {
+  max-width: 500px;
+}
 /*contacto*/
 .img-contacto {
   display: flex;
