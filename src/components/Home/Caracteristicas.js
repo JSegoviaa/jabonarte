@@ -6,6 +6,10 @@ import icono2 from '../../assets/icono-2.jpg';
 import icono3 from '../../assets/icono-3.jpg';
 
 const Caracteristicas = () => {
+  const style = {
+    textDecoration: 'none',
+  };
+
   return (
     <div className="home">
       <div className="container">
@@ -26,8 +30,8 @@ const Caracteristicas = () => {
               </div>
               <div className="col-8 mar-auto">
                 <Fade left>
-                  <Link to="/recuerdos-para-eventos">
-                    <h3 className="caracteristicas-font font-weight-bold font-subtitle letter-spacing1">
+                  <Link style={style} to="/recuerdos-para-eventos">
+                    <h3 className="caracteristicas-font font-weight-bold font-subtitle letter-spacing1 a">
                       Recuerdos
                     </h3>
                   </Link>
@@ -44,8 +48,8 @@ const Caracteristicas = () => {
               </div>
               <div className="col-8 mar-auto">
                 <Fade top>
-                  <Link to="/cuidados-de-la-piel">
-                    <h3 className="caracteristicas-font font-weight-bold font-subtitle letter-spacing1">
+                  <Link style={style} to="/cuidados-de-la-piel">
+                    <h3 className="caracteristicas-font font-weight-bold font-subtitle letter-spacing1 a">
                       Cuidado facial
                     </h3>
                   </Link>
@@ -62,8 +66,8 @@ const Caracteristicas = () => {
               </div>
               <div className="col-8 mar-auto">
                 <Fade right>
-                  <Link to="/cuidado-del-cabello">
-                    <h3 className="caracteristicas-font font-weight-bold font-subtitle letter-spacing1">
+                  <Link style={style} to="/cuidado-del-cabello">
+                    <h3 className="caracteristicas-font font-weight-bold font-subtitle letter-spacing1 a ">
                       Cuidado capilar
                     </h3>
                   </Link>

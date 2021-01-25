@@ -25,16 +25,16 @@ const NavBar = () => {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Fade right>
-            <NavLink to="./productos" className="nav-link nav-link2">
+            <NavLink to="./productos" className="nav-link nav-link2 a">
               Productos
             </NavLink>
-            <NavLink to="./cursos" className="nav-link nav-link2">
+            <NavLink to="./cursos" className="nav-link nav-link2 a">
               Cursos
             </NavLink>
-            <NavLink to="./sobre-nosotros" className="nav-link nav-link2">
+            <NavLink to="./sobre-nosotros" className="nav-link nav-link2 a">
               ¿Quiénes somos?
             </NavLink>
-            <NavLink to="./contacto" className="nav-link nav-link2">
+            <NavLink to="./contacto" className="nav-link nav-link2 a">
               Contacto
             </NavLink>
             <NavLink

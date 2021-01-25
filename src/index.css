@@ -19,6 +19,16 @@ html {
 .bg-jabon {
   background-color: #256381;
 }
+
+.a {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.a:hover {
+  transition: 0.3s;
+  transform: scale(1.075);
+}
+
 /*banner*/
 .sansita {
   font-family: 'Sansita Swashed', cursive;
@@ -67,6 +77,7 @@ html {
 /*características*/
 .caracteristicas-font {
   color: black;
+  text-decoration: none;
 }
 
 /*testimonials*/
