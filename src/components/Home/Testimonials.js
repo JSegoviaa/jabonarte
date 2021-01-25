@@ -12,7 +12,7 @@ const Testimonials = () => {
         </h1>
       </Fade>
       <Row>
-        <Col md={6}>
+        <Col md={6} className="a">
           <Fade left>
             <div className="shadow-sm my-4">
               <FacebookProvider appId="305679140520">
@@ -21,7 +21,7 @@ const Testimonials = () => {
             </div>
           </Fade>
         </Col>
-        <Col md={6}>
+        <Col md={6} className="a">
           <Fade right>
             <div className="shadow-sm my-4">
               <FacebookProvider appId="305679140520">
