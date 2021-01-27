@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
 html {
   scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 500 !important;
 }
 
 .overflow {
   overflow: hidden;
 }
 
-/*navbar*/
-.nav-link {
-  margin: 20px;
-}
-.nav-link2 {
+.color-primary {
   color: #256381;
 }
-.nav-link2:hover {
+.color-primary:hover {
   color: #256381;
 }
+
 .bg-jabon {
   background-color: #256381;
 }
@@ -29,10 +32,23 @@ html {
   transform: scale(1.075);
 }
 
+.btn-primary {
+  background-color: #256381 !important;
+  border: #256381 !important;
+}
+.fab {
+  color: #256381 !important;
+  border: #256381 !important;
+}
+.fa-copyright {
+  color: #256381 !important;
+}
+
 /*banner*/
 .sansita {
   font-family: 'Sansita Swashed', cursive;
 }
+
 .home-banner {
   height: 700px;
   background: url('./assets/fondo.jpg') no-repeat center/cover;
@@ -55,23 +71,6 @@ html {
 /*about*/
 .about-img {
   background: url('./assets/logo.jpg') center center/cover;
-}
-
-/*botones*/
-.btn-info {
-  background-color: #256381 !important;
-  border: #256381 !important;
-}
-.btn-primary {
-  background-color: #256381 !important;
-  border: #256381 !important;
-}
-.fab {
-  color: #256381 !important;
-  border: #256381 !important;
-}
-.fa-copyright {
-  color: #256381 !important;
 }
 
 /*características*/

@@ -14,7 +14,6 @@ const NavBar = () => {
               <img
                 src={logo}
                 width="130"
-                height="auto"
                 className="d-inline-block align-top"
                 alt="Jabonarte"
               />
@@ -25,21 +24,21 @@ const NavBar = () => {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Fade right>
-            <NavLink to="./productos" className="nav-link nav-link2 a">
+            <NavLink to="./productos" className="nav-link color-primary a">
               Productos
             </NavLink>
-            <NavLink to="./cursos" className="nav-link nav-link2 a">
+            <NavLink to="./cursos" className="nav-link color-primary a">
               Cursos
             </NavLink>
-            <NavLink to="./sobre-nosotros" className="nav-link nav-link2 a">
+            <NavLink to="./sobre-nosotros" className="nav-link color-primary a">
               ¿Quiénes somos?
             </NavLink>
-            <NavLink to="./contacto" className="nav-link nav-link2 a">
+            <NavLink to="./contacto" className="nav-link color-primary  a">
               Contacto
             </NavLink>
             <NavLink
               to="./conviertete-en-distribuidor"
-              className="nav-link btn btn-info"
+              className="nav-link btn btn-primary"
             >
               Conviértete en distribuidor
             </NavLink>
