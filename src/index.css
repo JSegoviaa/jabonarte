@@ -53,11 +53,13 @@ body {
   height: 700px;
   background: url('./assets/fondo.jpg') no-repeat center/cover;
 }
+
 /*minibanner*/
 .mini-banner {
   height: 400px;
   background: url('./assets/minibanner.jpg') no-repeat center/cover fixed;
 }
+
 /*footer*/
 .footer-item {
   list-style: none;
@@ -79,10 +81,6 @@ body {
   text-decoration: none;
 }
 
-/*testimonials*/
-.fb-comment {
-  max-width: 500px;
-}
 /*contacto*/
 .img-contacto {
   display: flex;

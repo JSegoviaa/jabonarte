@@ -11,10 +11,11 @@ const Testimonials = () => {
           Lo que dicen nuestros clientes de nosotros
         </h1>
       </Fade>
-      <Row>
-        <Col md={6} className="a">
+
+      <Row className="">
+        <Col md={6}>
           <Fade left>
-            <div className="shadow-sm my-4">
+            <div className="shadow-sm my-4 a">
               <FacebookProvider appId="305679140520">
                 <EmbeddedPost href="https://www.facebook.com/anaaldaco.sanchez/posts/183439405910684" />
               </FacebookProvider>
@@ -23,7 +24,7 @@ const Testimonials = () => {
         </Col>
         <Col md={6} className="a">
           <Fade right>
-            <div className="shadow-sm my-4">
+            <div className="shadow-sm my-4 a">
               <FacebookProvider appId="305679140520">
                 <EmbeddedPost href="https://www.facebook.com/PoLLiTa205/posts/10155885737753546" />
               </FacebookProvider>
@@ -31,7 +32,6 @@ const Testimonials = () => {
           </Fade>
         </Col>
       </Row>
-      <Row></Row>
     </Container>
   );
 };
