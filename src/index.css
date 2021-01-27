@@ -104,3 +104,9 @@ body {
 .icono {
   width: 100px;
 }
+
+/*productos page*/
+.productos-banner {
+  height: 500px;
+  background: url('./assets/banner.jpg') no-repeat center center/cover;
+}

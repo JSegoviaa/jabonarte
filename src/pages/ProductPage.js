@@ -14,6 +14,10 @@ const ProductPage = () => {
         <Sidebar />
       </Fade>
 
+      <div className="productos-banner text-center d-flex justify-content-center align-items-center">
+        <h1 className="sansita">Conoce todos nuestros productos</h1>
+      </div>
+
       <AllProducts />
     </React.Fragment>
   );
