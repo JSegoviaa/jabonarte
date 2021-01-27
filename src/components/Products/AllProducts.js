@@ -28,9 +28,7 @@ const AllProducts = () => {
                 </div>
                 <div>
                   <div className="card-body">
-                    <h5 className="card-title text-center">
-                      {producto.title}{' '}
-                    </h5>
+                    <h5 className="card-title text-center">{producto.title}</h5>
                     <p className="card-text text-center">{producto.type}</p>
                     <p className="card-text">{producto.description}</p>
 

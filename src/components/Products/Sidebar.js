@@ -7,28 +7,30 @@ const Sidebar = () => {
     <Navbar className="bg-jabon" expand="lg">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="m-auto">
+        <Nav className="m-auto ">
           <NavDropdown title="Cuidado de la piel" id="basic-nav-dropdown">
-            <NavDropdown.Item>
-              <LinkContainer to="/arcillas" className="color-primary">
-                <p>Arcillas</p>
-              </LinkContainer>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <LinkContainer to="/balsamo-labial" className="color-primary">
-                <p>Bálsamo labial</p>
-              </LinkContainer>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <LinkContainer to="/exfoliante" className="color-primary">
-                <p>Exfoliante</p>
-              </LinkContainer>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <LinkContainer to="/jabones" className="color-primary">
-                <p>Jabones</p>
-              </LinkContainer>
-            </NavDropdown.Item>
+            <div>
+              <NavDropdown.Item>
+                <LinkContainer to="/arcillas" className="color-primary">
+                  <p>Arcillas</p>
+                </LinkContainer>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <LinkContainer to="/balsamo-labial" className="color-primary">
+                  <p>Bálsamo labial</p>
+                </LinkContainer>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <LinkContainer to="/exfoliante" className="color-primary">
+                  <p>Exfoliante</p>
+                </LinkContainer>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <LinkContainer to="/jabones" className="color-primary">
+                  <p>Jabones</p>
+                </LinkContainer>
+              </NavDropdown.Item>
+            </div>
           </NavDropdown>
 
           <NavDropdown title="Cuidado del cabello" id="basic-nav-dropdown">

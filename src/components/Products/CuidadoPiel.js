@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import CuidadoPielBar from './CuidadoPielBar';
 import Productos from './Productos';
 
 const CuidadoPiel = () => {
@@ -8,7 +7,6 @@ const CuidadoPiel = () => {
   }, []);
   return (
     <React.Fragment>
-      <CuidadoPielBar />
       <div className="container">
         <Productos value="cuidado-piel" />
       </div>
