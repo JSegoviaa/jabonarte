@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
+import AllProducts from '../components/Products/AllProducts';
 
-import Productos from '../components/Products/Productos';
 import Sidebar from '../components/Products/Sidebar';
 
 const ProductPage = () => {
@@ -13,9 +13,8 @@ const ProductPage = () => {
       <Fade left>
         <Sidebar />
       </Fade>
-      <div className="container">
-        <Productos value="productos" value2="producto2" />
-      </div>
+
+      <AllProducts />
     </React.Fragment>
   );
 };

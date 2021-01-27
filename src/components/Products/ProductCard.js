@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom';
 
 const ProductCard = ({
   id,
-  type,
   title,
   description,
   price1,
@@ -26,11 +25,11 @@ const ProductCard = ({
   return (
     <Flip left>
       <div className="card ms-3 shadow-sm" style={{ maxWidth: '540px' }}>
-        <div className="">
-          <div className="">
+        <div>
+          <div>
             <img className="card-img" src={`./assets/${id}.jpg`} alt={title} />
           </div>
-          <div className="">
+          <div>
             <div className="card-body">
               <h5 className="card-title text-center">{title} </h5>
               <p className="card-text">{description}</p>

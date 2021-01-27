@@ -14,6 +14,7 @@ body {
 
 .color-primary {
   color: #256381;
+  text-decoration: none !important;
 }
 .color-primary:hover {
   color: #256381;
