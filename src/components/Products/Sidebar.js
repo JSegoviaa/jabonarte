@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
 
 const Sidebar = () => {
   return (
@@ -10,128 +10,137 @@ const Sidebar = () => {
         <Nav className="m-auto">
           <NavDropdown title="Cuidado de la piel" id="basic-nav-dropdown">
             <NavDropdown.Item>
-              <NavLink to="/arcillas" className="color-primary">
-                Arcillas
-              </NavLink>
+              <LinkContainer to="/arcillas" className="color-primary">
+                <p>Arcillas</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/balsamo-labial" className="color-primary">
-                Bálsamo labial
-              </NavLink>
+              <LinkContainer to="/balsamo-labial" className="color-primary">
+                <p>Bálsamo labial</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/exfoliante" className="color-primary">
-                Exfoliante
-              </NavLink>
+              <LinkContainer to="/exfoliante" className="color-primary">
+                <p>Exfoliante</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/jabones" className="color-primary">
-                Jabones
-              </NavLink>
+              <LinkContainer to="/jabones" className="color-primary">
+                <p>Jabones</p>
+              </LinkContainer>
             </NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown title="Cuidado del cabello" id="basic-nav-dropdown">
             <NavDropdown.Item>
-              <NavLink to="/acondicionadores" className="color-primary">
-                Acondicionadores
-              </NavLink>
+              <LinkContainer to="/acondicionadores" className="color-primary">
+                <p> Acondicionadores</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/champus" className="color-primary">
-                Shampoo sólido
-              </NavLink>
+              <LinkContainer to="/champus" className="color-primary">
+                <p>Shampoo sólido</p>
+              </LinkContainer>
             </NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown title="Recuerdos" id="basic-nav-dropdown">
             <NavDropdown.Item>
-              <NavLink to="/baby-shower" className="color-primary">
-                Baby Shower
-              </NavLink>
+              <LinkContainer to="/baby-shower" className="color-primary">
+                <p>Baby Shower</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/bautizo" className="color-primary">
-                Bautizo
-              </NavLink>
+              <LinkContainer to="/bautizo" className="color-primary">
+                <p>Bautizo</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/boda" className="color-primary">
-                Boda
-              </NavLink>
+              <LinkContainer to="/boda" className="color-primary">
+                <p>Boda</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/fiestas-infantiles" className="color-primary">
-                Fiestas infantiles
-              </NavLink>
+              <LinkContainer to="/fiestas-infantiles" className="color-primary">
+                <p>Fiestas infantiles</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/primera-comunion" className="color-primary">
-                Primera comunión
-              </NavLink>
+              <LinkContainer to="/primera-comunion" className="color-primary">
+                <p>Primera comunión</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/xv-años" className="color-primary">
-                XV Años
-              </NavLink>
+              <LinkContainer to="/xv-años" className="color-primary">
+                <p>XV Años</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/dias-de-las-madres" className="color-primary">
-                Día de las madres
-              </NavLink>
+              <LinkContainer to="/dias-de-las-madres" className="color-primary">
+                <p>Día de las madres</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/recuerdos-navidenos" className="color-primary">
-                Detalles navideños
-              </NavLink>
+              <LinkContainer
+                to="/recuerdos-navidenos"
+                className="color-primary"
+              >
+                <p>Detalles navideños</p>
+              </LinkContainer>
             </NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown title="Insumos" id="basic-nav-dropdown">
             <NavDropdown.Item>
-              <NavLink to="/aceite-esencial" className="color-primary">
-                Aceite esencial
-              </NavLink>
+              <LinkContainer to="/aceite-esencial" className="color-primary">
+                <p>Aceite esencial</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/base-glicerina" className="color-primary">
-                Base de glicerina
-              </NavLink>
+              <LinkContainer to="/base-glicerina" className="color-primary">
+                <p>Base de glicerina</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/carbon-activado" className="color-primary">
-                Carbón activado
-              </NavLink>
+              <LinkContainer to="/carbon-activado" className="color-primary">
+                <p>Carbón activado</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/colorante-hidrosoluble" className="color-primary">
-                Colorante hidrosoluble
-              </NavLink>
+              <LinkContainer
+                to="/colorante-hidrosoluble"
+                className="color-primary"
+              >
+                <p>Colorante hidrosoluble</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/fragancias" className="color-primary">
-                Fragancias
-              </NavLink>
+              <LinkContainer to="/fragancias" className="color-primary">
+                <p>Fragancias</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/glitter" className="color-primary">
-                Glitter
-              </NavLink>
+              <LinkContainer to="/glitter" className="color-primary">
+                <p>Glitter</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/micas-perladas" className="color-primary">
-                Micas perladas
-              </NavLink>
+              <LinkContainer to="/micas-perladas" className="color-primary">
+                <p>Micas perladas</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/molde-polietileno" className="color-primary">
-                Molde polietileno
-              </NavLink>
+              <LinkContainer to="/molde-polietileno" className="color-primary">
+                <p>Molde polietileno</p>
+              </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <NavLink to="/pigmentos-migrantes" className="color-primary">
-                Pigmentos no migrantes
-              </NavLink>
+              <LinkContainer
+                to="/pigmentos-migrantes"
+                className="color-primary"
+              >
+                <p>Pigmentos no migrantes</p>
+              </LinkContainer>
             </NavDropdown.Item>
           </NavDropdown>
         </Nav>
@@ -141,38 +150,3 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
-
-// <Nav
-//   className="justify-content-center shadow-sm bg-jabon row text-center"
-//   activeKey="/home"
-// >
-//   <div className="col-md-3">
-//     <Nav.Item className="p-1">
-//       <NavLink to="/cuidados-de-la-piel" className="text-white">
-//         Cuidado de la piel
-//       </NavLink>
-//     </Nav.Item>
-//   </div>
-
-//   <div className="col-md-3">
-//     <Nav.Item className="p-1">
-//       <NavLink to="/cuidado-del-cabello" className=" text-white">
-//         Cuidado del cabello
-//       </NavLink>
-//     </Nav.Item>
-//   </div>
-//   <div className="col-md-3">
-//     <Nav.Item className="p-1">
-//       <NavLink to="/recuerdos-para-eventos" className=" text-white">
-//         Recuerdos
-//       </NavLink>
-//     </Nav.Item>
-//   </div>
-//   <div className="col-md-3">
-//     <Nav.Item className="p-1">
-//       <NavLink to="/insumos" className=" text-white">
-//         Insumos
-//       </NavLink>
-//     </Nav.Item>
-//   </div>
-// </Nav>
