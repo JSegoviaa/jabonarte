@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
-import AllProducts from '../components/Products/AllProducts';
+import MediaQuery from 'react-responsive';
 
+import AllProducts from '../components/Products/AllProducts';
 import Sidebar from '../components/Products/Sidebar';
+import ProductsNavRes from '../components/ui/ProductsNavRes';
 
 const ProductPage = () => {
   useEffect(() => {
@@ -11,7 +13,12 @@ const ProductPage = () => {
   return (
     <React.Fragment>
       <Fade left>
-        <Sidebar />
+        <MediaQuery minDeviceWidth={992}>
+          <Sidebar />
+        </MediaQuery>
+        <MediaQuery maxDeviceWidth={991}>
+          <ProductsNavRes />
+        </MediaQuery>
       </Fade>
 
       <div className="productos-banner text-center d-flex justify-content-center align-items-center">
