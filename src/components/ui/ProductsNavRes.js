@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Collapse, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Button, Collapse, Nav, Navbar } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const ProductsNavRes = () => {
