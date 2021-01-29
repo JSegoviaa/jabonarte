@@ -32,9 +32,6 @@ const NavBar = () => {
               </NavLink>
             </MediaQuery>
 
-            <MediaQuery maxDeviceWidth={991}>
-              <ProductosNav />
-            </MediaQuery>
             <NavLink to="./cursos" className="nav-link color-primary a">
               Cursos
             </NavLink>
@@ -44,6 +41,10 @@ const NavBar = () => {
             <NavLink to="./contacto" className="nav-link color-primary  a">
               Contacto
             </NavLink>
+
+            <MediaQuery maxDeviceWidth={991}>
+              <ProductosNav />
+            </MediaQuery>
             <NavLink
               to="./conviertete-en-distribuidor"
               className="nav-link btn btn-primary"
