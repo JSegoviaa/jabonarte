@@ -3,6 +3,8 @@ import { Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import logo from '../../assets/logo.jpg';
+import MediaQuery from 'react-responsive';
+import ProductosNav from './ProductosNav';
 
 const NavBar = () => {
   return (
@@ -24,9 +26,15 @@ const NavBar = () => {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Fade right>
-            <NavLink to="./productos" className="nav-link color-primary a">
-              Productos
-            </NavLink>
+            <MediaQuery minDeviceWidth={992}>
+              <NavLink to="./productos" className="nav-link color-primary a">
+                Productos
+              </NavLink>
+            </MediaQuery>
+
+            <MediaQuery maxDeviceWidth={991}>
+              <ProductosNav />
+            </MediaQuery>
             <NavLink to="./cursos" className="nav-link color-primary a">
               Cursos
             </NavLink>

@@ -4,7 +4,6 @@ import MediaQuery from 'react-responsive';
 
 import AllProducts from '../components/Products/AllProducts';
 import Sidebar from '../components/Products/Sidebar';
-import ProductsNavRes from '../components/ui/ProductsNavRes';
 
 const ProductPage = () => {
   useEffect(() => {
@@ -15,9 +14,6 @@ const ProductPage = () => {
       <Fade left>
         <MediaQuery minDeviceWidth={992}>
           <Sidebar />
-        </MediaQuery>
-        <MediaQuery maxDeviceWidth={991}>
-          <ProductsNavRes />
         </MediaQuery>
       </Fade>
 
