@@ -999,6 +999,8 @@ export const productos = [
       'Estimula la curación de heridas leves e inflamaciones. Disminuye irritaciones. Alivia el enrojecimiento causado por acné. Propiedades antisepticas naturales',
     price1: '$20 MXN',
     grams1: '50g',
+    price2: '$48 MXN',
+    grams2: '120g',
   },
 
   {
