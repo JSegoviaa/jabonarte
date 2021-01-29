@@ -989,6 +989,17 @@ export const productos = [
     price1: '$20 MXN',
     grams1: '50g',
   },
+  {
+    id: 'manzanilla',
+    id2: '',
+    id3: '',
+    type: 'Jabón',
+    title: 'Manzanilla',
+    description:
+      'Estimula la curación de heridas leves e inflamaciones. Disminuye irritaciones. Alivia el enrojecimiento causado por acné. Propiedades antisepticas naturales',
+    price1: '$20 MXN',
+    grams1: '50g',
+  },
 
   {
     id: 'primera-comunion-cruz-comunion',
