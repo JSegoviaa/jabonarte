@@ -24,7 +24,7 @@ const ProductCard = ({
 }) => {
   return (
     <Flip left>
-      <div className="card ms-3 shadow-sm" style={{ maxWidth: '540px' }}>
+      <div className="card ms-3 shadow-sm">
         <div>
           <div>
             <img className="card-img" src={`./assets/${id}.jpg`} alt={title} />

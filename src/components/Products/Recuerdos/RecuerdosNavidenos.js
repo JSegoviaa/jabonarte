@@ -1,32 +1,28 @@
 import React, { useEffect } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import ReactResponsive from 'react-responsive';
+import Sidebar from '../Sidebar';
 import ProductList from '../ProductList';
 
-const RecuerdosNavidenos = ({ history }) => {
+const RecuerdosNavidenos = () => {
   useEffect(() => {
     document.title = 'Jabonarte |  Recuerdos Navideños';
   }, []);
-  const handleReturn = () => {
-    history.goBack();
-  };
+
   return (
     <React.Fragment>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-2">
-            <button
-              onClick={handleReturn}
-              className="btn btn-primary btn-block mt-4"
-            >
-              Regresar a la página anterior
-            </button>
-          </div>
-          <div className="col-md ">
-            <h1 className="sansita">Detalles Navideños</h1>
-            <hr />
+      <ReactResponsive minDeviceWidth={992}>
+        <Sidebar />
+      </ReactResponsive>
+      <h1 className="sansita text-center mt-2">Recuerdos Navideños</h1>
+      <Container>
+        <hr />
+        <Row>
+          <Col>
             <ProductList type="Recuerdos Navideños" />
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </React.Fragment>
   );
 };

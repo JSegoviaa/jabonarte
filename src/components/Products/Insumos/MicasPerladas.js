@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import ReactResponsive from 'react-responsive';
-import ProductList from '../ProductList';
 import Sidebar from '../Sidebar';
+import ProductList from '../ProductList';
 
-const Arcillas = () => {
+const MicasPerladas = () => {
   useEffect(() => {
-    document.title = 'Jabonarte | Arcillas';
+    document.title = 'Jabonarte | Micas Perladas';
   }, []);
 
   return (
@@ -14,12 +14,12 @@ const Arcillas = () => {
       <ReactResponsive minDeviceWidth={992}>
         <Sidebar />
       </ReactResponsive>
-      <h1 className="sansita text-center mt-2">Arcillas</h1>
+      <h1 className="sansita text-center mt-2">Micas perladas</h1>
       <Container>
         <hr />
         <Row>
           <Col>
-            <ProductList type="Arcillas" />
+            <ProductList type="Micas perladas" />
           </Col>
         </Row>
       </Container>
@@ -27,4 +27,4 @@ const Arcillas = () => {
   );
 };
 
-export default Arcillas;
+export default MicasPerladas;

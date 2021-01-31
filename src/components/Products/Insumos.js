@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Productos from '../Productos';
+import Productos from './Productos';
 
 const Insumos = () => {
   useEffect(() => {

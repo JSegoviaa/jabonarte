@@ -27,16 +27,16 @@ import Exfoliantes from '../components/Products/CuidadosPiel/Exfoliantes';
 import JabonesPage from '../components/Products/CuidadosPiel/JabonesPage';
 
 //Productos insumos
-import Insumos from '../components/Products/Insumos/Insumos';
-import AceiteEsencial from '../components/Products/Insumos/AceiteEsencial/AceiteEsencial';
-import BaseGlicerina from '../components/Products/Insumos/BaseGlicerina/BaseGlicerina';
-import ColorantesHidro from '../components/Products/Insumos/ColorantesHidrosolubes/ColorantesHidro';
-import Fragancias from '../components/Products/Insumos/Fragancias/Fragancias';
-import Glitter from '../components/Products/Insumos/Glitter/Glitter';
-import CarbonActivado from '../components/Products/Insumos/CarbonActivado/CarbonActivado';
-import MicasPerladas from '../components/Products/Insumos/MicasPerladas/MicasPerladas';
-import MoldePoli from '../components/Products/Insumos/MoldePolitileno/MoldePoli';
-import PigmentoMigrante from '../components/Products/Insumos/PigmentosMigrantes/PigmentoMigrante';
+import Insumos from '../components/Products/Insumos';
+import AceiteEsencial from '../components/Products/Insumos/AceiteEsencial';
+import BaseGlicerina from '../components/Products/Insumos/BaseGlicerina';
+import ColorantesHidro from '../components/Products/Insumos/ColorantesHidro';
+import Fragancias from '../components/Products/Insumos/Fragancias';
+import Glitter from '../components/Products/Insumos/Glitter';
+import CarbonActivado from '../components/Products/Insumos/CarbonActivado';
+import MicasPerladas from '../components/Products/Insumos/MicasPerladas';
+import MoldePoli from '../components/Products/Insumos/MoldePoli';
+import PigmentoMigrante from '../components/Products/Insumos/PigmentoMigrante';
 
 //Productos recuerdos
 import Recuerdos from '../components/Products/Recuerdos';
