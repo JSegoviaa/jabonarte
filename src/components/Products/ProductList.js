@@ -21,8 +21,8 @@ const ProductList = ({ type }) => {
     <React.Fragment>
       <div className="row">
         {productos.map((producto) => (
-          <div className="col-md-3 mt-4">
-            <ProductCard key={producto.id} {...producto} />
+          <div className="col-6 col-md-3  mt-4" key={producto.id}>
+            <ProductCard {...producto} />
           </div>
         ))}
       </div>

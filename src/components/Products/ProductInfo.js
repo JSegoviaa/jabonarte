@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Button } from 'react-bootstrap';
 import Rotate from 'react-reveal/Rotate';
 
 import { Redirect, useParams } from 'react-router-dom';
@@ -56,6 +57,7 @@ const ProductInfo = ({ history }) => {
                 className="img-thumbnail"
                 alt={title}
               />
+
               {id2 && (
                 <img
                   src={`../../../assets/${id2}.jpg`}
@@ -63,6 +65,7 @@ const ProductInfo = ({ history }) => {
                   alt={title}
                 />
               )}
+
               {id3 && (
                 <img
                   src={`../../../assets/${id3}.jpg`}
@@ -114,9 +117,9 @@ const ProductInfo = ({ history }) => {
                 )}
               </ul>
 
-              <button onClick={handleReturn} className="btn btn-primary">
+              <Button variant="primary" onClick={handleReturn} className="btn ">
                 Regresar a la página anterior
-              </button>
+              </Button>
             </div>
           </Rotate>
         </div>

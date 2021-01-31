@@ -66,7 +66,7 @@ const ProductCard = ({
                   {price7} - {grams7}
                 </p>
               )}
-              <NavLink to={`./${id}`} className="btn btn-primary btn-block">
+              <NavLink to={`./${id}`} className="btn btn-primary">
                 Más información
               </NavLink>
             </div>
