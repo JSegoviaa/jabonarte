@@ -223,6 +223,14 @@ const ProductsNavRes = () => {
 
           <LinkContainer
             onClick={() => setInsumos(!insumos)}
+            to="/molde-de-silicon"
+            className="color-primary"
+          >
+            <p>Molde de Silicón</p>
+          </LinkContainer>
+
+          <LinkContainer
+            onClick={() => setInsumos(!insumos)}
             to="/molde-polietileno"
             className="color-primary"
           >
