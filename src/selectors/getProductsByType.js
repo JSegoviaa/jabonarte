@@ -25,6 +25,7 @@ export const getProductsByType = (type) => {
     'Molde polietileno',
     'Aceite esencial',
     'Carbón activado',
+    'Moldes de silicón',
   ];
 
   if (!validProduct.includes(type)) {

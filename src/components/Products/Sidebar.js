@@ -132,6 +132,11 @@ const Sidebar = () => {
               </LinkContainer>
             </NavDropdown.Item>
             <NavDropdown.Item>
+              <LinkContainer to="/molde-de-silicon" className="color-primary">
+                <p>Molde de Silicón</p>
+              </LinkContainer>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
               <LinkContainer to="/molde-polietileno" className="color-primary">
                 <p>Molde polietileno</p>
               </LinkContainer>

@@ -57,6 +57,7 @@ import Footer from '../components/ui/Footer';
 import Navbar from '../components/ui/Navbar';
 
 import ProductInfo from '../components/Products/ProductInfo';
+import MoldesSilicon from '../components/Products/Insumos/MoldesSilicon';
 
 const AppRouter = () => {
   return (
@@ -64,44 +65,39 @@ const AppRouter = () => {
       <div className="overflow">
         <Navbar />
         <Switch>
+          {/* Pages */}
           <Route exact path="/" component={HomePage} />
           <Route exact path="/productos" component={ProductPage} />
+          <Route exact path="/sobre-nosotros" component={AboutPage} />
+          <Route exact path="/contacto" component={ContactPage} />
+          <Route
+            exact
+            path="/conviertete-en-distribuidor"
+            component={DistPage}
+          />
+          <Route exact path="/cursos" component={CursosPage} />
+
+          {/* Productos cuidado del cabello */}
+          <Route exact path="/cuidado-del-cabello" component={CuidadoCabello} />
+          <Route exact path="/champus" component={ChampusPage} />
           <Route
             exact
             path="/acondicionadores"
             component={AcondicionadoresPage}
           />
-          <Route exact path="/champus" component={ChampusPage} />
+          {/* Productos cuidado de la piel */}
+          <Route exact path="/cuidados-de-la-piel" component={CuidadoPiel} />
           <Route exact path="/jabones" component={JabonesPage} />
           <Route exact path="/arcillas" component={Arcillas} />
-          <Route exact path="/cuidados-de-la-piel" component={CuidadoPiel} />
-          <Route exact path="/cuidado-del-cabello" component={CuidadoCabello} />
+          <Route exact path="/exfoliante" component={Exfoliantes} />
+          <Route exact path="/balsamo-labial" component={BalsamoLabial} />
+
+          {/* Recuerdos */}
           <Route exact path="/recuerdos-para-eventos" component={Recuerdos} />
           <Route exact path="/bautizo" component={Bautizo} />
           <Route exact path="/baby-shower" component={BabyShower} />
           <Route exact path="/boda" component={Boda} />
-          <Route exact path="/balsamo-labial" component={BalsamoLabial} />
-          <Route exact path="/exfoliante" component={Exfoliantes} />
-          <Route exact path="/cursos" component={CursosPage} />
           <Route exact path="/jabones-artesanales" component={JabonArtesanal} />
-          <Route exact path="/insumos" component={Insumos} />
-          <Route exact path="/aceite-esencial" component={AceiteEsencial} />
-          <Route exact path="/base-glicerina" component={BaseGlicerina} />
-          <Route exact path="/carbon-activado" component={CarbonActivado} />
-          <Route exact path="/fragancias" component={Fragancias} />
-          <Route
-            exact
-            path="/pigmentos-migrantes"
-            component={PigmentoMigrante}
-          />
-          <Route exact path="/glitter" component={Glitter} />
-          <Route exact path="/micas-perladas" component={MicasPerladas} />
-          <Route exact path="/molde-polietileno" component={MoldePoli} />
-          <Route
-            exact
-            path="/colorante-hidrosoluble"
-            component={ColorantesHidro}
-          />
           <Route exact path="/dias-de-las-madres" component={DiasMadres} />
           <Route
             exact
@@ -115,13 +111,28 @@ const AppRouter = () => {
             path="/recuerdos-navidenos"
             component={RecuerdosNavidenos}
           />
-          <Route exact path="/sobre-nosotros" component={AboutPage} />
-          <Route exact path="/contacto" component={ContactPage} />
+
+          {/* Insumos */}
+          <Route exact path="/insumos" component={Insumos} />
+          <Route exact path="/aceite-esencial" component={AceiteEsencial} />
+          <Route exact path="/base-glicerina" component={BaseGlicerina} />
+          <Route exact path="/carbon-activado" component={CarbonActivado} />
+          <Route exact path="/fragancias" component={Fragancias} />
           <Route
             exact
-            path="/conviertete-en-distribuidor"
-            component={DistPage}
+            path="/pigmentos-migrantes"
+            component={PigmentoMigrante}
           />
+          <Route exact path="/glitter" component={Glitter} />
+          <Route exact path="/micas-perladas" component={MicasPerladas} />
+          <Route exact path="/molde-polietileno" component={MoldePoli} />
+          <Route exact path="/molde-de-silicon" component={MoldesSilicon} />
+          <Route
+            exact
+            path="/colorante-hidrosoluble"
+            component={ColorantesHidro}
+          />
+
           <Route exact path="/:productoId" component={ProductInfo} />
           <Redirect to="/" />
         </Switch>

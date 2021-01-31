@@ -1631,4 +1631,13 @@ export const productos = [
     price1: '$120 MXN',
     grams1: '1kg',
   },
+  {
+    id: 'moldes-de-corazon',
+    id2: 'moldes-de-corazon-2',
+    id3: 'moldes-de-corazon-3',
+    type: 'Moldes de silicón',
+    title: 'Moldes de silicón',
+    description: '',
+    price1: '',
+  },
 ];
