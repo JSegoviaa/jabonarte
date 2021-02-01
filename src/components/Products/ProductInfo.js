@@ -33,13 +33,6 @@ const ProductInfo = ({ history }) => {
   const {
     id2,
     id3,
-    id4,
-    id5,
-    id6,
-    id7,
-    id8,
-    id9,
-    id10,
     title,
     description,
     price1,
@@ -94,69 +87,6 @@ const ProductInfo = ({ history }) => {
                     />
                   </SwiperSlide>
                 )}
-                {id4 && (
-                  <SwiperSlide>
-                    <img
-                      className="swiper"
-                      src={`../../../assets/${id4}.jpg`}
-                      alt="a"
-                    />
-                  </SwiperSlide>
-                )}
-                {id5 && (
-                  <SwiperSlide>
-                    <img
-                      className="swiper"
-                      src={`../../../assets/${id5}.jpg`}
-                      alt="a"
-                    />
-                  </SwiperSlide>
-                )}
-                {id6 && (
-                  <SwiperSlide>
-                    <img
-                      className="swiper"
-                      src={`../../../assets/${id6}.jpg`}
-                      alt="a"
-                    />
-                  </SwiperSlide>
-                )}
-                {id7 && (
-                  <SwiperSlide>
-                    <img
-                      className="swiper"
-                      src={`../../../assets/${id7}.jpg`}
-                      alt="a"
-                    />
-                  </SwiperSlide>
-                )}
-                {id8 && (
-                  <SwiperSlide>
-                    <img
-                      className="swiper"
-                      src={`../../../assets/${id8}.jpg`}
-                      alt="a"
-                    />
-                  </SwiperSlide>
-                )}
-                {id9 && (
-                  <SwiperSlide>
-                    <img
-                      className="swiper"
-                      src={`../../../assets/${id9}.jpg`}
-                      alt="a"
-                    />
-                  </SwiperSlide>
-                )}
-                {id10 && (
-                  <SwiperSlide>
-                    <img
-                      className="swiper"
-                      src={`../../../assets/${id10}.jpg`}
-                      alt="a"
-                    />
-                  </SwiperSlide>
-                )}
               </Swiper>
             </div>
           </div>
@@ -202,9 +132,15 @@ const ProductInfo = ({ history }) => {
                 )}
               </ul>
 
-              <Button variant="primary" onClick={handleReturn} className="btn ">
-                Regresar a la página anterior
-              </Button>
+              <div className="text-center">
+                <Button
+                  variant="primary"
+                  onClick={handleReturn}
+                  className="btn"
+                >
+                  Regresar a la página anterior
+                </Button>
+              </div>
             </div>
           </Rotate>
         </div>

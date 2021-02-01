@@ -26,7 +26,7 @@ const ProductList = ({ type }) => {
           </div>
         ))}
       </div>
-      <div className="text-center">
+      <div className="text-center mt-5">
         <Button onClick={handleReturn} className="m-2">
           Página anterior
         </Button>
