@@ -45,6 +45,9 @@ body {
   color: #256381 !important;
 }
 
+.fs-13 {
+  font-size: 13px;
+}
 /*banner*/
 .sansita {
   font-family: 'Sansita Swashed', cursive;
@@ -101,6 +104,14 @@ body {
   width: 300px;
 }
 
+.swiper {
+  width: 400px;
+}
+@media (max-width: 430px) {
+  .swiper {
+    width: 310px;
+  }
+}
 .icono {
   width: 100px;
 }

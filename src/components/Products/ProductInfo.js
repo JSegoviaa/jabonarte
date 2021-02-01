@@ -1,9 +1,14 @@
 import React, { useEffect } from 'react';
 import { Button } from 'react-bootstrap';
 import Rotate from 'react-reveal/Rotate';
-
 import { Redirect, useParams } from 'react-router-dom';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import 'swiper/swiper-bundle.css';
+
 import { getProductsById } from '../../selectors/getProductById';
+
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 const ProductInfo = ({ history }) => {
   useEffect(() => {
@@ -28,6 +33,13 @@ const ProductInfo = ({ history }) => {
   const {
     id2,
     id3,
+    id4,
+    id5,
+    id6,
+    id7,
+    id8,
+    id9,
+    id10,
     title,
     description,
     price1,
@@ -51,28 +63,101 @@ const ProductInfo = ({ history }) => {
       <div className="container">
         <div className="row mt-5">
           <div className="col-md-7">
-            <div>
-              <img
-                src={`../../../assets/${productoId}.jpg`}
-                className="img-thumbnail"
-                alt={title}
-              />
-
-              {id2 && (
-                <img
-                  src={`../../../assets/${id2}.jpg`}
-                  className="img-thumbnail"
-                  alt={title}
-                />
-              )}
-
-              {id3 && (
-                <img
-                  src={`../../../assets/${id3}.jpg`}
-                  className="img-thumbnail"
-                  alt={title}
-                />
-              )}
+            <div className="text-center">
+              <Swiper
+                spaceBetween={50}
+                pagination={{ clickable: true }}
+                onSwiper={(swiper) => console.log(swiper)}
+              >
+                <SwiperSlide>
+                  <img
+                    className="swiper"
+                    src={`../../../assets/${productoId}.jpg`}
+                    alt="a"
+                  />
+                </SwiperSlide>
+                {id2 && (
+                  <SwiperSlide>
+                    <img
+                      className="swiper"
+                      src={`../../../assets/${id2}.jpg`}
+                      alt="a"
+                    />
+                  </SwiperSlide>
+                )}
+                {id3 && (
+                  <SwiperSlide>
+                    <img
+                      className="swiper"
+                      src={`../../../assets/${id3}.jpg`}
+                      alt="a"
+                    />
+                  </SwiperSlide>
+                )}
+                {id4 && (
+                  <SwiperSlide>
+                    <img
+                      className="swiper"
+                      src={`../../../assets/${id4}.jpg`}
+                      alt="a"
+                    />
+                  </SwiperSlide>
+                )}
+                {id5 && (
+                  <SwiperSlide>
+                    <img
+                      className="swiper"
+                      src={`../../../assets/${id5}.jpg`}
+                      alt="a"
+                    />
+                  </SwiperSlide>
+                )}
+                {id6 && (
+                  <SwiperSlide>
+                    <img
+                      className="swiper"
+                      src={`../../../assets/${id6}.jpg`}
+                      alt="a"
+                    />
+                  </SwiperSlide>
+                )}
+                {id7 && (
+                  <SwiperSlide>
+                    <img
+                      className="swiper"
+                      src={`../../../assets/${id7}.jpg`}
+                      alt="a"
+                    />
+                  </SwiperSlide>
+                )}
+                {id8 && (
+                  <SwiperSlide>
+                    <img
+                      className="swiper"
+                      src={`../../../assets/${id8}.jpg`}
+                      alt="a"
+                    />
+                  </SwiperSlide>
+                )}
+                {id9 && (
+                  <SwiperSlide>
+                    <img
+                      className="swiper"
+                      src={`../../../assets/${id9}.jpg`}
+                      alt="a"
+                    />
+                  </SwiperSlide>
+                )}
+                {id10 && (
+                  <SwiperSlide>
+                    <img
+                      className="swiper"
+                      src={`../../../assets/${id10}.jpg`}
+                      alt="a"
+                    />
+                  </SwiperSlide>
+                )}
+              </Swiper>
             </div>
           </div>
 

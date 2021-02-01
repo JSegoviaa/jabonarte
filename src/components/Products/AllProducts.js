@@ -15,26 +15,26 @@ const AllProducts = () => {
       <Row>
         {productos.map((producto) => (
           <Flip left key={producto.id}>
-            <div className="col-md-3 my-2">
+            <div className="col-6 col-md-3 my-2">
               <div className="card ms-3 shadow-sm">
                 <img
-                  width="150px"
-                  height="250px"
                   className="card-img"
                   src={`./assets/${producto.id}.jpg`}
                   alt={producto.title}
                 />
 
                 <div className="card-body">
-                  <h5 className="card-title text-center">{producto.title}</h5>
-                  <p className="card-text text-center">{producto.type}</p>
+                  <h6 className="card-title text-center">{producto.title}</h6>
+                  <p className="card-text text-center fs-13">{producto.type}</p>
 
-                  <NavLink
-                    to={`./${producto.id}`}
-                    className="btn btn-primary btn-block"
-                  >
-                    Más información
-                  </NavLink>
+                  <div className="text-center">
+                    <NavLink
+                      to={`./${producto.id}`}
+                      className="btn btn-primary"
+                    >
+                      Más información
+                    </NavLink>
+                  </div>
                 </div>
               </div>
             </div>
