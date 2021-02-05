@@ -278,7 +278,6 @@ export const productos = [
   },
   {
     id: 'bautizo-mosaico',
-
     type: 'Bautizo',
     title: 'Cruz Mosaico',
     description:
@@ -288,7 +287,6 @@ export const productos = [
   },
   {
     id: 'bautizo-cruz',
-
     type: 'Bautizo',
     title: 'Cruz',
     description:
@@ -298,7 +296,6 @@ export const productos = [
   },
   {
     id: 'bautizo-angelito-doble-capa',
-
     type: 'Bautizo',
     title: 'Angelito doble capa',
     description:
@@ -308,7 +305,6 @@ export const productos = [
   },
   {
     id: 'bautizo-cruz-avena',
-
     type: 'Bautizo',
     title: 'Cruz Avena',
     description:
@@ -318,7 +314,6 @@ export const productos = [
   },
   {
     id: 'bautizo-angelito',
-
     type: 'Bautizo',
     title: 'Angelito',
     description:
@@ -328,7 +323,6 @@ export const productos = [
   },
   {
     id: 'bautizo-angelita',
-
     type: 'Bautizo',
     title: 'Angelita',
     description:
@@ -338,7 +332,6 @@ export const productos = [
   },
   {
     id: 'boda-gel-antibacterial-piramidal',
-
     type: 'Boda',
     title: 'Gel antibacterial piramidal',
     description:
@@ -349,7 +342,6 @@ export const productos = [
   {
     id: 'boda-girasoles',
     id2: 'boda-girasoles-2',
-
     type: 'Boda',
     title: 'Girasoles',
     description:
@@ -370,7 +362,6 @@ export const productos = [
   },
   {
     id: 'boda-corazon-glitter',
-
     type: 'Boda',
     title: 'Corazón glitter',
     description:
@@ -381,7 +372,6 @@ export const productos = [
   {
     id: 'boda-doble-corazon-encapsulado',
     id2: 'boda-doble-corazon-encapsulado-2',
-
     type: 'Boda',
     title: 'Doble corazón encapsulado',
     description:
@@ -392,7 +382,6 @@ export const productos = [
   },
   {
     id: 'boda-doble-corazon-avena',
-
     type: 'Boda',
     title: 'Doble corazón avena',
     description:
@@ -402,7 +391,6 @@ export const productos = [
   },
   {
     id: 'boda-ractangular-avena',
-
     type: 'Boda',
     title: 'Rectangular avena',
     description:
@@ -412,7 +400,6 @@ export const productos = [
   },
   {
     id: 'boda-pack-gel-jabon',
-
     type: 'Boda',
     title: 'Pack gel y jabón',
     description:
@@ -421,7 +408,6 @@ export const productos = [
   },
   {
     id: 'boda-corazon',
-
     type: 'Boda',
     title: 'Corazón',
     description:
@@ -432,7 +418,6 @@ export const productos = [
 
   {
     id: 'boda-crema-corporal',
-
     type: 'Boda',
     title: 'Crema corporal',
     description: 'Crema corporal personalizada de acuerdo al evento.',
@@ -441,7 +426,6 @@ export const productos = [
   },
   {
     id: 'boda-marinos',
-
     type: 'Boda',
     title: 'Marinos',
     description:
@@ -462,7 +446,6 @@ export const productos = [
   {
     id: 'boda-corazon-marmoleado',
     id2: 'boda-corazon-marmoleado-2',
-
     type: 'Boda',
     title: 'Corazón Marmoleado',
     description:
@@ -480,30 +463,19 @@ export const productos = [
       'Los colores y aromas son a elegir. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 8cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$22 MXN',
     grams1: '75g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'boda-margaritas',
-    id2: '',
-    id3: '',
     type: 'Boda',
     title: 'Margaritas',
     description:
       'Colores y aromas a elegir. Medidas: 6cm de diámetro. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$16 MXN',
     grams1: '50g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'champu-menta-romero',
     id2: 'champu-menta-romero-2',
-    id3: '',
     type: 'Champú',
     title: 'Menta-Romero',
     description:
@@ -517,8 +489,6 @@ export const productos = [
   },
   {
     id: 'champu-lavanda',
-    id2: '',
-    id3: '',
     type: 'Champú',
     title: 'Lavanda',
     description:
@@ -532,8 +502,6 @@ export const productos = [
   },
   {
     id: 'champu-coco-karite',
-    id2: '',
-    id3: '',
     type: 'Champú',
     title: 'Coco-Karite',
     description:
@@ -547,8 +515,6 @@ export const productos = [
   },
   {
     id: 'champu-coco-limon',
-    id2: '',
-    id3: '',
     type: 'Champú',
     title: 'Coco-Limón',
     description:
@@ -562,8 +528,6 @@ export const productos = [
   },
   {
     id: 'champu-naranja-bergamota',
-    id2: '',
-    id3: '',
     type: 'Champú',
     title: 'Naranja-Bergamota',
     description:
@@ -577,8 +541,6 @@ export const productos = [
   },
   {
     id: 'champu-cacao-vainilla',
-    id2: '',
-    id3: '',
     type: 'Champú',
     title: 'Cacao-Vainilla',
     description:
@@ -592,8 +554,6 @@ export const productos = [
   },
   {
     id: 'champu-geranio',
-    id2: '',
-    id3: '',
     type: 'Champú',
     title: 'Geranio',
     description:
@@ -607,264 +567,158 @@ export const productos = [
   },
   {
     id: 'dias-de-las-madres-ramo-de-rosas',
-    id2: '',
-    id3: '',
     type: 'Días de las madres',
     title: 'Ramo de rosas',
     description:
       'Ramo con 11 rosas de jabón. Decorada con naturaleza artificial y con una cubetita de base. Los colores y aromas son a elegir. Cada rosa mide 6cm de alto y pesa 45 gramos. ',
     price1: '250',
-    grams1: '',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'dias-de-las-madres-caja-de-rosas',
-    id2: '',
-    id3: '',
     type: 'Días de las madres',
     title: 'Caja 9 rosas',
     description:
       'Caja con 9 rosas de jabón. Colores y aromas a elegir. Cada rosa mide 6cm de alto y pesa 45 gramos.',
     price1: '$150 MXN',
-    grams1: '',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'dias-de-las-madres-caja-de-15-rosas',
-    id2: '',
-    id3: '',
     type: 'Días de las madres',
     title: 'Caja 15 rosas',
     description:
       'Caja con 9 rosas de jabón. Colores y aromas a elegir. Cada rosa mide 6cm de alto y pesa 45 gramos.',
     price1: '$250 MXN',
-    grams1: '',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'dias-de-las-madres-pack-floral',
-    id2: '',
-    id3: '',
     type: 'Días de las madres',
     title: 'Guía floral',
     description:
       'Caja con 3 jabones terapéuticos: Lavanda, avena miel y Rosas&colágeno. Medidas: 8cm de diámetro. Peso: 100 gramos.',
     price1: '$150',
     grams1: '3 jabones',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'fiestas-infantiles-minidinos',
     id2: 'fiestas-infantiles-minidinos-2',
-    id3: '',
     type: 'Fiestas Infantiles',
     title: 'MiniDinos',
     description:
       'Son 4 dinos por bolsita. Colores y aromas a elegir. Se entregan en bolsita de celofán con tarjetita personalizada. Cada dino mide 3cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$12 MXN',
     grams1: '4 piezas',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'fiestas-infantiles-paw-patrol',
-    id2: '',
-    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Paw Patrol',
     description:
       'Una huellita y un huesito. Los colores y aromas son a elegir. Medidas:Huellita: 4cm, huesito: 5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$15 MXN',
     grams1: '40g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'fiestas-infantiles-babyshark',
-    id2: '',
-    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Baby Shark',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsitas de celofán con listón y tarjetita personalizada. Medidas:10cm x 7cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$24 MXN',
     grams1: '80g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'fiestas-infantiles-velociraptor',
-    id2: '',
-    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Velociraptor',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsitas de celofán con listón y tarjetita personalizada. Medidas: 8cm x 6.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$15 MXN',
     grams1: '45g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
 
   {
     id: 'fiestas-infantiles-coronitas',
-    id2: '',
-    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Coronitas',
     description:
       'Colores y aromas a elegir. Se entregan en bolsita de celofán con listón y tarjetita personalizada. Medidas: 4cm x 3cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza. ',
     price1: '$8 MXN',
     grams1: '15g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'fiestas-infantiles-cola-de-sirena',
-    id2: '',
-    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Cola de sirena encapsulada',
     description:
       'Cola de sirena encapsulada con perlitas. Los colores son a elegir. Medidas: 8cm de alto. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$25 MXN',
     grams1: '50g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'fiestas-infantiles-olaf',
-    id2: '',
-    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Olaf',
     description:
       ' Colores y aromas a elegir. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas:8cm x 6cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza. ',
     price1: '$16 MXN',
     grams1: '40g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'fiestas-infantiles-huellitas',
-    id2: '',
-    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Huellitas',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 4cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$12 MXN',
     grams1: '30g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'fiestas-infantiles-mickey-mouse',
-    id2: '',
-    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Mickey Mouse',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 6cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$15 MXN',
     grams1: '50g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'fiestas-infantiles-paletitas',
-    id2: '',
-    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Paletitas',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 6cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$16 MXN',
     grams1: '45g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'fiestas-infantiles-frida',
-    id2: '',
-    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Frida',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 5.5cm de diámetro. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$20 MXN',
     grams1: '55g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'fiestas-infantiles-unicornios',
-    id2: '',
-    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Unicornios',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 8cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$24 MXN',
     grams1: '70g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'fiestas-infantiles-flor-personalizada',
-    id2: '',
-    id3: '',
     type: 'Fiestas Infantiles',
     title: 'Flor personalizada',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 6cm de diámetro. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$17 MXN',
     grams1: '60g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'jabon-avena-miel',
-    id2: '',
-    id3: '',
     type: 'Jabón',
     title: 'Avena/Miel',
     description:
@@ -876,8 +730,6 @@ export const productos = [
   },
   {
     id: 'jabon-arcilla-rosa-mosqueta',
-    id2: '',
-    id3: '',
     type: 'Jabón',
     title: 'Arcilla Rosa/Rosa Mosqueta',
     description:
@@ -889,8 +741,6 @@ export const productos = [
   },
   {
     id: 'jabon-bicarbonato',
-    id2: '',
-    id3: '',
     type: 'Jabón',
     title: 'Bicarbonato',
     description:
@@ -903,7 +753,6 @@ export const productos = [
   {
     id: 'jabon-cafe',
     id2: 'jabon-cafe-2',
-    id3: '',
     type: 'Jabón',
     title: 'Café',
     description:
@@ -915,8 +764,6 @@ export const productos = [
   },
   {
     id: 'jabon-carbon-activado',
-    id2: '',
-    id3: '',
     type: 'Jabón',
     title: 'Carbón activado',
     description:
@@ -928,8 +775,6 @@ export const productos = [
   },
   {
     id: 'jabon-coco',
-    id2: '',
-    id3: '',
     type: 'Jabón',
     title: 'Coco',
     description:
@@ -941,8 +786,6 @@ export const productos = [
   },
   {
     id: 'jabon-lavanda',
-    id2: '',
-    id3: '',
     type: 'Jabón',
     title: 'Lavanda',
     description:
@@ -954,8 +797,6 @@ export const productos = [
   },
   {
     id: 'jabon-rosa-mosqueta-miel',
-    id2: '',
-    id3: '',
     type: 'Jabón',
     title: 'Rosa Mosqueta/Miel',
     description:
@@ -967,8 +808,6 @@ export const productos = [
   },
   {
     id: 'jabon-rosa-colageno',
-    id2: '',
-    id3: '',
     type: 'Jabón',
     title: 'Rosas y Colágeno',
     description:
@@ -980,8 +819,6 @@ export const productos = [
   },
   {
     id: 'jabon-curcuma-naranja',
-    id2: '',
-    id3: '',
     type: 'Jabón',
     title: 'Cúrcuma-Naranja',
     description:
@@ -991,8 +828,6 @@ export const productos = [
   },
   {
     id: 'manzanilla',
-    id2: '',
-    id3: '',
     type: 'Jabón',
     title: 'Manzanilla',
     description:
@@ -1005,99 +840,60 @@ export const productos = [
 
   {
     id: 'primera-comunion-cruz-comunion',
-    id2: '',
-    id3: '',
     type: 'Primera Comunión',
     title: 'Cruz Comunión',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 10cm x 7cm. Precios de mayoreo apartir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
     price1: '$15 MXN',
     grams1: '45g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
 
   {
     id: 'recuerdo-navideno-toalla-jabon',
     id2: 'recuerdo-navideno-toalla-jabon-2',
-    id3: '',
     type: 'Recuerdos Navideños',
     title: 'Toalla con jabón',
     description:
       'Toalla bordada con jabón navideño. Medidas de la toalla: 30cmx30cm 100% algodón. Se entregan en bolsa de celofán con listón y tarjeta navideña.',
     price1: '$60 MXN',
-    grams1: '',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'recuerdo-navideno-canastas-navidenas',
-    id2: '',
-    id3: '',
     type: 'Recuerdos Navideños',
     title: 'Canastas Navideñas',
     description:
       'Incluyen 5 jabones navideños: 1 grande, 3 medianos, 1 pequeño. Se entrega en bolsa de celofán con tarjeta navideña.  ',
     price1: '$120 MXN',
-    grams1: '',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'recuerdo-navideno-navidenos',
-    id2: '',
-    id3: '',
     type: 'Recuerdos Navideños',
     title: 'Navideños',
     description:
       'Jabón navideño, modelo a elegir: Santa Claus, Bota navideña, Árbol, Campana. Medidas: 6.5cm. Se entregan en bolsa de celofán con listón y tarjeta navideña.',
     price1: '$22 MXN/cu',
     grams1: '65g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'recuerdo-navideno-nacimiento',
     id2: 'recuerdo-navideno-nacimiento-2',
-    id3: '',
     type: 'Recuerdos Navideños',
     title: 'Nacimiento',
     description:
       'Caja con 5 jabones, decorada con biruta. Se entrega envuelta en bolsa de colafán con listón y tarjeta navideña.',
     price1: '$125 MXN',
-    grams1: '',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'recuerdo-navideno-renos',
-    id2: '',
-    id3: '',
     type: 'Recuerdos Navideños',
     title: 'Renos',
     description:
       'Jabones navideños. Se entregan en bolsa de celofán con listón y tarjeta navideña. ',
     price1: 'Reno $14 MXN',
     grams1: 'Árbol de Navidad $22 MXN',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'recuerdo-navideno-santa-claus',
-    id2: '',
-    id3: '',
     type: 'Recuerdos Navideños',
     title: 'Santa Claus',
     description:
@@ -1106,38 +902,23 @@ export const productos = [
     grams1: 'Santa Claus',
     price2: '$16',
     grams2: 'Flor de nochebuena',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'recuerdo-navideno-caja-navidena',
-    id2: '',
-    id3: '',
     type: 'Recuerdos Navideños',
     title: 'Caja navideña',
     description:
       'La caja incluye 11 jabones: 3 jabones grandes, 4 jabones medianos, 4 jabones chicos. Se entrega en bolsa de celofán con listón y tarjeta navideña.',
     price1: '$250 MXN',
-    grams1: '',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'recuerdo-navideno-borrego-buena-fortuna',
-    id2: '',
-    id3: '',
     type: 'Recuerdos Navideños',
     title: 'Borrego Buena Fortuna',
     description:
       'Jabón de borreguito. Se entrega en bolsita de celofán con listón y tarjeta navideña.',
     price1: '$40 MXN',
     grams1: '100g',
-    price2: '',
-    grams2: '',
-    price3: '',
-    grams3: '',
   },
   {
     id: 'xv-años-tulipanes',
