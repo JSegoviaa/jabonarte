@@ -1761,14 +1761,14 @@ export const productos = [
     price1: '$130 MXN',
     grams1: '7cm x 3.5cm x 3.5cm',
   },
-  {
-    id: 'moldes-de-silicon-22',
-    type: 'Moldes de silicón',
-    title: 'Flor top',
-    description: '',
-    price1: '$120 MXN',
-    grams1: '7.5cm',
-  },
+  // {
+  //   id: 'moldes-de-silicon-22',
+  //   type: 'Moldes de silicón',
+  //   title: 'Flor top',
+  //   description: '',
+  //   price1: '$120 MXN',
+  //   grams1: '7.5cm',
+  // },
   {
     id: 'moldes-de-silicon-23',
     type: 'Moldes de silicón',
