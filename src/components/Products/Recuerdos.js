@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
-import { Container, ListGroup } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { recuerdosList } from '../../data/recuerdosList';
 
@@ -13,15 +13,18 @@ const Recuerdos = () => {
 
   return (
     <Container>
-      <ListGroup variant="flush" className="text-center my-5">
+      <Row variant="flush" className="text-center my-5">
         {recuerdosProd.map(({ id, title }) => (
-          <ListGroup.Item className="a" key={id}>
-            <NavLink className="a color-primary" to={`./${id}`}>
-              {title}
-            </NavLink>
-          </ListGroup.Item>
+          <Col xs={6} md={3} className="a" key={id}>
+            <Card className="my-2">
+              <Card.Img src={require(`../../assets/${id}.jpg`)} />
+              <NavLink className="a color-primary my-3" to={`./${id}`}>
+                {title}
+              </NavLink>
+            </Card>
+          </Col>
         ))}
-      </ListGroup>
+      </Row>
     </Container>
   );
 };

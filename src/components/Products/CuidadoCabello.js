@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { shampooList } from '../../data/shampooList';
-import img from '../../assets/acondicionadores.jpg';
 
 const CuidadoCabello = () => {
   useEffect(() => {
@@ -13,14 +12,13 @@ const CuidadoCabello = () => {
 
   return (
     <Container>
-      <Row className="text-center">
+      <Row variant="flush" className="text-center my-5">
         {shampooProd.map(({ id, title }) => (
-          <Col md={3} xs={6} className="mt-5" key={id}>
-            <Card>
-              <Card.Img src={img} />
-              <Card.Title>{title}</Card.Title>
-              <NavLink className="color-primary a" to={`/${id}`}>
-                Ir a todos los productos de {title}
+          <Col xs={6} md={3} className="a" key={id}>
+            <Card className="my-2">
+              <Card.Img src={require(`../../../public/assets/${id}.jpg`)} />
+              <NavLink className="a color-primary my-3" to={`./${id}`}>
+                {title}
               </NavLink>
             </Card>
           </Col>
