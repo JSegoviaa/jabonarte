@@ -10,7 +10,7 @@ import Testimonials from '../components/Home/Testimonials';
 
 const HomePage = () => {
   useEffect(() => {
-    document.title = 'Jabonarte | Cosmética Natural';
+    document.title = 'Jabonarte | Cosmética Natural ';
   }, []);
 
   return (
