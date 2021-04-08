@@ -208,7 +208,7 @@ export const productos = [
     title: 'Redondo personalizado',
     description:
       'Se puede personalizar con una imagen y el nombre del bebé. Colores y aromas a elegir. Se entregan en bolsa de celofán con listón. Medidas: 5cm de diámetro. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$15 MXN',
+    price1: '$17 MXN',
     grams1: '45g',
   },
   {
@@ -226,7 +226,7 @@ export const productos = [
     title: 'Pack gel y jabón',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Gel de 30ml y jabón de 15 gramos. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '',
+    price1: '$23 MXN',
     grams1: '',
   },
 
@@ -245,7 +245,7 @@ export const productos = [
     title: 'Redondo con cruz',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 5.5cm de diámetro. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$15 MXN',
+    price1: '$17 MXN',
     grams1: '45g',
   },
   {
@@ -254,7 +254,7 @@ export const productos = [
     title: 'Concha',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 6cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$15 MXN',
+    price1: '$17 MXN',
     grams1: '50g',
   },
   {
@@ -263,7 +263,7 @@ export const productos = [
     title: 'Redondo personalizado',
     description:
       'El jabón se personaliza con el nombre del bebé. Colores y aromas a elegir. Se entregan en bolsa de celofán con listón. Medidas: 5.5cm de diámetro. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$16 MXN',
+    price1: '$17 MXN',
     grams1: '50g',
   },
   {
@@ -273,7 +273,7 @@ export const productos = [
     title: 'Cruz doble capa',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 8cm x 6.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$16 MXN',
+    price1: '$18 MXN',
     grams1: '60g',
   },
   {
@@ -282,7 +282,7 @@ export const productos = [
     title: 'Cruz Mosaico',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 8cm x 6.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$16 MXN',
+    price1: '$18 MXN',
     grams1: '60g',
   },
   {
@@ -291,7 +291,7 @@ export const productos = [
     title: 'Cruz',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas:8cm x 6.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$16 MXN',
+    price1: '$18 MXN',
     grams1: '60g',
   },
   {
@@ -300,7 +300,7 @@ export const productos = [
     title: 'Angelito doble capa',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Medidas: 8cm x 6.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$16 MXN',
+    price1: '$18 MXN',
     grams1: '60g',
   },
   {
