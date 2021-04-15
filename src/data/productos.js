@@ -226,7 +226,7 @@ export const productos = [
     title: 'Pack gel y jabón',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Gel de 30ml y jabón de 15 gramos. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$23 MXN',
+    price1: '$32 MXN',
     grams1: '',
   },
 
@@ -357,7 +357,7 @@ export const productos = [
     title: 'Corazón personalizado',
     description:
       'Se personaliza con los nombres de los novios. Los colores y aromas son a elegir. Se entregan en bolsita de celofán con listón. Medidas: 5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$15 MXN',
+    price1: '$17 MXN',
     grams1: '50g',
   },
   {
@@ -366,7 +366,7 @@ export const productos = [
     title: 'Corazón glitter',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$15 MXN',
+    price1: '$17 MXN',
     grams1: '50g',
   },
   {
@@ -377,7 +377,7 @@ export const productos = [
     description:
       'Los colores y aromas son a elegir. Se entrega en tul con listón, rosita y tarjetita personalizada. Medidas: 5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
 
-    price1: '$17 MXN',
+    price1: '$18 MXN',
     grams1: '50g',
   },
   {
@@ -605,7 +605,7 @@ export const productos = [
     title: 'MiniDinos',
     description:
       'Son 4 dinos por bolsita. Colores y aromas a elegir. Se entregan en bolsita de celofán con tarjetita personalizada. Cada dino mide 3cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$12 MXN',
+    price1: '$15 MXN',
     grams1: '4 piezas',
   },
   {
@@ -632,7 +632,7 @@ export const productos = [
     title: 'Velociraptor',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsitas de celofán con listón y tarjetita personalizada. Medidas: 8cm x 6.5cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$15 MXN',
+    price1: '$16 MXN',
     grams1: '45g',
   },
 
@@ -678,7 +678,7 @@ export const productos = [
     title: 'Mickey Mouse',
     description:
       'Los colores y aromas son a elegir. Se entrega en bolsita de celofán con listón y tarjetita personalizada. Medidas: 6cm. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$15 MXN',
+    price1: '$18 MXN',
     grams1: '50g',
   },
   {
