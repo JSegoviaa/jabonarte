@@ -226,7 +226,7 @@ export const productos = [
     title: 'Pack gel y jabón',
     description:
       'Colores y aromas a elegir. Se entregan en bolsa de celofán con listón y tarjetita personalizada. Gel de 30ml y jabón de 15 gramos. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$32 MXN',
+    price1: '$23 MXN',
     grams1: '',
   },
 
@@ -404,7 +404,7 @@ export const productos = [
     title: 'Pack gel y jabón',
     description:
       'Gel antibacterial y jabón de corazón de 50 gramos. Se entregan en bolsita de celofán con listón y tarjetita personalizada. Precios de mayoreo a partir de 20 piezas. *Por la contingencia se están manejando precios de mayoreo desde 1 pieza.',
-    price1: '$28 MXN',
+    price1: '$32 MXN',
   },
   {
     id: 'boda-corazon',
