@@ -1409,8 +1409,10 @@ export const productos = [
     type: 'Carbón activado',
     title: 'Carbón Activado',
     description: '',
-    price1: '$120 MXN',
-    grams1: '1kg',
+    price1: '$85 MXN',
+    grams1: '500g',
+    price2: '$140 MXN',
+    grams2: '1kg',
   },
 
   // {
