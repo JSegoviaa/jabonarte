@@ -723,9 +723,9 @@ export const productos = [
     title: 'Avena/Miel',
     description:
       'Nutre, limpia e hidrata. Eficaz contra el acné. Elimina células muertas e impurezas. Destapa poros y mejora apariencias. Propiedades antibacterianas. Ideal para piel sensible y delicada.',
-    price1: '$20 MXN',
+    price1: '$25 MXN',
     grams1: '50g',
-    price2: '$48 MXN',
+    price2: '$54 MXN',
     grams2: '120g',
   },
   {
@@ -745,9 +745,9 @@ export const productos = [
     title: 'Bicarbonato',
     description:
       'Exfoliante suave. Elimina gérmenes. Elimina exceso de grasa. Calmante de acné y mal olor. Equilibra el ph de la piel. Purifica y suaviza. ',
-    price1: '$20 MXN',
+    price1: '$25 MXN',
     grams1: '50g',
-    price2: '$48 MXN',
+    price2: '$54 MXN',
     grams2: '120g',
   },
   {
@@ -757,9 +757,9 @@ export const productos = [
     title: 'Café',
     description:
       'Exfoliante. Elimina toxinas y grasas. Remedio contra la celulitis. Piel más firme y radiante. Antioxidante.',
-    price1: '$20 MXN',
+    price1: '$25 MXN',
     grams1: '50g',
-    price2: '$48 MXN',
+    price2: '$54 MXN',
     grams2: '120g',
   },
   {
@@ -768,9 +768,9 @@ export const productos = [
     title: 'Carbón activado',
     description:
       'Desintoxica la piel. Limpia poros profundamente. Elimina el acné y puntos negros. Afina poros y reduce manchas. ideal para piel grasa.',
-    price1: '$20 MXN',
+    price1: '$25 MXN',
     grams1: '50g',
-    price2: '$48 MXN',
+    price2: '$54 MXN',
     grams2: '120g',
   },
   {
@@ -779,9 +779,9 @@ export const productos = [
     title: 'Coco',
     description:
       'Antibacterial y antifúngico. Limpia las impurezas y la grasa. Anti acné natural. Promueve la cicatrización. Ideal para hidratar la piel. ',
-    price1: '$20 MXN',
+    price1: '$25 MXN',
     grams1: '50g',
-    price2: '$48 MXN',
+    price2: '$54 MXN',
     grams2: '120g',
   },
   {
@@ -790,9 +790,9 @@ export const productos = [
     title: 'Lavanda',
     description:
       'Relajante. Antiacné. Calmante. Antibacteriano. Antiinflamatorio. Hidratante.',
-    price1: '$20 MXN',
+    price1: '$25 MXN',
     grams1: '50g',
-    price2: '$48 MXN',
+    price2: '$54 MXN',
     grams2: '120g',
   },
   {
@@ -823,7 +823,7 @@ export const productos = [
     title: 'Cúrcuma-Naranja',
     description:
       'Antiinflamatorio. Eficaz contra el acné. Unifica el tono de la piel. Ideal para piel delicada.',
-    price1: '$20 MXN',
+    price1: '$25 MXN',
     grams1: '50g',
   },
   {
@@ -832,9 +832,9 @@ export const productos = [
     title: 'Manzanilla',
     description:
       'Estimula la curación de heridas leves e inflamaciones. Disminuye irritaciones. Alivia el enrojecimiento causado por acné. Propiedades antisepticas naturales',
-    price1: '$20 MXN',
+    price1: '$25 MXN',
     grams1: '50g',
-    price2: '$48 MXN',
+    price2: '$54 MXN',
     grams2: '120g',
   },
 
@@ -1723,14 +1723,14 @@ export const productos = [
     price1: '$140 MXN',
     grams1: '5cm x 4cm',
   },
-  {
-    id: 'moldes-de-silicon-39',
-    type: 'Moldes de silicón',
-    title: 'Masajeador',
-    description: '',
-    price1: '$150 MXN',
-    grams1: '9cm x 6cm',
-  },
+  // {
+  //   id: 'moldes-de-silicon-39',
+  //   type: 'Moldes de silicón',
+  //   title: 'Masajeador',
+  //   description: '',
+  //   price1: '$150 MXN',
+  //   grams1: '9cm x 6cm',
+  // },
   {
     id: 'moldes-de-silicon-40',
     type: 'Moldes de silicón',
@@ -1747,14 +1747,14 @@ export const productos = [
   //   price1: '$70 MXN',
   //   grams1: '2cm x 1.5cm',
   // },
-  {
-    id: 'moldes-de-silicon-42',
-    type: 'Moldes de silicón',
-    title: 'Panditas',
-    description: '',
-    price1: '$85 MXN',
-    grams1: '2cm x 1cm',
-  },
+  // {
+  //   id: 'moldes-de-silicon-42',
+  //   type: 'Moldes de silicón',
+  //   title: 'Panditas',
+  //   description: '',
+  //   price1: '$85 MXN',
+  //   grams1: '2cm x 1cm',
+  // },
 
   // {
   //   id: 'moldes-de-silicon-46',
