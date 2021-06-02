@@ -1544,14 +1544,14 @@ export const productos = [
     grams1: '6cm  x 5.5cm x 2cm',
   },
 
-  {
-    id: 'moldes-de-silicon-10',
-    type: 'Moldes de silicón',
-    title: 'Baby shower',
-    description: '',
-    price1: '$140 MXN',
-    grams1: '7cm x 6cm x 3cm',
-  },
+  // {
+  //   id: 'moldes-de-silicon-10',
+  //   type: 'Moldes de silicón',
+  //   title: 'Baby shower',
+  //   description: '',
+  //   price1: '$140 MXN',
+  //   grams1: '7cm x 6cm x 3cm',
+  // },
   // {
   //   id: 'moldes-de-silicon-11',
   //   type: 'Moldes de silicón',
