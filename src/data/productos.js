@@ -1586,14 +1586,14 @@ export const productos = [
     price1: '$130 MXN',
     grams1: '7cm x 3.5cm x 3.5cm',
   },
-  // {
-  //   id: 'moldes-de-silicon-22',
-  //   type: 'Moldes de silicón',
-  //   title: 'Abeja hexagonal',
-  //   description: '',
-  //   price1: '$150 MXN',
-  //   grams1: '2cm',
-  // },
+  {
+    id: 'moldes-de-silicon-22',
+    type: 'Moldes de silicón',
+    title: 'Abeja hexagonal',
+    description: '',
+    price1: '$150 MXN',
+    grams1: '2cm',
+  },
   // {
   //   id: 'moldes-de-silicon-23',
   //   type: 'Moldes de silicón',
@@ -1747,14 +1747,14 @@ export const productos = [
   //   price1: '$70 MXN',
   //   grams1: '2cm x 1.5cm',
   // },
-  // {
-  //   id: 'moldes-de-silicon-42',
-  //   type: 'Moldes de silicón',
-  //   title: 'Panditas',
-  //   description: '',
-  //   price1: '$85 MXN',
-  //   grams1: '2cm x 1cm',
-  // },
+  {
+    id: 'moldes-de-silicon-42',
+    type: 'Moldes de silicón',
+    title: 'Panditas',
+    description: '',
+    price1: '$85 MXN',
+    grams1: '2cm x 1cm',
+  },
 
   // {
   //   id: 'moldes-de-silicon-46',
