@@ -1,31 +1,40 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import { Container, Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
+import { Helmet } from 'react-helmet';
+
 import DistForm from '../components/Forms/DistForm';
 
 const DistPage = () => {
-  useEffect(() => {
-    document.title = 'Jabonarte | Conviértete en distribuidor';
-  }, []);
   return (
-    <React.Fragment>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta
+          name="Jabonarte"
+          content="Jabones artesanales 100% origen natural, biodegradables e hipoalergénicos, ideal para recuerdos de tus eventos sociales o detalles en fechas especiales"
+        />
+        <title>Jabonarte | Conviértete en distribuidor</title>
+      </Helmet>
+
       <div className="contact">
-        <div className="container">
-          <div className="row">
+        <Container>
+          <Row>
             <Fade top>
               <h1 className="w-100 f-sizeXXBig text-center sansita">
                 Conviértete en distribuidor
               </h1>
             </Fade>
-          </div>
-          <div className="row justify-content-center pt-4 pb-4">
+          </Row>
+          <Row className="justify-content-center pt-4 pb-4">
             <div className="col-8 m-auto"></div>
-          </div>
-        </div>
+          </Row>
+        </Container>
       </div>
       <Fade bottom>
         <DistForm />
       </Fade>
-    </React.Fragment>
+    </>
   );
 };
 

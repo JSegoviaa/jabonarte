@@ -1,52 +1,39 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { Button, Container, Form } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import Swal from 'sweetalert2';
+import { useForm } from '../../hooks/useForm';
 
-const Form = ({ contacto }) => {
-  const history = useHistory();
+const Formulario = ({ contacto }) => {
+  const [isPending, setIsPending] = useState(false);
 
-  const [contact, setContact] = useState({
+  const [formValues, handleInputChange, reset] = useForm({
     name: '',
-    email: '',
-    subject: 'Jabonarte - Contacto',
-    honeypot: '', // if any value received in this field, form submission will be ignored.
-    message: '',
-    replyTo: '@', // this will set replyTo of email to email address entered in the form
-    accessKey: '4fce6935-927d-4ffc-af62-b1ef977e97f2', // get your access key from https://www.staticforms.xyz
-  });
-
-  const [response, setResponse] = useState({
-    type: '',
+    replyTo: '',
     message: '',
   });
 
-  const handleChange = (e) =>
-    setContact({ ...contact, [e.target.name]: e.target.value });
+  const { name, replyTo, message } = formValues;
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
+    const contact = { name, replyTo, message };
+    setIsPending(true);
     try {
-      const res = await fetch('https://api.staticforms.xyz/submit', {
+      fetch(`${process.env.REACT_APP_REST_API}/emails`, {
         method: 'POST',
         body: JSON.stringify(contact),
         headers: { 'Content-Type': 'application/json' },
-      });
-
-      const json = await res.json();
-
-      if (json.success) {
+      }).then(() => {
+        setIsPending(false);
         Swal.fire({
+          position: 'center',
           icon: 'success',
           title: 'Su mensaje ha sido enviado',
-          text: 'Gracias por ponerse en contacto con nosotros',
+          showConfirmButton: false,
+          timer: 1500,
         });
-      } else {
-        setResponse({
-          type: 'error',
-          message: json.message,
-        });
-      }
+      });
     } catch (e) {
       console.log('An error occurred', e);
       Swal.fire({
@@ -55,98 +42,79 @@ const Form = ({ contacto }) => {
         text: 'Ha ocurrido un error, intente de nuevo por favor',
       });
     }
-    history.push('/');
+    reset();
   };
+
   return (
-    <React.Fragment>
+    <>
       <Fade left>
         <h1 className="container text-center sansita mt-5">{contacto} </h1>
       </Fade>
+
       <Fade right>
-        <form
-          className="container mb-5"
-          action="https://api.staticforms.xyz/submit"
-          method="post"
-          onSubmit={handleSubmit}
-        >
-          <div
-            className={
-              response.type === 'success'
-                ? 'tile box notification is-primary'
-                : 'is-hidden'
-            }
-          >
-            <p>{response.message}</p>
-          </div>
-          <div
-            className={
-              response.type === 'error'
-                ? 'tile box notification is-danger'
-                : 'is-hidden'
-            }
-          >
-            <p>{response.message}</p>
-          </div>
-          <div
-            className={response.message !== '' ? 'is-hidden' : 'columns'}
-          ></div>
-          <div className="form-group">
-            <label>Nombre*</label>
-            <input
-              className="form-control"
-              placeholder="Escriba su nombre por favor"
-              type="text"
-              name="name"
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label>Correo electrónico*</label>
-            <input
-              className="form-control"
-              placeholder="Escriba su correo electrónico por favor"
-              type="email"
-              name="email"
-              onChange={handleChange}
-              required
-            />
-          </div>
-
-          <div className="form-group">
-            <label>Mensaje*</label>
-            <textarea
-              className="form-control"
-              placeholder="Escriba su mensaje"
-              type="textarea"
-              name="message"
-              onChange={handleChange}
-              required
-            />
-          </div>
-
-          <div className="field" style={{ display: 'none' }}>
-            <label className="label">Title</label>
-            <div className="control">
-              <input
+        <Container>
+          <Form onSubmit={handleSubmit} className="py-5">
+            <Form.Group>
+              <Form.Label>Nombre</Form.Label>
+              <Form.Control
                 type="text"
-                name="honeypot"
-                style={{ display: 'none' }}
-                onChange={handleChange}
+                placeholder="Escriba su nombre por favor"
+                name="name"
+                value={name}
+                onChange={handleInputChange}
+                required
               />
-              <input type="hidden" name="subject" onChange={handleChange} />
-            </div>
-          </div>
+            </Form.Group>
 
-          <div className="form-group">
-            <button className="btn btn-primary btn-block" type="submit">
-              Enviar mensaje
-            </button>
-          </div>
-        </form>
+            <Form.Group>
+              <Form.Label>Correo electrónico</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="Escriba su correo electrónico por favor"
+                name="replyTo"
+                value={replyTo}
+                onChange={handleInputChange}
+                required
+              />
+            </Form.Group>
+
+            <Form.Group>
+              <Form.Label>Mensaje</Form.Label>
+              <Form.Control
+                type="text"
+                as="textarea"
+                placeholder="Escriba su mensaje por favor"
+                name="message"
+                value={message}
+                onChange={handleInputChange}
+                required
+              />
+            </Form.Group>
+
+            <Form.Text className="text-muted">
+              Jamás compartiremos sus datos con nadie
+            </Form.Text>
+
+            {!isPending && (
+              <Button variant="primary" className="btn-block" type="submit">
+                Enviar mensaje
+              </Button>
+            )}
+            {isPending && (
+              <Button
+                variant="primary"
+                className="btn-block"
+                disabled
+                type="submit"
+              >
+                Enviando mensaje
+              </Button>
+            )}
+          </Form>
+        </Container>
       </Fade>
-    </React.Fragment>
+    </>
   );
 };
 
-export default Form;
+export default Formulario;

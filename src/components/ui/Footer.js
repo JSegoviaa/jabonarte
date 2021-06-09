@@ -1,14 +1,15 @@
 import React from 'react';
+import { Container, Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import AvisoPrivacidad from './AvisoPrivacidad';
 
 const Footer = () => {
   return (
     <footer className="flex-footer">
-      <div className="container ">
-        <div className="row justify-content-center">
+      <Container>
+        <Row className="justify-content-center">
           <div className="col-10 text-center"></div>
-        </div>
+        </Row>
         <Fade bottom>
           <div className="row icons justify-content-center color1 f-sizeXBig mt-4">
             <a className="a" href="https://facebook.com/jabonarteMerida/">
@@ -19,7 +20,7 @@ const Footer = () => {
             </a>
             <a
               className="a"
-              href="https://api.whatsapp.com/send?phone=529994103941&text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20producto"
+              href={`https://api.whatsapp.com/send?phone=${process.env.REACT_APP_NUMERO_TELEFONICO}&text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20producto`}
             >
               <i className="fab fa-whatsapp fa-2x ml-2"></i>
             </a>
@@ -31,7 +32,7 @@ const Footer = () => {
         <div className="row justify-content-center mb-4 a">
           <AvisoPrivacidad />
         </div>
-      </div>
+      </Container>
     </footer>
   );
 };

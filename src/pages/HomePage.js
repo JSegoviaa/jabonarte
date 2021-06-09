@@ -1,27 +1,33 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import { Helmet } from 'react-helmet';
 
 //Componente del Homepage
 import Banner from '../components/Home/Banner';
 import Caracteristicas from '../components/Home/Caracteristicas';
 import Form from '../components/Forms/Form';
-import MasVendidos from '../components/Home/MasVendidos';
+import Ultimos from '../components/Home/Ultimos';
 import MiniBanner from '../components/Home/MiniBanner';
 import Testimonials from '../components/Home/Testimonials';
 
 const HomePage = () => {
-  useEffect(() => {
-    document.title = 'Jabonarte | Cosmética Natural ';
-  }, []);
-
   return (
-    <React.Fragment>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta
+          name="Jabonarte"
+          content="Jabones artesanales 100% origen natural, biodegradables e hipoalergénicos, ideal para recuerdos de tus eventos sociales o detalles en fechas especiales"
+        />
+        <title>Jabonarte | Cosmética Natural</title>
+      </Helmet>
+
       <Banner />
       <Caracteristicas />
-      <MasVendidos />
+      <Ultimos />
       <Testimonials />
       <Form contacto="Contáctanos" />
       <MiniBanner />
-    </React.Fragment>
+    </>
   );
 };
 
