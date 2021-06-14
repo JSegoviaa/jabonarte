@@ -48,6 +48,7 @@ const Productos = ({ match }) => {
     ) {
       setCurrentPage(currentPage + 8);
     }
+    window.scrollTo(0, 120);
   };
 
   const prevPage = () => {
@@ -55,6 +56,7 @@ const Productos = ({ match }) => {
       setCurrentPage(currentPage - 8);
     }
     setSearch('');
+    window.scrollTo(0, 120);
   };
 
   return (
