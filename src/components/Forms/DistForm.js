@@ -17,33 +17,41 @@ const DistForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    const contact = { name, replyTo, city, tienda };
     setIsPending(true);
 
-    try {
-      fetch(`${process.env.REACT_APP_REST_API}/emails`, {
-        method: 'POST',
-        body: JSON.stringify(contact),
-        headers: { 'Content-Type': 'application/json' },
-      }).then(() => {
-        setIsPending(false);
-        Swal.fire({
-          position: 'center',
-          icon: 'success',
-          title: 'Su mensaje ha sido enviado',
-          showConfirmButton: false,
-          timer: 1500,
-        });
-      });
-    } catch (e) {
-      console.log('An error occurred', e);
-      Swal.fire({
-        icon: 'error',
-        title: 'Oops...',
-        text: 'Ha ocurrido un error, intente de nuevo por favor',
-      });
-    }
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Estamos en mantenimiento. Ponte en contacto a través de nuestra página de facebook https://www.facebook.com/jabonarteMerida/',
+    });
+    setIsPending(false);
+
+    // const contact = { name, replyTo, city, tienda };
+    // setIsPending(true);
+
+    // try {
+    //   fetch(`${process.env.REACT_APP_REST_API}/emails`, {
+    //     method: 'POST',
+    //     body: JSON.stringify(contact),
+    //     headers: { 'Content-Type': 'application/json' },
+    //   }).then(() => {
+    //     setIsPending(false);
+    //     Swal.fire({
+    //       position: 'center',
+    //       icon: 'success',
+    //       title: 'Su mensaje ha sido enviado',
+    //       showConfirmButton: false,
+    //       timer: 1500,
+    //     });
+    //   });
+    // } catch (e) {
+    //   console.log('An error occurred', e);
+    //   Swal.fire({
+    //     icon: 'error',
+    //     title: 'Oops...',
+    //     text: 'Ha ocurrido un error, intente de nuevo por favor',
+    //   });
+    // }
     reset();
   };
 
