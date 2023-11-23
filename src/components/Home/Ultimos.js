@@ -26,7 +26,7 @@ const MasVendidos = () => {
                 <UltimosCard
                   img={producto.miniatura.formats.small.url}
                   title={producto.titulo}
-                  to={`productos/subcategoria/${producto.subcategorias[0].url}/${producto.url}`}
+                  to={`productos/subcategoria/${producto.subcategorias[0]?.url}/${producto.url}`}
                 />
               )}
             </Col>
